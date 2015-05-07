@@ -1,0 +1,111 @@
+package mediaos
+
+import (
+	"bytes"
+	"net/url"
+	"strconv"
+	"time"
+)
+
+func prepareParams(apiKey string, req Request) (params url.Values) {
+	params = url.Values{}
+
+	params.Set("_key", apiKey)
+
+	setStringParam("title", req.Title, &params)
+	setStringParam("slug", req.Slug, &params)
+	setIntListParam("content_type_id", req.ContentTypeID, &params)
+	setIntListParam("section_id", req.SectionID, &params)
+	setIntListParam("subsection_id", req.SubsectionID, &params)
+	setIntListParam("collection_id", req.CollectionID, &params)
+	setIntListParam("ad_category_id", req.AdCategoryID, &params)
+	setIntListParam("editor", req.Editor1, &params)
+	setIntListParam("editor2", req.Editor2, &params)
+	setIntListParam("editor3", req.Editor3, &params)
+	setDateParam("publishedFrom", req.PublishedFrom, &params)
+	setDateParam("publishedTo", req.PublishedTo, &params)
+	setVisibilityParam(req.Visibility, &params)
+	setBooleanParam("ignore_cache", req.IgnoreCache, &params)
+	setBooleanParam("all_images", req.AllImages, &params)
+	setBooleanParam("get_image_cuts", req.GetImageCuts, &params)
+	setBooleanParam("hdw_active", req.HDWActive, &params)
+	setStringParam("order_by", req.OrderBy, &params)
+	setPaginationParams(req.Start, req.Limit, &params)
+
+	return
+}
+
+func setStringParam(key, value string, params *url.Values) {
+	if value == "" {
+		params.Del(key)
+	} else {
+		params.Set(key, value)
+	}
+}
+
+func setIntListParam(key string, value []int, params *url.Values) {
+	switch {
+	case len(value) < 1:
+		params.Del(key)
+		params.Del(key + ":in")
+	case len(value) == 1:
+		params.Del(key + ":in")
+		params.Set(key, strconv.Itoa(value[0]))
+	default:
+		params.Del(key)
+		params.Set(key+":in", commaSeparateInts(value))
+	}
+}
+
+func setDateParam(key string, date time.Time, params *url.Values) {
+	if date.IsZero() {
+		params.Del(key)
+		return
+	}
+
+	params.Set(key, date.UTC().Format(DateFormat))
+}
+
+func setVisibilityParam(viz Visibility, params *url.Values) {
+	if viz == Draft {
+		params.Set("visibility", "0")
+	} else {
+		params.Set("visibility", "1")
+	}
+}
+
+func setBooleanParam(key string, value bool, params *url.Values) {
+	// all pure boolean params default to false
+	if value {
+		params.Set(key, "1")
+	} else {
+		params.Del(key)
+	}
+}
+
+func setPaginationParams(start, limit int, params *url.Values) {
+	if start > 0 {
+		params.Set("start", strconv.Itoa(start))
+	} else {
+		params.Del("start")
+	}
+
+	switch {
+	case limit <= 0, limit > MaxLimit:
+		params.Set("limit", strconv.Itoa(DefaultLimit))
+	default:
+		params.Set("limit", strconv.Itoa(limit))
+	}
+}
+
+func commaSeparateInts(input []int) string {
+	var out bytes.Buffer
+	for i, val := range input {
+		if i > 0 {
+			out.WriteRune(',')
+		}
+		out.WriteString(strconv.Itoa(val))
+	}
+
+	return out.String()
+}

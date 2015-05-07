@@ -1,0 +1,3217 @@
+{
+  "count": 10,
+  "items": [
+    {
+      "imgarticle_child_id": 0,
+      "subsection_url": "music",
+      "last_updated": "2014-12-18T15:43:51Z",
+      "content_type": {
+        "meta_keywords": "",
+        "last_updated": "2014-07-03T03:29:31Z",
+        "hdr_url": "",
+        "hdr_image_id": "",
+        "image_child_id": null,
+        "hdr_tracking_pixel": "",
+        "content_type_url": "articles",
+        "hdr_type": "",
+        "meta_description": "",
+        "content_type_sitename_short": null,
+        "sub_heading": "",
+        "hdr_video_webm": "",
+        "hdr_video_fallback": "",
+        "include_slug": 0,
+        "hdr_video_mp4": "",
+        "meta_title": "",
+        "description": "",
+        "image_id": null,
+        "content_type_name": null,
+        "content_type_sitename": "Articles",
+        "content_type_id": 5,
+        "content_type_isactive": 1,
+        "nofollow": 0,
+        "managing_editor_only": 0,
+        "content_type_ramsname": "Articles",
+        "hide_from_external_search_and_sitemap": 1
+      },
+      "yviews": 1,
+      "site_id": 1,
+      "editor3": 0,
+      "date": "2014-12-18T15:11:00Z",
+      "image_child_id": 0,
+      "live_updates": 0,
+      "images": [
+        {
+          "last_updated": "2014-12-18T14:56:59Z",
+          "file_name": "nrm_1418914619-syn-817-elle-01-bionic-woman-lgn.jpg",
+          "cdn": 0,
+          "site_id": 1,
+          "height": 437,
+          "date": 1418914619,
+          "keywords": null,
+          "shape_id": 0,
+          "image_caption": "",
+          "image_provider": 0,
+          "uuid": "201ca2ff|images|1e3747b2-86c6-11e4-b6cf-0eb4829aa13b",
+          "copyright": "",
+          "shape_largest": 0,
+          "section_url": "home",
+          "section": {
+            "meta_keywords": "",
+            "last_updated": "2014-12-17T18:36:18Z",
+            "hdr_url": "",
+            "hdr_image_id": "",
+            "hdr_video_webm": "",
+            "image_child_id": 0,
+            "hdr_tracking_pixel": "",
+            "section_ramsname": "Home",
+            "exclude_from_homepage": 1,
+            "meta_description": "",
+            "section_url": "home",
+            "sub_heading": "",
+            "section_site_id": 1,
+            "hdr_video_fallback": "",
+            "hdr_type": "",
+            "hdr_video_mp4": "",
+            "section_isactive": 0,
+            "meta_title": "The Women's Magazine for Fashion, Sex Advice, Dating Tips, and Celebrity News",
+            "description": "",
+            "section_id": 1,
+            "image_id": 0,
+            "section_name": null,
+            "section_sitename": "Home",
+            "section_sitename_short": "Home",
+            "nofollow": 0,
+            "hide_from_external_search_and_sitemap": 0,
+            "resource_type": "section"
+          },
+          "date_expiry": 0,
+          "file_domain": "",
+          "id": 159169,
+          "width": 656,
+          "start_date": 0,
+          "tags_text": "",
+          "file_path": "/14/51/",
+          "content_tags": null,
+          "description": "",
+          "section_id": 1,
+          "nouse": 0,
+          "ed_id": 1224,
+          "image_title": null,
+          "placeholder": null,
+          "limited_rights": 0,
+          "product_tags": "",
+          "syndication_rights": 0,
+          "url": "http://cos.h-cdn.co/assets/14/51/nrm_1418914619-syn-817-elle-01-bionic-woman-lgn.jpg",
+          "bytes": 177207,
+          "brand_tags": null,
+          "image_rights": 0,
+          "animated": 0,
+          "resource_type": "image"
+        }
+      ],
+      "subsection_id": 15,
+      "content_type_url": "articles",
+      "id": 34385,
+      "issue_date": "",
+      "live_updates_timezone": 0,
+      "featured_promotion_toggle": 0,
+      "title": "Sexy Pop Star Amputee Releases Empowering New Video",
+      "section_url": "entertainment",
+      "sub_heading": "Viktoria Modesta's new video, \"Prototype,\" is like nothing you've seen before.",
+      "hdw_data": "[]",
+      "priority": 1,
+      "metadata": [
+        {
+          "meta_value": "a:2:{s:5:\"count\";i:11;s:7:\"updated\";s:25:\"2015-05-01T22:26:40-04:00\";}",
+          "meta_key": "comments.facebook.count"
+        },
+        {
+          "meta_value": "http://www.elle.com/news/culture/viktoria-modesta-bionic-pop-star",
+          "meta_key": "custom_canonical"
+        },
+        {
+          "meta_value": "",
+          "meta_key": "google_news_keywords"
+        },
+        {
+          "meta_value": "1",
+          "meta_key": "hide_from_external_search_and_sitemap"
+        },
+        {
+          "meta_value": "0",
+          "meta_key": "hide_from_internal_search_and_sitemap"
+        },
+        {
+          "meta_value": "1418915468",
+          "meta_key": "last_publish_date"
+        },
+        {
+          "meta_value": "17544135",
+          "meta_key": "magnus_id"
+        },
+        {
+          "meta_value": "Viktoria Modesta's new video, \",Prototype,\", is like nothing you've seen before.",
+          "meta_key": "meta_description"
+        },
+        {
+          "meta_value": "viktoria modesta",
+          "meta_key": "meta_keywords"
+        },
+        {
+          "meta_value": "Viktoria Modesta Bionic Pop Star-Redefining What We Think Is Sexy",
+          "meta_key": "meta_title"
+        },
+        {
+          "meta_value": "Sally Holmes",
+          "meta_key": "more_editors"
+        },
+        {
+          "meta_value": "0",
+          "meta_key": "nofollow_related_links"
+        },
+        {
+          "meta_value": "",
+          "meta_key": "seo_related_link"
+        }
+      ],
+      "abs": "Viktoria Modesta's new video, \"Prototype,\" is like nothing you've seen before.",
+      "featured_promotion_url": null,
+      "editor": 0,
+      "content_type_data": "",
+      "ad_category": {
+        "ad_category_name": "Music",
+        "ad_category_id": 17,
+        "resource_type": "ad_category",
+        "ad_category_parent_id": 2,
+        "ad_category_prefix": "music"
+      },
+      "tags_text": "viktoria modesta",
+      "autopublish": 0,
+      "ad_category_id": 17,
+      "subsection": {
+        "meta_keywords": "",
+        "subsection_id": 15,
+        "subsection_isactive": 1,
+        "hdr_image_id": "",
+        "image_child_id": 0,
+        "subsection_url": "music",
+        "hdr_tracking_pixel": "",
+        "last_updated": "2014-11-13T13:19:08Z",
+        "exclude_from_homepage": 0,
+        "subsection_sitename_short": "Music",
+        "sub_heading": "",
+        "hdr_url": "",
+        "hdr_video_webm": "",
+        "hdr_video_fallback": "",
+        "hdr_type": "",
+        "subsection_name": null,
+        "hdr_video_mp4": "",
+        "meta_description": "",
+        "meta_title": "",
+        "description": "",
+        "image_id": 0,
+        "subsection_sitename": "Music",
+        "nofollow": 0,
+        "subsection_ramsname": "Music",
+        "subsection_parent_id": 3,
+        "hide_from_external_search_and_sitemap": 0,
+        "resource_type": "subsection"
+      },
+      "updated_date": "2014-12-18T15:43:51Z",
+      "content_topics": [
+        {
+          "topic": "viktoria modesta",
+          "type": 0
+        }
+      ],
+      "body": "[image id=\"159169\" loc=\"C\"]\n\nAs her new video, \"Prototype,\" proclaims in its title, Viktoria Modesta is a new kind of pop star altogether. The 26-year-old Latvian singer is sexy, talented, and an amputee: <a href=\"http://www.viktoriamodesta.com/about/\">After undergoing 15 surgeries</a> at a young age to repair a leg that had been damaged at birth, Modesta elected to fully remove the appendage in order to improve her life. \n\n[image id=\"159170\" loc=\"C\"]&nbsp;\n\nSix years later, she's singing about her transformation, the freedom her choice has given her, and the fact that she —&nbsp;with her less than mainstream body type —&nbsp;is the model of the future: \"Assemble me, piece by piece/Strip away the incomplete, the model of the future/Colliding minds, it's just a start/Feel the sparks, we're building art/It's the vertigo of freedom.\" [image id=\"159171\" loc=\"C\"]\n\n\"Forget what you knew about disability\" is the message that appears at the start of the video. And she drives that point home throughout the six-minute clip during which we watch her dance like Katy Perry, sport a light-up limb, and take down her enemies with a move plucked from <em>Basic Instinct</em>. Also in the video: the pop star simulating sex like so many other risqué music videos. And as it would be with any of her peers, the most shocking detail is the number of participants involved in the bedroom romp.\n\nModesta's amputated leg, which she displays without any inhibition, is hardly a focal point.\n\n[image id=\"159172\" loc=\"C\"]\n\nSee the full video below:\n\n[youtube]http://www.youtube.com/watch?v=jA8inmHhx8c[/youtube]",
+      "section_id": 3,
+      "visibility": 1,
+      "image_id": 159169,
+      "show_on_feed": 0,
+      "related_articles": "",
+      "editor_byline": "By",
+      "company_tags": "",
+      "sponsor_id": 0,
+      "collection_id": 0,
+      "related_videos": "",
+      "slug": "viktoria-modesta-bionic-pop-star",
+      "product_tags": "",
+      "print_issue_date": "2014-12-01T00:00:00Z",
+      "autopublishdate": "2014-12-18T15:11:00Z",
+      "syndication_rights": 0,
+      "content_type_id": 5,
+      "related_articles_state": 0,
+      "url": "http://www.cosmopolitan.com/entertainment/music/a34385/viktoria-modesta-bionic-pop-star/",
+      "topic_tags": "",
+      "notes": "Content syndicated via MAGNUS (url: http://www.elle.com/news/culture/viktoria-modesta-bionic-pop-star) to RAMS automagically.",
+      "image_group_id": 0,
+      "editor2": 0,
+      "imgarticle_id": 0,
+      "short_title": "Sexy Pop Star Amputee Releases Empowering New Video",
+      "expirationdate": "1970-01-01T00:00:00Z",
+      "created_date": "2014-12-18T14:57:04Z",
+      "source_id": 7,
+      "related_videos_state": 0,
+      "content_id": 38901,
+      "section": {
+        "meta_keywords": "celebrity news, celebrity gossip, entertainment news, celebrity photos",
+        "last_updated": "2014-11-13T13:19:08Z",
+        "hdr_url": "",
+        "hdr_image_id": "",
+        "hdr_video_webm": "",
+        "image_child_id": 0,
+        "hdr_tracking_pixel": "",
+        "section_ramsname": "Celebrities & Entertainment",
+        "exclude_from_homepage": 0,
+        "meta_description": "From celebrity fashion disasters to exclusive celebrity interviews, here's where you can get your dose of what's happening in Hollywood.",
+        "section_url": "entertainment",
+        "sub_heading": "",
+        "section_site_id": 1,
+        "hdr_video_fallback": "",
+        "hdr_type": "",
+        "hdr_video_mp4": "",
+        "section_isactive": 1,
+        "meta_title": "Entertainment News and Celebrity Gossip - Cosmopolitan",
+        "description": "",
+        "section_id": 3,
+        "image_id": 0,
+        "section_name": null,
+        "section_sitename": "Celebrities & Entertainment",
+        "section_sitename_short": "Celebrities & Entertainment",
+        "nofollow": 0,
+        "hide_from_external_search_and_sitemap": 0,
+        "resource_type": "section"
+      },
+      "resource_type": "article",
+      "imgarticle_align": 0
+    },
+    {
+      "imgarticle_child_id": 0,
+      "last_updated": "2014-10-20T14:46:26Z",
+      "content_type": {
+        "meta_keywords": "celebrity news, breaking celebrity gossip, buzzworthy celeb gossip",
+        "last_updated": "2014-10-09T19:17:43Z",
+        "hdr_url": "",
+        "hdr_image_id": "",
+        "image_child_id": null,
+        "hdr_tracking_pixel": "",
+        "content_type_url": "news",
+        "hdr_type": "",
+        "meta_description": "From dolling out juicy conversation starters to stalking red carpet fashion, we'll keep you updated with the buzz-worthy news every Cosmo girl needs to know.",
+        "content_type_sitename_short": null,
+        "sub_heading": "",
+        "hdr_video_webm": "",
+        "hdr_video_fallback": "",
+        "include_slug": 1,
+        "hdr_video_mp4": "",
+        "meta_title": "News from Cosmo",
+        "description": "",
+        "image_id": null,
+        "content_type_name": null,
+        "content_type_sitename": "News",
+        "content_type_id": 1,
+        "content_type_isactive": 1,
+        "nofollow": 0,
+        "managing_editor_only": 0,
+        "content_type_ramsname": "News",
+        "hide_from_external_search_and_sitemap": 0
+      },
+      "yviews": 0,
+      "site_id": 1,
+      "editor3": 0,
+      "date": "2014-10-19T16:45:00Z",
+      "image_child_id": 0,
+      "live_updates": 0,
+      "images": [
+        {
+          "last_updated": "2014-10-19T16:20:21Z",
+          "file_name": "nrm_1413735611-20141015062326.jpg",
+          "cdn": 0,
+          "site_id": 1,
+          "height": 500,
+          "date": 1413735621,
+          "keywords": null,
+          "shape_id": 0,
+          "image_caption": "",
+          "image_provider": 0,
+          "uuid": "201ca2ff|images|d297a548-57ab-11e4-9458-0a969002cc48",
+          "copyright": "",
+          "shape_largest": 0,
+          "section_url": "home",
+          "section": {
+            "meta_keywords": "",
+            "last_updated": "2014-12-17T18:36:18Z",
+            "hdr_url": "",
+            "hdr_image_id": "",
+            "hdr_video_webm": "",
+            "image_child_id": 0,
+            "hdr_tracking_pixel": "",
+            "section_ramsname": "Home",
+            "exclude_from_homepage": 1,
+            "meta_description": "",
+            "section_url": "home",
+            "sub_heading": "",
+            "section_site_id": 1,
+            "hdr_video_fallback": "",
+            "hdr_type": "",
+            "hdr_video_mp4": "",
+            "section_isactive": 0,
+            "meta_title": "The Women's Magazine for Fashion, Sex Advice, Dating Tips, and Celebrity News",
+            "description": "",
+            "section_id": 1,
+            "image_id": 0,
+            "section_name": null,
+            "section_sitename": "Home",
+            "section_sitename_short": "Home",
+            "nofollow": 0,
+            "hide_from_external_search_and_sitemap": 0,
+            "resource_type": "section"
+          },
+          "date_expiry": 0,
+          "file_domain": "",
+          "id": 148660,
+          "width": 500,
+          "start_date": 0,
+          "tags_text": "",
+          "file_path": "/14/42/",
+          "content_tags": "",
+          "description": "",
+          "section_id": 1,
+          "nouse": 0,
+          "ed_id": 1273,
+          "image_title": "",
+          "placeholder": null,
+          "limited_rights": 0,
+          "product_tags": "",
+          "syndication_rights": 3,
+          "url": "http://cos.h-cdn.co/assets/14/42/nrm_1413735611-20141015062326.jpg",
+          "bytes": 57863,
+          "brand_tags": "",
+          "image_rights": 0,
+          "animated": 0,
+          "resource_type": "image"
+        }
+      ],
+      "subsection_id": 0,
+      "content_type_url": "news",
+      "id": 32252,
+      "issue_date": "",
+      "live_updates_timezone": 0,
+      "featured_promotion_toggle": 0,
+      "title": "Sexy Cat Lingerie Is Now a Thing",
+      "section_url": "style-beauty",
+      "sub_heading": "I almost typed that it's \"not a thing\" but that was just wishful thinking.",
+      "hdw_data": "[]",
+      "priority": 1,
+      "abs": "I almost typed that it's \"not a thing\" but that was just wishful thinking. ",
+      "featured_promotion_url": null,
+      "editor": {
+        "ed_nickname": "",
+        "ed_lastname": "Beck",
+        "ed_middlename": "",
+        "ed_email": "misterpenguino@gmail.com",
+        "ed_firstname": "Laura",
+        "ed_email_public": "misterpenguino@gmail.com",
+        "ed_jobtitle": "",
+        "ed_username": "laura.beck",
+        "ed_fullname": "Laura Beck",
+        "ed_default_locale": 1,
+        "ed_id": 1273,
+        "last_updated": "2014-08-30T18:27:55Z",
+        "ed_role_id": 2,
+        "ed_suffix": "",
+        "ed_bio": "Fat, funky, and outta control!",
+        "resource_type": "editor",
+        "ed_title": ""
+      },
+      "content_type_data": "",
+      "ad_category": {
+        "ad_category_name": "Fashion",
+        "ad_category_id": 1,
+        "resource_type": "ad_category",
+        "ad_category_parent_id": 0,
+        "ad_category_prefix": "fashion"
+      },
+      "tags_text": "",
+      "autopublish": 0,
+      "ad_category_id": 1,
+      "metadata": [
+        {
+          "meta_value": "a:2:{s:5:\"count\";i:0;s:7:\"updated\";s:25:\"2015-05-06T12:27:53-04:00\";}",
+          "meta_key": "comments.facebook.count"
+        },
+        {
+          "meta_value": "",
+          "meta_key": "custom_canonical"
+        },
+        {
+          "meta_value": "",
+          "meta_key": "google_news_keywords"
+        },
+        {
+          "meta_value": "1413737103",
+          "meta_key": "last_publish_date"
+        },
+        {
+          "meta_value": "I almost typed that it's \"not a thing\" but that was just wishful thinking. ",
+          "meta_key": "meta_description"
+        },
+        {
+          "meta_value": "Cats,Lingerie",
+          "meta_key": "meta_keywords"
+        },
+        {
+          "meta_value": "Sexy Cat Lingerie Is Now a Thing",
+          "meta_key": "meta_title"
+        },
+        {
+          "meta_value": "",
+          "meta_key": "more_editors"
+        },
+        {
+          "meta_value": "",
+          "meta_key": "seo_related_link"
+        }
+      ],
+      "updated_date": "2014-10-20T14:46:26Z",
+      "content_topics": [
+        {
+          "topic": "Cats",
+          "type": 2
+        },
+        {
+          "topic": "Lingerie",
+          "type": 2
+        }
+      ],
+      "body": "Sexy cat lingerie is now a thing that you can own, thanks to Japan (but of course)! \n\nAn online store called <a href=\"http://www.felissimo.co.jp/kraso/v14/cfm/products_detail001.cfm?gcd=449119&amp;gwk=713\">Felissimo's Nekobu</a> (yes, that translates to \"cat club\") is selling the \"flufeel\" lingerie set, complete with detachable <strike>penis</strike> tail. This is for when you feel sexy and also like a cat. Which, for me, is 75 percent of my waking hours. I'll take one in each color, please!\n\n[image id=\"148664\" loc=\"C\" share=\"true\" expand=\"true\"]\n\n[image id=\"148663\" loc=\"C\" share=\"true\" expand=\"true\"]\n\n[image id=\"148661\" loc=\"C\" share=\"true\" expand=\"true\"]\n\n[image id=\"148662\" loc=\"C\" share=\"true\" expand=\"true\"]\n\n[via <a href=\"http://www.dailydot.com/lifestyle/cat-lingerie-underwear-meow/\">Daily Dot</a>]\n\n<strong>Follow Laura on <a href=\"http://twitter.com/mrpenguino\">Twitter</a>. </strong>",
+      "section_id": 4,
+      "visibility": 1,
+      "image_id": 148660,
+      "show_on_feed": 0,
+      "related_articles": "",
+      "editor_byline": "By",
+      "company_tags": "",
+      "sponsor_id": 0,
+      "collection_id": 0,
+      "related_videos": "",
+      "slug": "sexy-cat-lingerie-is-now-a-thing",
+      "product_tags": "",
+      "print_issue_date": "1970-01-01T00:00:00Z",
+      "autopublishdate": "2014-10-19T16:45:00Z",
+      "syndication_rights": 3,
+      "content_type_id": 1,
+      "related_articles_state": 0,
+      "url": "http://www.cosmopolitan.com/style-beauty/news/a32252/sexy-cat-lingerie-is-now-a-thing/",
+      "topic_tags": "Cats,Lingerie",
+      "notes": "",
+      "image_group_id": 0,
+      "editor2": 0,
+      "imgarticle_id": 148660,
+      "short_title": "Sexy Cat Lingerie Is Now a Thing",
+      "expirationdate": "1970-01-01T00:00:00Z",
+      "created_date": "2014-10-19T16:25:27Z",
+      "source_id": 12,
+      "related_videos_state": 0,
+      "content_id": 36639,
+      "section": {
+        "meta_keywords": "beauty tips, celebrity style, fashion trends",
+        "last_updated": "2014-11-13T13:19:08Z",
+        "hdr_url": "",
+        "hdr_image_id": "",
+        "hdr_video_webm": "",
+        "image_child_id": 0,
+        "hdr_tracking_pixel": "",
+        "section_ramsname": "Beauty & Style",
+        "exclude_from_homepage": 0,
+        "meta_description": "If you're a self-proclaimed beauty junkie and a shop-a-holic, Cosmo is your one-stop-shop for all things fashion and beauty. From makeup application tips and hairstyle how-to's, to editor shopping secrets, Cosmo covers it all.",
+        "section_url": "style-beauty",
+        "sub_heading": "",
+        "section_site_id": 1,
+        "hdr_video_fallback": "",
+        "hdr_type": "",
+        "hdr_video_mp4": "",
+        "section_isactive": 1,
+        "meta_title": "Beauty Tips, Celebrity Style, and Fashion Trends - Cosmopolitan",
+        "description": "",
+        "section_id": 4,
+        "image_id": 0,
+        "section_name": null,
+        "section_sitename": "Beauty & Style",
+        "section_sitename_short": "Beauty & Style",
+        "nofollow": 0,
+        "hide_from_external_search_and_sitemap": 0,
+        "resource_type": "section"
+      },
+      "resource_type": "article",
+      "imgarticle_align": 0
+    },
+    {
+      "imgarticle_child_id": 0,
+      "subsection_url": "beauty",
+      "subsection_id": 6,
+      "content_type": {
+        "meta_keywords": "",
+        "last_updated": "2014-06-16T21:14:33Z",
+        "hdr_url": "",
+        "hdr_image_id": "",
+        "image_child_id": null,
+        "hdr_tracking_pixel": "",
+        "content_type_url": "advice",
+        "hdr_type": "",
+        "meta_description": "",
+        "content_type_sitename_short": null,
+        "sub_heading": null,
+        "hdr_video_webm": "",
+        "hdr_video_fallback": "",
+        "include_slug": 1,
+        "hdr_video_mp4": "",
+        "meta_title": "",
+        "description": null,
+        "image_id": null,
+        "content_type_name": null,
+        "content_type_sitename": "Advice",
+        "content_type_id": 2,
+        "content_type_isactive": 1,
+        "nofollow": 0,
+        "managing_editor_only": 0,
+        "content_type_ramsname": "Advice",
+        "hide_from_external_search_and_sitemap": 0
+      },
+      "yviews": 0,
+      "site_id": 1,
+      "content_id": 36265,
+      "editor3": 0,
+      "date": "2014-10-08T21:55:00Z",
+      "image_child_id": 0,
+      "images": [
+        {
+          "last_updated": "2014-10-08T15:58:38Z",
+          "file_name": "nrm_1412783893-m5.jpg",
+          "cdn": 0,
+          "site_id": 1,
+          "height": 3128,
+          "date": 1412783918,
+          "keywords": null,
+          "shape_id": 0,
+          "image_caption": "",
+          "image_provider": 0,
+          "uuid": "201ca2ff|images|f7cb0aae-4f03-11e4-ae0a-0ef50decdf92",
+          "copyright": "http://imgur.com/jI2FjZ7",
+          "shape_largest": 0,
+          "section_url": "home",
+          "section": {
+            "meta_keywords": "",
+            "last_updated": "2014-12-17T18:36:18Z",
+            "hdr_url": "",
+            "hdr_image_id": "",
+            "hdr_video_webm": "",
+            "image_child_id": 0,
+            "hdr_tracking_pixel": "",
+            "section_ramsname": "Home",
+            "exclude_from_homepage": 1,
+            "meta_description": "",
+            "section_url": "home",
+            "sub_heading": "",
+            "section_site_id": 1,
+            "hdr_video_fallback": "",
+            "hdr_type": "",
+            "hdr_video_mp4": "",
+            "section_isactive": 0,
+            "meta_title": "The Women's Magazine for Fashion, Sex Advice, Dating Tips, and Celebrity News",
+            "description": "",
+            "section_id": 1,
+            "image_id": 0,
+            "section_name": null,
+            "section_sitename": "Home",
+            "section_sitename_short": "Home",
+            "nofollow": 0,
+            "hide_from_external_search_and_sitemap": 0,
+            "resource_type": "section"
+          },
+          "date_expiry": 0,
+          "file_domain": "",
+          "id": 147156,
+          "width": 2000,
+          "start_date": 0,
+          "tags_text": "",
+          "file_path": "/14/41/",
+          "content_tags": "",
+          "description": "",
+          "section_id": 1,
+          "nouse": 0,
+          "ed_id": 2123,
+          "image_title": "",
+          "placeholder": null,
+          "limited_rights": 0,
+          "product_tags": "",
+          "syndication_rights": 3,
+          "url": "http://cos.h-cdn.co/assets/14/41/nrm_1412783893-m5.jpg",
+          "bytes": 629991,
+          "brand_tags": "",
+          "image_rights": 0,
+          "animated": 0,
+          "resource_type": "image"
+        }
+      ],
+      "last_updated": "2014-10-23T13:19:18Z",
+      "content_type_url": "advice",
+      "issue_date": "",
+      "featured_promotion_toggle": 0,
+      "title": "Sexy Yet Spooky Halloween Makeup Looks",
+      "section_url": "style-beauty",
+      "sub_heading": "They're boo-tiful!",
+      "hdw_data": "[]",
+      "priority": 1,
+      "metadata": [
+        {
+          "meta_value": "a:2:{s:5:\"count\";i:6;s:7:\"updated\";s:25:\"2015-04-10T22:19:55-04:00\";}",
+          "meta_key": "comments.facebook.count"
+        },
+        {
+          "meta_value": "a:3:{s:5:\"count\";i:0;s:8:\"featured\";i:0;s:7:\"updated\";i:1413198733;}",
+          "meta_key": "comments.livefyre.count"
+        },
+        {
+          "meta_value": "",
+          "meta_key": "custom_canonical"
+        },
+        {
+          "meta_value": "",
+          "meta_key": "google_news_keywords"
+        },
+        {
+          "meta_value": "1412805319",
+          "meta_key": "last_publish_date"
+        },
+        {
+          "meta_value": "They're boo-tiful!",
+          "meta_key": "meta_description"
+        },
+        {
+          "meta_value": "makeup,halloween,costume makeup",
+          "meta_key": "meta_keywords"
+        },
+        {
+          "meta_value": "Sexy Yet Spooky Halloween Makeup Looks",
+          "meta_key": "meta_title"
+        },
+        {
+          "meta_value": "",
+          "meta_key": "more_editors"
+        },
+        {
+          "meta_value": "",
+          "meta_key": "seo_related_link"
+        },
+        {
+          "meta_value": "3449",
+          "meta_key": "shares_facebook"
+        },
+        {
+          "meta_value": "171",
+          "meta_key": "shares_pinterest"
+        },
+        {
+          "meta_value": "17",
+          "meta_key": "shares_twitter"
+        }
+      ],
+      "abs": "They're boo-tiful!",
+      "featured_promotion_url": null,
+      "editor": {
+        "ed_nickname": "Carly Cardellino",
+        "ed_lastname": "Cardellino",
+        "ed_middlename": "",
+        "ed_email": "ccardellino@hearst.com",
+        "ed_firstname": "Carly",
+        "ed_email_public": "ccardellino@hearst.com",
+        "ed_jobtitle": "beauty editor",
+        "ed_username": "carly.cardellino",
+        "ed_fullname": "Carly Cardellino",
+        "ed_default_locale": 1,
+        "ed_id": 953,
+        "last_updated": "2014-08-13T21:02:37Z",
+        "ed_role_id": 2,
+        "ed_suffix": "",
+        "ed_bio": "I'm Carly Cardellino, the beauty editor here at Cosmopolitan.com. I'll try just about anything once when it comes to beauty, and I have the pictures of my pixie cut to prove it. I'm obsessed with hair products, like volumizers and salt sprays, as well as mascara, nail polish, a good foundation (right now I'm using ELF Cosmetics' BB Cream with SPF 20), and blush (it literally changes the way you look in seconds). Oh, I'm also a self-proclaimed lipstick hoarder. Hopefully you can see why I'm in this business.",
+        "resource_type": "editor",
+        "ed_title": ""
+      },
+      "ad_category": {
+        "ad_category_name": "Cosmetics",
+        "ad_category_id": 19,
+        "resource_type": "ad_category",
+        "ad_category_parent_id": 3,
+        "ad_category_prefix": "cosmetics"
+      },
+      "tags_text": "",
+      "product_tags": "",
+      "ad_category_id": 19,
+      "subsection": {
+        "meta_keywords": "hairstyles ideas, makeup tips, beauty tips, makeup videos, beauty videos, hair videos, beauty trends",
+        "subsection_id": 6,
+        "subsection_isactive": 1,
+        "hdr_image_id": "",
+        "image_child_id": 0,
+        "subsection_url": "beauty",
+        "hdr_tracking_pixel": "",
+        "last_updated": "2015-02-03T22:31:15Z",
+        "exclude_from_homepage": 0,
+        "subsection_sitename_short": "Beauty",
+        "sub_heading": "From nail art how-tos and makeup transformations, to tried-and-tested beauty products and hacks you <em>have</em> to know about, Cosmo's beauty editors help you look and feel beautiful.\n",
+        "hdr_url": "",
+        "hdr_video_webm": "",
+        "hdr_video_fallback": "",
+        "hdr_type": "",
+        "subsection_name": null,
+        "hdr_video_mp4": "",
+        "meta_description": "Makeover your look with the makeup tips and hairstyle ideas from the Editors of Cosmo. Get inspriation from the latest celebrity hairstyles, expert tips from makeup artists, and more!",
+        "meta_title": "Beauty Trends - Makeup, Hair, and Nail Ideas - Cosmopolitan",
+        "description": "",
+        "image_id": 102671,
+        "subsection_sitename": "Beauty",
+        "nofollow": 0,
+        "subsection_ramsname": "Beauty",
+        "subsection_parent_id": 4,
+        "hide_from_external_search_and_sitemap": 0,
+        "resource_type": "subsection"
+      },
+      "updated_date": "2014-10-23T13:19:18Z",
+      "content_topics": [
+        {
+          "topic": "costume makeup",
+          "type": 2
+        },
+        {
+          "topic": "halloween",
+          "type": 2
+        },
+        {
+          "topic": "makeup",
+          "type": 2
+        }
+      ],
+      "body": "",
+      "section_id": 4,
+      "visibility": 1,
+      "autopublish": 0,
+      "image_id": 147156,
+      "show_on_feed": 0,
+      "editor_byline": "By",
+      "company_tags": "",
+      "sponsor_id": 0,
+      "collection_id": 15,
+      "slug": "sexy-yet-spooky-halloween-makeup-looks",
+      "layout_option": 1,
+      "print_issue_date": "1970-01-01T00:00:00Z",
+      "syndication_rights": 3,
+      "content_type_id": 2,
+      "autopublishdate": "2014-10-08T21:55:00Z",
+      "url": "http://www.cosmopolitan.com/style-beauty/beauty/advice/g4362/sexy-yet-spooky-halloween-makeup-looks/",
+      "topic_tags": "makeup,halloween,costume makeup",
+      "notes": "",
+      "editor2": 0,
+      "imgarticle_id": 0,
+      "short_title": "Sexy Yet Spooky Halloween Makeup Looks",
+      "expirationdate": "1970-01-01T00:00:00Z",
+      "created_date": "2014-10-08T16:01:29Z",
+      "source_id": 12,
+      "group_id": 4362,
+      "section": {
+        "meta_keywords": "beauty tips, celebrity style, fashion trends",
+        "last_updated": "2014-11-13T13:19:08Z",
+        "hdr_url": "",
+        "hdr_image_id": "",
+        "hdr_video_webm": "",
+        "image_child_id": 0,
+        "hdr_tracking_pixel": "",
+        "section_ramsname": "Beauty & Style",
+        "exclude_from_homepage": 0,
+        "meta_description": "If you're a self-proclaimed beauty junkie and a shop-a-holic, Cosmo is your one-stop-shop for all things fashion and beauty. From makeup application tips and hairstyle how-to's, to editor shopping secrets, Cosmo covers it all.",
+        "section_url": "style-beauty",
+        "sub_heading": "",
+        "section_site_id": 1,
+        "hdr_video_fallback": "",
+        "hdr_type": "",
+        "hdr_video_mp4": "",
+        "section_isactive": 1,
+        "meta_title": "Beauty Tips, Celebrity Style, and Fashion Trends - Cosmopolitan",
+        "description": "",
+        "section_id": 4,
+        "image_id": 0,
+        "section_name": null,
+        "section_sitename": "Beauty & Style",
+        "section_sitename_short": "Beauty & Style",
+        "nofollow": 0,
+        "hide_from_external_search_and_sitemap": 0,
+        "resource_type": "section"
+      },
+      "resource_type": "gallery"
+    },
+    {
+      "imgarticle_child_id": 0,
+      "last_updated": "2014-07-05T03:55:13Z",
+      "content_type": {
+        "meta_keywords": "celebrity news, breaking celebrity gossip, buzzworthy celeb gossip",
+        "last_updated": "2014-10-09T19:17:43Z",
+        "hdr_url": "",
+        "hdr_image_id": "",
+        "image_child_id": null,
+        "hdr_tracking_pixel": "",
+        "content_type_url": "news",
+        "hdr_type": "",
+        "meta_description": "From dolling out juicy conversation starters to stalking red carpet fashion, we'll keep you updated with the buzz-worthy news every Cosmo girl needs to know.",
+        "content_type_sitename_short": null,
+        "sub_heading": "",
+        "hdr_video_webm": "",
+        "hdr_video_fallback": "",
+        "include_slug": 1,
+        "hdr_video_mp4": "",
+        "meta_title": "News from Cosmo",
+        "description": "",
+        "image_id": null,
+        "content_type_name": null,
+        "content_type_sitename": "News",
+        "content_type_id": 1,
+        "content_type_isactive": 1,
+        "nofollow": 0,
+        "managing_editor_only": 0,
+        "content_type_ramsname": "News",
+        "hide_from_external_search_and_sitemap": 0
+      },
+      "yviews": 1,
+      "site_id": 1,
+      "editor3": 0,
+      "date": "2014-06-27T19:47:00Z",
+      "image_child_id": 0,
+      "live_updates": 0,
+      "images": [
+        {
+          "last_updated": "2014-07-05T03:55:13Z",
+          "file_name": "53adfe44c7a18_-_cos-01-schoolgirl-xl.jpg",
+          "cdn": 1,
+          "site_id": 1,
+          "height": 405,
+          "date": 1404532500,
+          "keywords": "costume,kinky,run,school girl,sexy schoolgirl",
+          "shape_id": 0,
+          "image_caption": "",
+          "image_provider": 0,
+          "uuid": "201ca2ff|images|d669841e-fe52-11e3-a25b-0aa8f7f1cc8b",
+          "copyright": "",
+          "shape_largest": 0,
+          "section_url": "entertainment",
+          "section": {
+            "meta_keywords": "celebrity news, celebrity gossip, entertainment news, celebrity photos",
+            "last_updated": "2014-11-13T13:19:08Z",
+            "hdr_url": "",
+            "hdr_image_id": "",
+            "hdr_video_webm": "",
+            "image_child_id": 0,
+            "hdr_tracking_pixel": "",
+            "section_ramsname": "Celebrities & Entertainment",
+            "exclude_from_homepage": 0,
+            "meta_description": "From celebrity fashion disasters to exclusive celebrity interviews, here's where you can get your dose of what's happening in Hollywood.",
+            "section_url": "entertainment",
+            "sub_heading": "",
+            "section_site_id": 1,
+            "hdr_video_fallback": "",
+            "hdr_type": "",
+            "hdr_video_mp4": "",
+            "section_isactive": 1,
+            "meta_title": "Entertainment News and Celebrity Gossip - Cosmopolitan",
+            "description": "",
+            "section_id": 3,
+            "image_id": 0,
+            "section_name": null,
+            "section_sitename": "Celebrities & Entertainment",
+            "section_sitename_short": "Celebrities & Entertainment",
+            "nofollow": 0,
+            "hide_from_external_search_and_sitemap": 0,
+            "resource_type": "section"
+          },
+          "date_expiry": 0,
+          "file_domain": "http://cos.h-cdn.co",
+          "id": 114626,
+          "width": 720,
+          "start_date": 1403911740,
+          "tags_text": "",
+          "file_path": "/cm/14/26/",
+          "content_tags": null,
+          "description": "",
+          "section_id": 3,
+          "nouse": 0,
+          "ed_id": 1,
+          "image_title": null,
+          "placeholder": null,
+          "limited_rights": 0,
+          "product_tags": "",
+          "syndication_rights": 0,
+          "url": "http://cos.h-cdn.co/assets/cm/14/26/53adfe44c7a18_-_cos-01-schoolgirl-xl.jpg",
+          "bytes": 61356,
+          "brand_tags": null,
+          "image_rights": 0,
+          "animated": 0,
+          "resource_type": "image"
+        }
+      ],
+      "subsection_id": 0,
+      "content_type_url": "news",
+      "id": 27855,
+      "issue_date": "",
+      "live_updates_timezone": 0,
+      "featured_promotion_toggle": 0,
+      "title": "Sexy Schoolgirl-Themed 5K Canceled After Community Backlash",
+      "section_url": "entertainment",
+      "sub_heading": "The North Carolina race was set to happen in August.",
+      "hdw_data": "[]",
+      "priority": 0,
+      "abs": "The North Carolina race was set to happen in August.",
+      "featured_promotion_url": null,
+      "editor": {
+        "ed_nickname": "Tess Koman",
+        "ed_lastname": "Koman",
+        "ed_middlename": "",
+        "ed_email": "tkoman@hearst.com",
+        "ed_firstname": "Tess",
+        "ed_email_public": "tkoman@hearst.com",
+        "ed_jobtitle": "editorial assistant",
+        "ed_username": "tess.koman",
+        "ed_fullname": "Tess Koman",
+        "ed_default_locale": 1,
+        "ed_id": 1233,
+        "last_updated": "2014-12-30T03:24:35Z",
+        "ed_role_id": 2,
+        "ed_suffix": "",
+        "ed_bio": "I'm Tess, the editorial assistant at Cosmopolitan.com and the office's bacon aficionado. I've never not been obsessed with Cosmo, so being here is kind of the best. For now, I'm really into news blogging. I am your basic indecisive millennial twentysomething, though, so we'll see. Anyway, I'm always tweeting, always eating, etc., etc. Yay!",
+        "resource_type": "editor",
+        "ed_title": "Miss"
+      },
+      "content_type_data": "",
+      "ad_category": {
+        "ad_category_name": "Celebrity",
+        "ad_category_id": 16,
+        "resource_type": "ad_category",
+        "ad_category_parent_id": 2,
+        "ad_category_prefix": "celebrity"
+      },
+      "tags_text": "",
+      "autopublish": 0,
+      "ad_category_id": 16,
+      "metadata": [
+        {
+          "meta_value": "5k,sexy schoolgirl 5k,school girl",
+          "meta_key": "archive_tag"
+        },
+        {
+          "meta_value": "a:2:{s:5:\"count\";i:2;s:7:\"updated\";s:25:\"2015-04-22T08:20:31-04:00\";}",
+          "meta_key": "comments.facebook.count"
+        },
+        {
+          "meta_value": "a:3:{s:5:\"count\";i:0;s:8:\"featured\";i:0;s:7:\"updated\";i:1412974035;}",
+          "meta_key": "comments.livefyre.count"
+        },
+        {
+          "meta_value": "",
+          "meta_key": "custom_canonical"
+        },
+        {
+          "meta_value": "",
+          "meta_key": "google_news_keywords"
+        },
+        {
+          "meta_value": "16931980",
+          "meta_key": "magnus_id"
+        },
+        {
+          "meta_value": "296",
+          "meta_key": "magnus_type_id"
+        },
+        {
+          "meta_value": "/celebrity/news/sexy-school-girl-run-cancelled",
+          "meta_key": "magnus_url"
+        },
+        {
+          "meta_value": "The North Carolina race was set to happen in August.",
+          "meta_key": "meta_description"
+        },
+        {
+          "meta_value": "",
+          "meta_key": "meta_keywords"
+        },
+        {
+          "meta_value": "Sexy Schoolgirl-Themed 5K Canceled After Community Backlash",
+          "meta_key": "meta_title"
+        },
+        {
+          "meta_value": "",
+          "meta_key": "more_editors"
+        },
+        {
+          "meta_value": "0",
+          "meta_key": "nofollow_related_links"
+        },
+        {
+          "meta_value": "celebrity",
+          "meta_key": "old_ad_cat"
+        },
+        {
+          "meta_value": "",
+          "meta_key": "seo_related_link"
+        },
+        {
+          "meta_value": "0",
+          "meta_key": "shares_facebook"
+        },
+        {
+          "meta_value": "0",
+          "meta_key": "shares_googleplus"
+        },
+        {
+          "meta_value": "0",
+          "meta_key": "shares_pinterest"
+        },
+        {
+          "meta_value": "0",
+          "meta_key": "shares_twitter"
+        },
+        {
+          "meta_value": "0",
+          "meta_key": "_comments_count"
+        },
+        {
+          "meta_value": "0",
+          "meta_key": "_comments_featured"
+        },
+        {
+          "meta_value": "1409797908",
+          "meta_key": "_comments_updated"
+        },
+        {
+          "meta_value": "a:3:{s:5:\"count\";i:0;s:8:\"featured\";i:0;s:7:\"updated\";i:1409797908;}",
+          "meta_key": "_comment_data"
+        }
+      ],
+      "updated_date": "2014-07-05T03:55:02Z",
+      "content_topics": [],
+      "body": "<!--  PAGE_BREAK:1 -->\n\n    \n\n[image id=\"121198\" loc=\"L\"]\n\nA sexy schoolgirl-themed race has been canceled because of community outrage, Raleigh officials announced via Twitter [via <em><a href=\"http://www.nydailynews.com/life-style/sexy-schoolgirl-5k-n-canceled-objections-article-1.1846449\">NY Daily News</a></em>].\n\nThe 5K, which called for co-eds wearing \"<span>suspenders, nerd glasses, skirts and ponytails,\" was open to male and female participants, but ... what? Raleigh representatives who announced the cancellation of the race have yet to elaborate on what sort of \"community opposition\" actually took place, but <a href=\"https://twitter.com/maryannbaldwin/status/482145377471447040\">Mary-Ann Baldwin</a> tweeted that the race had been called off by the organizers themselves.</span>\n\n<strong>RELATED:</strong>\n <a href=\"http://www.cosmopolitan.com/sex-love/advice/how-to-tell-your-partner-about-kinks\"> The Right Way to Tell Your Partner You're Into Kinky Sex</a>\n\n<strong>Follow Tess on <a href=\"http://www.twitter.com/tessie_the_mess\"> Twitter</a>.</strong>\n\n<em>Photo Credit: <a href=\"http://www.sexyschoolgirl5k.com/\"> sexyschoolgirl5k.com</a></em>",
+      "section_id": 3,
+      "visibility": 1,
+      "image_id": 114626,
+      "show_on_feed": null,
+      "related_articles": "",
+      "editor_byline": "",
+      "company_tags": "",
+      "sponsor_id": 0,
+      "collection_id": 0,
+      "related_videos": "",
+      "slug": "sexy-school-girl-run-cancelled",
+      "product_tags": "",
+      "print_issue_date": "2014-06-01T16:00:00Z",
+      "autopublishdate": "1970-01-01T00:00:00Z",
+      "syndication_rights": 0,
+      "content_type_id": 1,
+      "related_articles_state": 0,
+      "url": "http://www.cosmopolitan.com/entertainment/news/a27855/sexy-school-girl-run-cancelled/",
+      "topic_tags": "",
+      "notes": "<p>imported from MAGNUS article 16931980 AT <a target=\"_blank\" href=\"http://www.cosmopolitan.com/sexy-school-girl-run-cancelled/\">this link</a><p>archive_tags = 5k,sexy schoolgirl 5k,school girl</p></p><p>article_type = 296</p>",
+      "image_group_id": 0,
+      "editor2": 0,
+      "imgarticle_id": 0,
+      "short_title": "Sexy Schoolgirl-Themed 5K Canceled After Community Backlash",
+      "expirationdate": null,
+      "created_date": "2014-06-27T23:29:42Z",
+      "source_id": 12,
+      "related_videos_state": 0,
+      "content_id": 31902,
+      "section": {
+        "meta_keywords": "celebrity news, celebrity gossip, entertainment news, celebrity photos",
+        "last_updated": "2014-11-13T13:19:08Z",
+        "hdr_url": "",
+        "hdr_image_id": "",
+        "hdr_video_webm": "",
+        "image_child_id": 0,
+        "hdr_tracking_pixel": "",
+        "section_ramsname": "Celebrities & Entertainment",
+        "exclude_from_homepage": 0,
+        "meta_description": "From celebrity fashion disasters to exclusive celebrity interviews, here's where you can get your dose of what's happening in Hollywood.",
+        "section_url": "entertainment",
+        "sub_heading": "",
+        "section_site_id": 1,
+        "hdr_video_fallback": "",
+        "hdr_type": "",
+        "hdr_video_mp4": "",
+        "section_isactive": 1,
+        "meta_title": "Entertainment News and Celebrity Gossip - Cosmopolitan",
+        "description": "",
+        "section_id": 3,
+        "image_id": 0,
+        "section_name": null,
+        "section_sitename": "Celebrities & Entertainment",
+        "section_sitename_short": "Celebrities & Entertainment",
+        "nofollow": 0,
+        "hide_from_external_search_and_sitemap": 0,
+        "resource_type": "section"
+      },
+      "resource_type": "article",
+      "imgarticle_align": 0
+    },
+    {
+      "imgarticle_child_id": 0,
+      "subsection_url": "positions",
+      "last_updated": "2014-07-24T20:00:46Z",
+      "content_type": {
+        "meta_keywords": "",
+        "last_updated": "2014-07-03T03:29:59Z",
+        "hdr_url": "",
+        "hdr_image_id": "",
+        "image_child_id": null,
+        "hdr_tracking_pixel": "",
+        "content_type_url": "sex-positions",
+        "hdr_type": "",
+        "meta_description": "",
+        "content_type_sitename_short": null,
+        "sub_heading": "",
+        "hdr_video_webm": "",
+        "hdr_video_fallback": "",
+        "include_slug": 0,
+        "hdr_video_mp4": "",
+        "meta_title": "",
+        "description": "",
+        "image_id": null,
+        "content_type_name": null,
+        "content_type_sitename": "Sex Positions",
+        "content_type_id": 13,
+        "content_type_isactive": 1,
+        "nofollow": 0,
+        "managing_editor_only": 0,
+        "content_type_ramsname": "Sex Positions",
+        "hide_from_external_search_and_sitemap": 1
+      },
+      "yviews": 0,
+      "site_id": 1,
+      "editor3": 0,
+      "date": "2014-01-19T05:00:00Z",
+      "image_child_id": 0,
+      "live_updates": 0,
+      "images": [
+        {
+          "last_updated": "2014-07-15T21:40:53Z",
+          "file_name": "nrm_1405460387-sexy-scissors-4000x2000.jpg",
+          "cdn": 0,
+          "site_id": 1,
+          "height": 2000,
+          "date": 1405460397,
+          "keywords": "sexy scissors sex position, SPOD, sex position",
+          "shape_id": 0,
+          "image_caption": "sexy scissors sex position",
+          "image_provider": 0,
+          "uuid": "201ca2ff|images|90f6a672-0c68-11e4-86e0-0ab519f2dfc8",
+          "copyright": "",
+          "shape_largest": 0,
+          "section_url": "home",
+          "section": {
+            "meta_keywords": "",
+            "last_updated": "2014-12-17T18:36:18Z",
+            "hdr_url": "",
+            "hdr_image_id": "",
+            "hdr_video_webm": "",
+            "image_child_id": 0,
+            "hdr_tracking_pixel": "",
+            "section_ramsname": "Home",
+            "exclude_from_homepage": 1,
+            "meta_description": "",
+            "section_url": "home",
+            "sub_heading": "",
+            "section_site_id": 1,
+            "hdr_video_fallback": "",
+            "hdr_type": "",
+            "hdr_video_mp4": "",
+            "section_isactive": 0,
+            "meta_title": "The Women's Magazine for Fashion, Sex Advice, Dating Tips, and Celebrity News",
+            "description": "",
+            "section_id": 1,
+            "image_id": 0,
+            "section_name": null,
+            "section_sitename": "Home",
+            "section_sitename_short": "Home",
+            "nofollow": 0,
+            "hide_from_external_search_and_sitemap": 0,
+            "resource_type": "section"
+          },
+          "date_expiry": 0,
+          "file_domain": "",
+          "id": 132044,
+          "width": 4000,
+          "start_date": 0,
+          "tags_text": "",
+          "file_path": "/14/29/",
+          "content_tags": "",
+          "description": "sexy scissors sex position",
+          "section_id": 1,
+          "nouse": 0,
+          "ed_id": 1903,
+          "image_title": "",
+          "placeholder": null,
+          "limited_rights": 0,
+          "product_tags": "",
+          "syndication_rights": 3,
+          "url": "http://cos.h-cdn.co/assets/14/29/nrm_1405460387-sexy-scissors-4000x2000.jpg",
+          "bytes": 607037,
+          "brand_tags": "",
+          "image_rights": 0,
+          "animated": 0,
+          "resource_type": "image"
+        }
+      ],
+      "subsection_id": 13,
+      "content_type_url": "sex-positions",
+      "id": 26943,
+      "issue_date": "",
+      "live_updates_timezone": 0,
+      "featured_promotion_toggle": 0,
+      "title": "Sexy Scissors",
+      "section_url": "sex-love",
+      "sub_heading": "",
+      "hdw_data": "[]",
+      "priority": 0,
+      "metadata": [
+        {
+          "meta_value": "sex,sex position,positions,cosmopolitan kama sutra,sexy scissors",
+          "meta_key": "archive_tag"
+        },
+        {
+          "meta_value": "a:2:{s:5:\"count\";i:0;s:7:\"updated\";s:25:\"2015-05-06T14:03:41-04:00\";}",
+          "meta_key": "comments.facebook.count"
+        },
+        {
+          "meta_value": "a:3:{s:5:\"count\";i:0;s:8:\"featured\";i:0;s:7:\"updated\";i:1413196939;}",
+          "meta_key": "comments.livefyre.count"
+        },
+        {
+          "meta_value": "",
+          "meta_key": "custom_canonical"
+        },
+        {
+          "meta_value": "",
+          "meta_key": "google_news_keywords"
+        },
+        {
+          "meta_value": "1",
+          "meta_key": "hide_from_homepage"
+        },
+        {
+          "meta_value": "91560",
+          "meta_key": "magnus_id"
+        },
+        {
+          "meta_value": "147",
+          "meta_key": "magnus_type_id"
+        },
+        {
+          "meta_value": "/sex-love/positions/sexy-scissors-sex-position",
+          "meta_key": "magnus_url"
+        },
+        {
+          "meta_value": "No other love lock will offer you such a body-rockin' range of sensations.",
+          "meta_key": "meta_description"
+        },
+        {
+          "meta_value": ",,,",
+          "meta_key": "meta_keywords"
+        },
+        {
+          "meta_value": "Sexy Scissors",
+          "meta_key": "meta_title"
+        },
+        {
+          "meta_value": "good",
+          "meta_key": "migration_verdict"
+        },
+        {
+          "meta_value": "",
+          "meta_key": "more_editors"
+        },
+        {
+          "meta_value": "0",
+          "meta_key": "nofollow_related_links"
+        },
+        {
+          "meta_value": "sex",
+          "meta_key": "old_ad_cat"
+        },
+        {
+          "meta_value": "",
+          "meta_key": "seo_related_link"
+        },
+        {
+          "meta_value": "9",
+          "meta_key": "shares_facebook"
+        },
+        {
+          "meta_value": "17",
+          "meta_key": "shares_googleplus"
+        },
+        {
+          "meta_value": "82",
+          "meta_key": "shares_pinterest"
+        },
+        {
+          "meta_value": "112",
+          "meta_key": "shares_twitter"
+        },
+        {
+          "meta_value": "0",
+          "meta_key": "_comments_count"
+        },
+        {
+          "meta_value": "0",
+          "meta_key": "_comments_featured"
+        },
+        {
+          "meta_value": "1409826344",
+          "meta_key": "_comments_updated"
+        },
+        {
+          "meta_value": "a:3:{s:5:\"count\";i:0;s:8:\"featured\";i:0;s:7:\"updated\";i:1409826344;}",
+          "meta_key": "_comment_data"
+        }
+      ],
+      "abs": "No other love lock will offer you such a body-rockin' range of sensations.",
+      "featured_promotion_url": null,
+      "editor": {
+        "ed_nickname": "",
+        "ed_lastname": "",
+        "ed_middlename": "",
+        "ed_email": "unknown@hearst.com",
+        "ed_firstname": "Unknown",
+        "ed_email_public": "",
+        "ed_jobtitle": "",
+        "ed_username": "unknown",
+        "ed_fullname": "Unknown",
+        "ed_default_locale": 1,
+        "ed_id": 943,
+        "last_updated": "2014-06-16T21:49:13Z",
+        "ed_role_id": 0,
+        "ed_suffix": "",
+        "ed_bio": "",
+        "resource_type": "editor",
+        "ed_title": ""
+      },
+      "content_type_data": "",
+      "ad_category": {
+        "ad_category_name": "Sex",
+        "ad_category_id": 5,
+        "resource_type": "ad_category",
+        "ad_category_parent_id": 0,
+        "ad_category_prefix": "sex"
+      },
+      "tags_text": "",
+      "autopublish": 0,
+      "ad_category_id": 5,
+      "subsection": {
+        "meta_keywords": "sex, sex positions, kama sutra, sexual positions, sex moves, kamasutra, karma sutra, sex position of the day",
+        "subsection_id": 13,
+        "subsection_isactive": 1,
+        "hdr_image_id": "",
+        "image_child_id": 0,
+        "subsection_url": "positions",
+        "hdr_tracking_pixel": "",
+        "last_updated": "2014-12-12T20:05:04Z",
+        "exclude_from_homepage": 0,
+        "subsection_sitename_short": "Sex Positions & Kama Sutra",
+        "sub_heading": "Whether it's a mind-blowing, bed-rattling orgasm you're after or a supersensory, soulful lovemaking session, our collection of steamy illustrations and step-by-step instructions has been tweaked and tailored by sex experts to help you reach your peak every single time. Climb on top of your cutie and take control with these sizzling strategies and sex positions.",
+        "hdr_url": "",
+        "hdr_video_webm": "",
+        "hdr_video_fallback": "",
+        "hdr_type": "",
+        "subsection_name": "",
+        "hdr_video_mp4": "",
+        "meta_description": "Get a sex position of the day from our best-selling book Cosmo's Kama Sutra. Our collection of steamy illustrations and step-by-step instructions has been tweaked and tailored by sex experts to help you reach your peak -- every single time.",
+        "meta_title": "Sex - Sex Positions and Kama Sutra Tips - Cosmopolitan",
+        "description": "",
+        "image_id": 111512,
+        "subsection_sitename": "Sex Positions & Kama Sutra",
+        "nofollow": 0,
+        "subsection_ramsname": "Sex Positions",
+        "subsection_parent_id": 2,
+        "hide_from_external_search_and_sitemap": 0,
+        "resource_type": "subsection"
+      },
+      "updated_date": "2014-07-24T20:00:46Z",
+      "content_topics": [],
+      "body": "[image id=\"55841\" loc=\"C\"]\n\n<h3 class=\"article-sub-title\">Erotic Instructions</h3>You lie faceup on a desk or tabletop with your hips perched on the very edge. Raise your legs to an eye-popping 90-degree angle, then have your guy grab your ankles. He extends his arms out to his sides, and as your legs are spread-eagle, he enters you while standing. Next, he starts alternately crossing and spreading your legs like scissors, opening and closing as he thrusts.\n\n<h3 class=\"article-sub-title\">Carnal Challenge</h3>[rating score=\"5\"]\n\n<h3 class=\"article-sub-title\">Why You'll Love It</h3>No other love lock will offer you such a body-rockin' range of sensations. One second your limbs are in an erotic X and you're supertight for a snug fit — then suddenly you're wide open and able to take him in deliciously deep. We guarantee these thigh-melting maneuvers will lead to a whoa-baby wave of Os.\n\n<h3 class=\"article-sub-title\">Cosmo Hint</h3>Since your hands are totally free to roam, you can give him one hell of a show by sensually caressing your breasts. Or give yourself a hand and stroke your clitoris to add yet another mind-melting sensation to the already bliss-inducing mix. \n\n<a href=\"http://www.amazon.com/The-Cosmo-Kama-Sutra-Mind-Blowing/dp/1588169715\">Get our updated edition of <em>The Cosmo Kama Sutra: 77 Mind-Blowing Sex Positions, now!</em></a>",
+      "section_id": 2,
+      "visibility": 1,
+      "image_id": 132044,
+      "show_on_feed": 0,
+      "related_articles": "",
+      "editor_byline": "By",
+      "company_tags": "",
+      "sponsor_id": 0,
+      "collection_id": 4,
+      "related_videos": "",
+      "slug": "sexy-scissors-sex-position",
+      "product_tags": "",
+      "print_issue_date": "1970-01-01T00:00:00Z",
+      "autopublishdate": "1970-01-01T00:00:00Z",
+      "syndication_rights": 0,
+      "content_type_id": 13,
+      "related_articles_state": 0,
+      "url": "http://www.cosmopolitan.com/sex-love/positions/sex-positions/a26943/sexy-scissors-sex-position/",
+      "topic_tags": "",
+      "notes": "<p>imported from MAGNUS article 91560 AT <a target=\"_blank\" href=\"http://www.cosmopolitan.com/sexy-scissors-sex-position/\">this link</a><p>archive_tags = sex,sex position,positions,cosmopolitan kama sutra,sexy scissors</p></p><p>article_type = 147</p>",
+      "image_group_id": 0,
+      "editor2": 0,
+      "imgarticle_id": 0,
+      "short_title": "Sexy Scissors",
+      "expirationdate": "1970-01-01T00:00:00Z",
+      "created_date": "2014-06-18T04:55:06Z",
+      "source_id": 1,
+      "related_videos_state": 0,
+      "content_id": 30992,
+      "section": {
+        "meta_keywords": "sex, love, positions, dating advice, guys, relationship advice",
+        "last_updated": "2014-11-13T13:19:08Z",
+        "hdr_url": "",
+        "hdr_image_id": "",
+        "hdr_video_webm": "",
+        "image_child_id": 0,
+        "hdr_tracking_pixel": "",
+        "section_ramsname": "Sex & Relationships",
+        "exclude_from_homepage": 0,
+        "meta_description": "Get advice from the experts at Cosmo about sex, relationships, dating, how to meet men, and what guys want.",
+        "section_url": "sex-love",
+        "sub_heading": "",
+        "section_site_id": 1,
+        "hdr_video_fallback": "",
+        "hdr_type": "",
+        "hdr_video_mp4": "",
+        "section_isactive": 1,
+        "meta_title": "Love and Sex Advice - Sex Moves, Love Life, Relationships, and Dating - Cosmopolitan",
+        "description": "",
+        "section_id": 2,
+        "image_id": 0,
+        "section_name": null,
+        "section_sitename": "Sex & Relationships",
+        "section_sitename_short": "Sex & Relationships",
+        "nofollow": 0,
+        "hide_from_external_search_and_sitemap": 0,
+        "resource_type": "section"
+      },
+      "resource_type": "article",
+      "imgarticle_align": 0
+    },
+    {
+      "imgarticle_child_id": 0,
+      "subsection_url": "positions",
+      "last_updated": "2014-07-09T19:46:23Z",
+      "content_type": {
+        "meta_keywords": "",
+        "last_updated": "2014-07-03T03:29:59Z",
+        "hdr_url": "",
+        "hdr_image_id": "",
+        "image_child_id": null,
+        "hdr_tracking_pixel": "",
+        "content_type_url": "sex-positions",
+        "hdr_type": "",
+        "meta_description": "",
+        "content_type_sitename_short": null,
+        "sub_heading": "",
+        "hdr_video_webm": "",
+        "hdr_video_fallback": "",
+        "include_slug": 0,
+        "hdr_video_mp4": "",
+        "meta_title": "",
+        "description": "",
+        "image_id": null,
+        "content_type_name": null,
+        "content_type_sitename": "Sex Positions",
+        "content_type_id": 13,
+        "content_type_isactive": 1,
+        "nofollow": 0,
+        "managing_editor_only": 0,
+        "content_type_ramsname": "Sex Positions",
+        "hide_from_external_search_and_sitemap": 1
+      },
+      "yviews": 0,
+      "site_id": 1,
+      "editor3": 0,
+      "date": "2013-11-08T05:08:00Z",
+      "image_child_id": 4,
+      "live_updates": 0,
+      "images": [
+        {
+          "last_updated": "2014-07-09T19:45:02Z",
+          "file_name": "nrm_1404935087-sexy-sprinkler.jpg",
+          "cdn": 0,
+          "site_id": 1,
+          "height": 300,
+          "date": 1404935102,
+          "keywords": null,
+          "shape_id": 0,
+          "image_caption": "",
+          "image_provider": 0,
+          "uuid": "201ca2ff|images|84c6ec8e-07a1-11e4-800a-12e036e99bc0",
+          "copyright": "",
+          "shape_largest": 0,
+          "section_url": "home",
+          "section": {
+            "meta_keywords": "",
+            "last_updated": "2014-12-17T18:36:18Z",
+            "hdr_url": "",
+            "hdr_image_id": "",
+            "hdr_video_webm": "",
+            "image_child_id": 0,
+            "hdr_tracking_pixel": "",
+            "section_ramsname": "Home",
+            "exclude_from_homepage": 1,
+            "meta_description": "",
+            "section_url": "home",
+            "sub_heading": "",
+            "section_site_id": 1,
+            "hdr_video_fallback": "",
+            "hdr_type": "",
+            "hdr_video_mp4": "",
+            "section_isactive": 0,
+            "meta_title": "The Women's Magazine for Fashion, Sex Advice, Dating Tips, and Celebrity News",
+            "description": "",
+            "section_id": 1,
+            "image_id": 0,
+            "section_name": null,
+            "section_sitename": "Home",
+            "section_sitename_short": "Home",
+            "nofollow": 0,
+            "hide_from_external_search_and_sitemap": 0,
+            "resource_type": "section"
+          },
+          "date_expiry": 0,
+          "file_domain": "",
+          "id": 125959,
+          "width": 300,
+          "start_date": 0,
+          "tags_text": "",
+          "file_path": "/14/28/",
+          "content_tags": "",
+          "description": "",
+          "section_id": 1,
+          "nouse": 0,
+          "ed_id": 1905,
+          "image_title": "",
+          "placeholder": null,
+          "limited_rights": 0,
+          "product_tags": "",
+          "syndication_rights": 3,
+          "url": "http://cos.h-cdn.co/assets/14/28/nrm_1404935087-sexy-sprinkler.jpg",
+          "bytes": 12405,
+          "brand_tags": "",
+          "image_rights": 0,
+          "animated": 0,
+          "resource_type": "image"
+        }
+      ],
+      "subsection_id": 13,
+      "content_type_url": "sex-positions",
+      "id": 26871,
+      "issue_date": "",
+      "live_updates_timezone": 0,
+      "featured_promotion_toggle": 0,
+      "title": "Sexy Sprinkler",
+      "section_url": "sex-love",
+      "sub_heading": "",
+      "hdw_data": "[]",
+      "priority": 0,
+      "metadata": [
+        {
+          "meta_value": "sex,water,dating,positions,backyard,sexy sprinkler",
+          "meta_key": "archive_tag"
+        },
+        {
+          "meta_value": "a:2:{s:5:\"count\";i:0;s:7:\"updated\";s:25:\"2015-05-06T14:04:11-04:00\";}",
+          "meta_key": "comments.facebook.count"
+        },
+        {
+          "meta_value": "a:3:{s:5:\"count\";i:0;s:8:\"featured\";i:0;s:7:\"updated\";i:1413195236;}",
+          "meta_key": "comments.livefyre.count"
+        },
+        {
+          "meta_value": "",
+          "meta_key": "custom_canonical"
+        },
+        {
+          "meta_value": "",
+          "meta_key": "google_news_keywords"
+        },
+        {
+          "meta_value": "123822",
+          "meta_key": "magnus_id"
+        },
+        {
+          "meta_value": "147",
+          "meta_key": "magnus_type_id"
+        },
+        {
+          "meta_value": "/sex-love/positions/sexy-sprinkler-sex-position",
+          "meta_key": "magnus_url"
+        },
+        {
+          "meta_value": "The feel of water from the sprinkler makes this a supersensory backyard experience.",
+          "meta_key": "meta_description"
+        },
+        {
+          "meta_value": "aqua,kama sutra",
+          "meta_key": "meta_keywords"
+        },
+        {
+          "meta_value": "Sexy Sprinkler",
+          "meta_key": "meta_title"
+        },
+        {
+          "meta_value": "",
+          "meta_key": "more_editors"
+        },
+        {
+          "meta_value": "0",
+          "meta_key": "nofollow_related_links"
+        },
+        {
+          "meta_value": "sex",
+          "meta_key": "old_ad_cat"
+        },
+        {
+          "meta_value": "",
+          "meta_key": "seo_related_link"
+        },
+        {
+          "meta_value": "0",
+          "meta_key": "shares_facebook"
+        },
+        {
+          "meta_value": "2",
+          "meta_key": "shares_googleplus"
+        },
+        {
+          "meta_value": "48",
+          "meta_key": "shares_pinterest"
+        },
+        {
+          "meta_value": "22",
+          "meta_key": "shares_twitter"
+        },
+        {
+          "meta_value": "0",
+          "meta_key": "_comments_count"
+        },
+        {
+          "meta_value": "0",
+          "meta_key": "_comments_featured"
+        },
+        {
+          "meta_value": "1409828652",
+          "meta_key": "_comments_updated"
+        },
+        {
+          "meta_value": "a:3:{s:5:\"count\";i:0;s:8:\"featured\";i:0;s:7:\"updated\";i:1409828652;}",
+          "meta_key": "_comment_data"
+        }
+      ],
+      "abs": "The feel of water from the sprinkler makes this a supersensory backyard experience.",
+      "featured_promotion_url": null,
+      "editor": {
+        "ed_nickname": "",
+        "ed_lastname": "",
+        "ed_middlename": "",
+        "ed_email": "unknown@hearst.com",
+        "ed_firstname": "Unknown",
+        "ed_email_public": "",
+        "ed_jobtitle": "",
+        "ed_username": "unknown",
+        "ed_fullname": "Unknown",
+        "ed_default_locale": 1,
+        "ed_id": 943,
+        "last_updated": "2014-06-16T21:49:13Z",
+        "ed_role_id": 0,
+        "ed_suffix": "",
+        "ed_bio": "",
+        "resource_type": "editor",
+        "ed_title": ""
+      },
+      "content_type_data": "",
+      "ad_category": {
+        "ad_category_name": "Sex",
+        "ad_category_id": 5,
+        "resource_type": "ad_category",
+        "ad_category_parent_id": 0,
+        "ad_category_prefix": "sex"
+      },
+      "tags_text": "aqua,kama sutra",
+      "autopublish": 0,
+      "ad_category_id": 5,
+      "subsection": {
+        "meta_keywords": "sex, sex positions, kama sutra, sexual positions, sex moves, kamasutra, karma sutra, sex position of the day",
+        "subsection_id": 13,
+        "subsection_isactive": 1,
+        "hdr_image_id": "",
+        "image_child_id": 0,
+        "subsection_url": "positions",
+        "hdr_tracking_pixel": "",
+        "last_updated": "2014-12-12T20:05:04Z",
+        "exclude_from_homepage": 0,
+        "subsection_sitename_short": "Sex Positions & Kama Sutra",
+        "sub_heading": "Whether it's a mind-blowing, bed-rattling orgasm you're after or a supersensory, soulful lovemaking session, our collection of steamy illustrations and step-by-step instructions has been tweaked and tailored by sex experts to help you reach your peak every single time. Climb on top of your cutie and take control with these sizzling strategies and sex positions.",
+        "hdr_url": "",
+        "hdr_video_webm": "",
+        "hdr_video_fallback": "",
+        "hdr_type": "",
+        "subsection_name": "",
+        "hdr_video_mp4": "",
+        "meta_description": "Get a sex position of the day from our best-selling book Cosmo's Kama Sutra. Our collection of steamy illustrations and step-by-step instructions has been tweaked and tailored by sex experts to help you reach your peak -- every single time.",
+        "meta_title": "Sex - Sex Positions and Kama Sutra Tips - Cosmopolitan",
+        "description": "",
+        "image_id": 111512,
+        "subsection_sitename": "Sex Positions & Kama Sutra",
+        "nofollow": 0,
+        "subsection_ramsname": "Sex Positions",
+        "subsection_parent_id": 2,
+        "hide_from_external_search_and_sitemap": 0,
+        "resource_type": "subsection"
+      },
+      "updated_date": "2014-07-09T19:46:23Z",
+      "content_topics": [
+        {
+          "topic": "aqua",
+          "type": 0
+        },
+        {
+          "topic": "kama sutra",
+          "type": 0
+        }
+      ],
+      "body": "[image id=\"67103\" loc=\"C\"]\n\n<h3 class=\"article-sub-title\">Erotic Instructions</h3>\n\nSave this position for a day (or night) when you two have the backyard to yourselves. Stand beside a soft-spraying sprinkler and bend over so the water hits your genitals. If you can't reach your hands to the ground, place them on your thighs or calves for support. Your partner should stand behind you and put his hands around your waist as he enters you.\n\n\n\n<h3 class=\"article-sub-title\">Carnal Challenge</h3>[rating score=\"3\"]\n\n\n<h3 class=\"article-sub-title\">Why You'll Love It</h3>\n\nThe sprinkler provides the same kind of clitoral stimulation as a handheld nozzle (see The Rub-a-Dub). And the aroma of wet grass boosts your sense of smell, making this a supersensory experience.\n\n\n\n<h3 class=\"article-sub-title\">Cosmo Hint</h3>\n\nInstead of keeping the sprinkler on the stationary setting, switch it to rotate so you get a bliss-inducing blast all over your body. \n\n<a href=\"http://www.amazon.com/The-Cosmo-Kama-Sutra-Mind-Blowing/dp/1588169715\">Get our updated edition of <em>The Cosmo Kama Sutra: 77 Mind-Blowing Sex Positions, now!</em></a>",
+      "section_id": 2,
+      "visibility": 1,
+      "image_id": 125959,
+      "show_on_feed": 0,
+      "related_articles": "",
+      "editor_byline": "By",
+      "company_tags": "",
+      "sponsor_id": 0,
+      "collection_id": 8,
+      "related_videos": "",
+      "slug": "sexy-sprinkler-sex-position",
+      "product_tags": "",
+      "print_issue_date": "1970-01-01T00:00:00Z",
+      "autopublishdate": "1970-01-01T00:00:00Z",
+      "syndication_rights": 0,
+      "content_type_id": 13,
+      "related_articles_state": 0,
+      "url": "http://www.cosmopolitan.com/sex-love/positions/sex-positions/a26871/sexy-sprinkler-sex-position/",
+      "topic_tags": "",
+      "notes": "<p>imported from MAGNUS article 123822 AT <a target=\"_blank\" href=\"http://www.cosmopolitan.com/sexy-sprinkler-sex-position/\">this link</a><p>archive_tags = sex,water,dating,positions,backyard,sexy sprinkler</p></p><p>article_type = 147</p>",
+      "image_group_id": 0,
+      "editor2": 0,
+      "imgarticle_id": 0,
+      "short_title": "Sexy Sprinkler",
+      "expirationdate": "1970-01-01T00:00:00Z",
+      "created_date": "2014-06-18T04:54:40Z",
+      "source_id": 12,
+      "related_videos_state": 0,
+      "content_id": 30920,
+      "section": {
+        "meta_keywords": "sex, love, positions, dating advice, guys, relationship advice",
+        "last_updated": "2014-11-13T13:19:08Z",
+        "hdr_url": "",
+        "hdr_image_id": "",
+        "hdr_video_webm": "",
+        "image_child_id": 0,
+        "hdr_tracking_pixel": "",
+        "section_ramsname": "Sex & Relationships",
+        "exclude_from_homepage": 0,
+        "meta_description": "Get advice from the experts at Cosmo about sex, relationships, dating, how to meet men, and what guys want.",
+        "section_url": "sex-love",
+        "sub_heading": "",
+        "section_site_id": 1,
+        "hdr_video_fallback": "",
+        "hdr_type": "",
+        "hdr_video_mp4": "",
+        "section_isactive": 1,
+        "meta_title": "Love and Sex Advice - Sex Moves, Love Life, Relationships, and Dating - Cosmopolitan",
+        "description": "",
+        "section_id": 2,
+        "image_id": 0,
+        "section_name": null,
+        "section_sitename": "Sex & Relationships",
+        "section_sitename_short": "Sex & Relationships",
+        "nofollow": 0,
+        "hide_from_external_search_and_sitemap": 0,
+        "resource_type": "section"
+      },
+      "resource_type": "article",
+      "imgarticle_align": 0
+    },
+    {
+      "imgarticle_child_id": 0,
+      "subsection_url": "fashion",
+      "subsection_id": 7,
+      "content_type": {
+        "meta_keywords": "",
+        "last_updated": "2014-06-16T21:14:33Z",
+        "hdr_url": "",
+        "hdr_image_id": "",
+        "image_child_id": null,
+        "hdr_tracking_pixel": "",
+        "content_type_url": "advice",
+        "hdr_type": "",
+        "meta_description": "",
+        "content_type_sitename_short": null,
+        "sub_heading": null,
+        "hdr_video_webm": "",
+        "hdr_video_fallback": "",
+        "include_slug": 1,
+        "hdr_video_mp4": "",
+        "meta_title": "",
+        "description": null,
+        "image_id": null,
+        "content_type_name": null,
+        "content_type_sitename": "Advice",
+        "content_type_id": 2,
+        "content_type_isactive": 1,
+        "nofollow": 0,
+        "managing_editor_only": 0,
+        "content_type_ramsname": "Advice",
+        "hide_from_external_search_and_sitemap": 0
+      },
+      "yviews": 1,
+      "site_id": 1,
+      "content_id": 3569,
+      "editor3": 0,
+      "date": "2013-10-03T13:46:00Z",
+      "image_child_id": 0,
+      "images": [
+        {
+          "last_updated": "2014-06-17T07:39:53Z",
+          "file_name": "539ff0c924fad_-_cos-01-camp-cutie-costume-lg.jpg",
+          "cdn": 2,
+          "site_id": 1,
+          "height": 260,
+          "date": 1402990793,
+          "keywords": "pop culture costumes,sexy costumes",
+          "shape_id": 0,
+          "image_caption": "",
+          "image_provider": 0,
+          "uuid": "201ca2ff|images|92111f9c-f5f2-11e3-a9db-0a3017bc9cac",
+          "copyright": "halloweencostumes.com",
+          "shape_largest": 0,
+          "section_url": "style-beauty",
+          "section": {
+            "meta_keywords": "beauty tips, celebrity style, fashion trends",
+            "last_updated": "2014-11-13T13:19:08Z",
+            "hdr_url": "",
+            "hdr_image_id": "",
+            "hdr_video_webm": "",
+            "image_child_id": 0,
+            "hdr_tracking_pixel": "",
+            "section_ramsname": "Beauty & Style",
+            "exclude_from_homepage": 0,
+            "meta_description": "If you're a self-proclaimed beauty junkie and a shop-a-holic, Cosmo is your one-stop-shop for all things fashion and beauty. From makeup application tips and hairstyle how-to's, to editor shopping secrets, Cosmo covers it all.",
+            "section_url": "style-beauty",
+            "sub_heading": "",
+            "section_site_id": 1,
+            "hdr_video_fallback": "",
+            "hdr_type": "",
+            "hdr_video_mp4": "",
+            "section_isactive": 1,
+            "meta_title": "Beauty Tips, Celebrity Style, and Fashion Trends - Cosmopolitan",
+            "description": "",
+            "section_id": 4,
+            "image_id": 0,
+            "section_name": null,
+            "section_sitename": "Beauty & Style",
+            "section_sitename_short": "Beauty & Style",
+            "nofollow": 0,
+            "hide_from_external_search_and_sitemap": 0,
+            "resource_type": "section"
+          },
+          "date_expiry": 0,
+          "file_domain": "http://s3.amazonaws.com/hdm-prod-cosmo",
+          "id": 34606,
+          "width": 346,
+          "start_date": 1402990740,
+          "tags_text": "",
+          "file_path": "/cm/14/25/",
+          "content_tags": null,
+          "description": "",
+          "section_id": 4,
+          "nouse": 0,
+          "ed_id": 1,
+          "image_title": null,
+          "placeholder": null,
+          "limited_rights": 0,
+          "product_tags": "",
+          "syndication_rights": 0,
+          "url": "http://cos.h-cdn.co/assets/cm/14/25/539ff0c924fad_-_cos-01-camp-cutie-costume-lg.jpg",
+          "bytes": 18015,
+          "brand_tags": null,
+          "image_rights": 0,
+          "animated": 0,
+          "resource_type": "image"
+        }
+      ],
+      "last_updated": "2014-08-01T16:36:52Z",
+      "content_type_url": "advice",
+      "issue_date": "",
+      "featured_promotion_toggle": 0,
+      "title": "Sexy Halloween Costume Ideas",
+      "section_url": "style-beauty",
+      "sub_heading": "We freaking love Halloween. You get to <a href=\"http://www.cosmopolitan.com/food/party-ideas/cheesiest-couples-halloween-costumes\" target=\"_blank\">play dress-up</a> and eat loads of candy—awesome. Of course, we know you still want to look good on the big day. That's why we rounded up <a href=\"http://www.cosmopolitan.com/food/party-ideas/cheesiest-couples-picture-contest-halloween-style\" target=\"_blank\">Halloween costume ideas</a> that are sexy without going OTT. So you can haunt his dreams and then some.",
+      "hdw_data": "[]",
+      "priority": 0,
+      "metadata": [
+        {
+          "meta_value": "costumes,halloween costume,sexy costume ideas",
+          "meta_key": "archive_tag"
+        },
+        {
+          "meta_value": "a:2:{s:5:\"count\";i:3;s:7:\"updated\";s:25:\"2015-04-27T14:05:06-04:00\";}",
+          "meta_key": "comments.facebook.count"
+        },
+        {
+          "meta_value": "a:3:{s:5:\"count\";i:0;s:8:\"featured\";i:0;s:7:\"updated\";i:1413195718;}",
+          "meta_key": "comments.livefyre.count"
+        },
+        {
+          "meta_value": "",
+          "meta_key": "custom_canonical"
+        },
+        {
+          "meta_value": "",
+          "meta_key": "google_news_keywords"
+        },
+        {
+          "meta_value": "15972269",
+          "meta_key": "magnus_id"
+        },
+        {
+          "meta_value": "a:14:{i:2;s:50:\"/celebrity/fashion/sexy-halloween-costumes-ideas-2\";i:3;s:50:\"/celebrity/fashion/sexy-halloween-costumes-ideas-3\";i:4;s:50:\"/celebrity/fashion/sexy-halloween-costumes-ideas-4\";i:5;s:50:\"/celebrity/fashion/sexy-halloween-costumes-ideas-5\";i:6;s:67:\"/celebrity/fashion/sexy-halloween-costumes-ideas-clone-1380228222-2\";i:7;s:67:\"/celebrity/fashion/sexy-halloween-costumes-ideas-clone-1380228222-3\";i:8;s:67:\"/celebrity/fashion/sexy-halloween-costumes-ideas-clone-1380228222-4\";i:9;s:67:\"/celebrity/fashion/sexy-halloween-costumes-ideas-clone-1380228222-5\";i:10;s:67:\"/celebrity/fashion/sexy-halloween-costumes-ideas-clone-1380228222-6\";i:11;s:67:\"/celebrity/fashion/sexy-halloween-costumes-ideas-clone-1380228222-7\";i:12;s:67:\"/celebrity/fashion/sexy-halloween-costumes-ideas-clone-1380228222-8\";i:13;s:57:\"/celebrity/fashion/sexy-halloween-costumes-ideas-clone-19\";i:14;s:67:\"/celebrity/fashion/sexy-halloween-costumes-ideas-clone-1380228222-9\";i:15;s:68:\"/celebrity/fashion/sexy-halloween-costumes-ideas-clone-1380228222-10\";}",
+          "meta_key": "magnus_page_urls"
+        },
+        {
+          "meta_value": "/celebrity/fashion/sexy-halloween-costumes-ideas-clone-1380228222-6",
+          "meta_key": "magnus_page_url_10"
+        },
+        {
+          "meta_value": "/celebrity/fashion/sexy-halloween-costumes-ideas-clone-1380228222-7",
+          "meta_key": "magnus_page_url_11"
+        },
+        {
+          "meta_value": "/celebrity/fashion/sexy-halloween-costumes-ideas-clone-1380228222-8",
+          "meta_key": "magnus_page_url_12"
+        },
+        {
+          "meta_value": "/celebrity/fashion/sexy-halloween-costumes-ideas-clone-19",
+          "meta_key": "magnus_page_url_13"
+        },
+        {
+          "meta_value": "/celebrity/fashion/sexy-halloween-costumes-ideas-clone-1380228222-9",
+          "meta_key": "magnus_page_url_14"
+        },
+        {
+          "meta_value": "/celebrity/fashion/sexy-halloween-costumes-ideas-clone-1380228222-10",
+          "meta_key": "magnus_page_url_15"
+        },
+        {
+          "meta_value": "/celebrity/fashion/sexy-halloween-costumes-ideas-2",
+          "meta_key": "magnus_page_url_2"
+        },
+        {
+          "meta_value": "/celebrity/fashion/sexy-halloween-costumes-ideas-3",
+          "meta_key": "magnus_page_url_3"
+        },
+        {
+          "meta_value": "/celebrity/fashion/sexy-halloween-costumes-ideas-4",
+          "meta_key": "magnus_page_url_4"
+        },
+        {
+          "meta_value": "/celebrity/fashion/sexy-halloween-costumes-ideas-5",
+          "meta_key": "magnus_page_url_5"
+        },
+        {
+          "meta_value": "/celebrity/fashion/sexy-halloween-costumes-ideas-clone-1380228222-2",
+          "meta_key": "magnus_page_url_6"
+        },
+        {
+          "meta_value": "/celebrity/fashion/sexy-halloween-costumes-ideas-clone-1380228222-3",
+          "meta_key": "magnus_page_url_7"
+        },
+        {
+          "meta_value": "/celebrity/fashion/sexy-halloween-costumes-ideas-clone-1380228222-4",
+          "meta_key": "magnus_page_url_8"
+        },
+        {
+          "meta_value": "/celebrity/fashion/sexy-halloween-costumes-ideas-clone-1380228222-5",
+          "meta_key": "magnus_page_url_9"
+        },
+        {
+          "meta_value": "/celebrity/fashion/sexy-halloween-costumes-ideas-2013",
+          "meta_key": "magnus_url"
+        },
+        {
+          "meta_value": "We rounded up Halloween costume ideas that are seriously sexy without going OTT. So you can haunt his dreams and then some.",
+          "meta_key": "meta_description"
+        },
+        {
+          "meta_value": "halloween, halloween costume, costumes, sexy costume ideas",
+          "meta_key": "meta_keywords"
+        },
+        {
+          "meta_value": "Sexy Halloween Costumes - Good Halloween Costume Ideas 2013",
+          "meta_key": "meta_title"
+        },
+        {
+          "meta_value": "Jorge",
+          "meta_key": "migration_notes"
+        },
+        {
+          "meta_value": "good",
+          "meta_key": "migration_verdict"
+        },
+        {
+          "meta_value": "",
+          "meta_key": "more_editors"
+        },
+        {
+          "meta_value": "0",
+          "meta_key": "nofollow_related_links"
+        },
+        {
+          "meta_value": "accessories",
+          "meta_key": "old_ad_cat"
+        },
+        {
+          "meta_value": "",
+          "meta_key": "seo_related_link"
+        },
+        {
+          "meta_value": "1",
+          "meta_key": "shares_facebook"
+        },
+        {
+          "meta_value": "0",
+          "meta_key": "shares_googleplus"
+        },
+        {
+          "meta_value": "73",
+          "meta_key": "shares_pinterest"
+        },
+        {
+          "meta_value": "4",
+          "meta_key": "shares_twitter"
+        },
+        {
+          "meta_value": "0",
+          "meta_key": "_comments_count"
+        },
+        {
+          "meta_value": "0",
+          "meta_key": "_comments_featured"
+        },
+        {
+          "meta_value": "1409828330",
+          "meta_key": "_comments_updated"
+        },
+        {
+          "meta_value": "a:3:{s:5:\"count\";i:0;s:8:\"featured\";i:0;s:7:\"updated\";i:1409828330;}",
+          "meta_key": "_comment_data"
+        }
+      ],
+      "abs": "We rounded up Halloween costume ideas that are seriously sexy without going OTT. So you can haunt his dreams and then some.",
+      "featured_promotion_url": null,
+      "editor": {
+        "ed_nickname": "",
+        "ed_lastname": "Miller",
+        "ed_middlename": "",
+        "ed_email": "unknown@hearst.com",
+        "ed_firstname": "Korin",
+        "ed_email_public": "",
+        "ed_jobtitle": "",
+        "ed_username": "korin.miller",
+        "ed_fullname": "Korin Miller",
+        "ed_default_locale": 1,
+        "ed_id": 956,
+        "last_updated": "2014-06-16T23:55:16Z",
+        "ed_role_id": 0,
+        "ed_suffix": "",
+        "ed_bio": "",
+        "resource_type": "editor",
+        "ed_title": ""
+      },
+      "ad_category": {
+        "ad_category_name": "Fashion",
+        "ad_category_id": 1,
+        "resource_type": "ad_category",
+        "ad_category_parent_id": 0,
+        "ad_category_prefix": "fashion"
+      },
+      "tags_text": "halloween",
+      "product_tags": "",
+      "ad_category_id": 1,
+      "subsection": {
+        "meta_keywords": "fashion, style, fashion tips, celebrity fashion, fashion trends, what to wear, celebrity style",
+        "subsection_id": 7,
+        "subsection_isactive": 1,
+        "hdr_image_id": "",
+        "image_child_id": 0,
+        "subsection_url": "fashion",
+        "hdr_tracking_pixel": "",
+        "last_updated": "2014-11-13T13:19:08Z",
+        "exclude_from_homepage": 0,
+        "subsection_sitename_short": "Style",
+        "sub_heading": "",
+        "hdr_url": "",
+        "hdr_video_webm": "",
+        "hdr_video_fallback": "",
+        "hdr_type": "",
+        "subsection_name": null,
+        "hdr_video_mp4": "",
+        "meta_description": "Learn how to dress for your body type, what to wear on a date, and where to shop on a budget Get the latest fashion trends for less with our fun, fearless fashion tips.",
+        "meta_title": "Fashion and Style - Celebrity Fashion Trends - Cosmopolitan",
+        "description": "",
+        "image_id": 0,
+        "subsection_sitename": "Style",
+        "nofollow": 0,
+        "subsection_ramsname": "Style",
+        "subsection_parent_id": 4,
+        "hide_from_external_search_and_sitemap": 0,
+        "resource_type": "subsection"
+      },
+      "updated_date": "2014-07-01T20:13:03Z",
+      "content_topics": [
+        {
+          "topic": "halloween",
+          "type": 0
+        }
+      ],
+      "body": "<!--  PAGE_BREAK:1 -->\n<!--  PAGE_BREAK:1 --><opt>\n  <custom_slide_links>\n    <link_heading></link_heading>\n    <slide_links>\n      <link_sponsor>No</link_sponsor>\n      <link_sponsor_hex></link_sponsor_hex>\n      <link_text></link_text>\n      <link_thumb_url></link_thumb_url>\n      <link_title></link_title>\n      <link_url></link_url>\n    </slide_links>\n  </custom_slide_links>\n  <slide_body>\n\nThere's nothing particularly sexy about <em>Duck Dynasty </em>, but that doesn't mean you can't make it that way. This curve-clinging camo creation brings out the sexy side of...duck calling?\n\n Camo Cutie Costume costume, $67.95, <a href=\"http://www.envycorner.com/camo-cutie-costume.html?sortby=ourPicks&pp=60&size=all&navSet=109916\" target=\"_blank\">PartyCity.com</a>\n\n</slide_body>\n  <slide_credit>Courtesy Image</slide_credit>\n  <slide_links_type>Magnus</slide_links_type>\n  <slide_title>Camo Cutie</slide_title>\n  <slide_type>Image</slide_type>\n  <sponsorship>Nothing</sponsorship>\n</opt>\n<!--  PAGE_BREAK:2 --><opt>\n  <custom_slide_links>\n    <link_heading></link_heading>\n    <slide_links>\n      <link_sponsor>No</link_sponsor>\n      <link_sponsor_hex></link_sponsor_hex>\n      <link_text></link_text>\n      <link_thumb_url></link_thumb_url>\n      <link_title></link_title>\n      <link_url></link_url>\n    </slide_links>\n  </custom_slide_links>\n  <slide_body>\n\nThere's so much sexy involved in switching to the darkside. This scandalous Darth Vader costume says it all.\n\n Sexy Darth Vader costume, $55.95, <a href=\"http://www.hollywood.com/news/celebrities/43246891/sexy-darth-vader-15-worst-pop-culture-inspired-halloween-costumes?sortby=ourPicks&pp=60&size=all&navSet=109916\" target=\"_blank\">Hollywood.com</a>\n\n</slide_body>\n  <slide_credit>halloweencostumes.com</slide_credit>\n  <slide_links_type>Magnus</slide_links_type>\n  <slide_title></slide_title>\n  <slide_type>Image</slide_type>\n  <sponsorship>Nothing</sponsorship>\n</opt>\n<!--  PAGE_BREAK:3 --><opt>\n  <slide_body>\n\nMermaids are inherently sexy, but why not go even farther? Add a bustier and a slinky skirt that has legs for days and you have one hell of a costume. \n\n Mesmerizing Mermaid Costume, $169.95, <a href=\"http://www.partycity.com/product/adult+mesmerizing+mermaid+costume.do?sortby=ourPicks&pp=60&size=all&navSet=109916\" target=\"_blank\">PartyCity.com</a>\n\n</slide_body>\n  <slide_credit>partycity.com</slide_credit>\n  <slide_links_type>Magnus</slide_links_type>\n  <slide_title></slide_title>\n  <slide_type>Image</slide_type>\n  <sponsorship>Nothing</sponsorship>\n</opt>\n<!--  PAGE_BREAK:4 --><opt>\n  <slide_body>\n\nIt's starting to get cold and just the idea of anything exotic is wonderful. Bring those daydreams of paradise to every man's reality and embrace the Hula girl costume this Halloween.\n\nAdult Hula Costume, $49.99, <a href=\"http://www.partycity.com/product/adult+hula+girl+costume.do?sortby=ourPicks&pp=60&size=all&navSet=109916\" target=\"_blank\">PartyCity.com</a>\n\n</slide_body>\n  <slide_credit>partycity.com</slide_credit>\n  <slide_links_type>Magnus</slide_links_type>\n  <slide_title></slide_title>\n  <slide_type>Image</slide_type>\n  <sponsorship>Nothing</sponsorship>\n</opt>\n<!--  PAGE_BREAK:5 --><opt>\n  <slide_body>\n\nThe sexy firefighter is a go-to Halloween classic. You can play with fire in so many different ways!\n\nSexy Firefighter Costume, $55.99, <a href=\"http://www.amiclubwear.com/costume-authority-aaa8-8890firedrill.html?sortby=ourPicks&pp=60&size=all&navSet=109916\" target=\"_blank\">AmIClubWear.com</a>\n\n</slide_body>\n  <slide_credit>amiclubwear.com</slide_credit>\n  <slide_links_type>Magnus</slide_links_type>\n  <slide_title></slide_title>\n  <slide_type>Image</slide_type>\n  <sponsorship>Nothing</sponsorship>\n</opt>\n<!--  PAGE_BREAK:6 --><opt>\n  <custom_slide_links>\n    <link_heading></link_heading>\n    <slide_links>\n      <link_sponsor>No</link_sponsor>\n      <link_sponsor_hex></link_sponsor_hex>\n      <link_text></link_text>\n      <link_thumb_url></link_thumb_url>\n      <link_title></link_title>\n      <link_url></link_url>\n    </slide_links>\n  </custom_slide_links>\n  <slide_body>Um&#133;Max and Caroline's diner uniforms are crazy-hot. We couldn't find exact replicas online, but you could get this dress (or something similar), add two red stripes down the front and red bands around the sleeves, then tie on a red apron and voila!\n\nSoda Fountain Dress in ginger, $44.99. <a href=\"http://www.modcloth.com/shop/dresses/soda-fountain-dress-in-ginger\" target=\"_blank\">ModCloth.com</a>\n</slide_body>\n  <slide_credit>Courtesy Image</slide_credit>\n  <slide_links_type>Magnus</slide_links_type>\n  <slide_title>2 Broke Girls</slide_title>\n  <slide_type>Image</slide_type>\n  <sponsorship>Nothing</sponsorship>\n</opt>\n<!--  PAGE_BREAK:7 --><opt>\n  <slide_body>You better believe your man has caught one—or a zillion—of those sexy GoDaddy.com ads. Live out his fantasy in this look.\n\nDanica Patrick costume, $45, <a href=\"http://www.amazon.com/Womens-Danica-Patrick-Adult-Costume/dp/B0091KFLLS/ref=sr_1_1?ie=UTF8&qid=1348600916&sr=8-1&keywords=danica+patrick+halloween+costume\" target=\"_blank\">Amazon.com</a></slide_body>\n  <slide_credit>Courtesy Image</slide_credit>\n  <slide_links_type>Magnus</slide_links_type>\n  <slide_title>Danica Patrick</slide_title>\n  <slide_type>Image</slide_type>\n  <sponsorship>Nothing</sponsorship>\n</opt>\n<!--  PAGE_BREAK:8 --><opt>\n  <slide_body>With a sexy plunge neckline and form-fitting jumpsuit, this costume will have men <a href=\"http://www.cosmopolitan.com/sex-love/dating-advice/how-to-flirt\" target=\"_blank\">hitting on you</a> all night.\n\nBon Voyage sailor costume, $30.16, <a href=\"http://www.amazon.com/Bon-Voyage-As-Shown-X-Small/dp/B008BGLQLM/ref=sr_1_fkmr1_2?s=apparel&ie=UTF8&qid=1348601032&sr=1-2-fkmr1&keywords=bon+voyage+sailor+halloween+costume\" target=\"_blank\">Amazon.com</a></slide_body>\n  <slide_credit>Courtesy Image</slide_credit>\n  <slide_links_type>Magnus</slide_links_type>\n  <slide_title>A Sailor</slide_title>\n  <slide_type>Image</slide_type>\n  <sponsorship>Nothing</sponsorship>\n</opt>\n<!--  PAGE_BREAK:9 --><opt>\n  <slide_body>Sookie's waitress uniform might look innocent, but we all know what happens on <i>True Blood</i>...\n\nTrue Blood costume, $36.54, <a href=\"http://www.target.com/p/adult-true-blood-costume/-/A-14161046\" target=\"_blank\">Target.com</a></slide_body>\n  <slide_credit>Courtesy Image</slide_credit>\n  <slide_links_type>Magnus</slide_links_type>\n  <slide_title>Sookie Stackhouse</slide_title>\n  <slide_type>Image</slide_type>\n  <sponsorship>Nothing</sponsorship>\n</opt>\n<!--  PAGE_BREAK:10 --><opt>\n  <slide_body>If a man was born sometime in the last century, he's had a Princess Leia fantasy. <i>Ahem</i>\n\nPrincess Leia costume, $30.96, <a href=\"http://www.amazon.com/Womens-Secret-Wishes-Princess-Costume/dp/B002EAHQ38/ref=sr_1_6?s=apparel&ie=UTF8&qid=1348601682&sr=1-6&keywords=princess+leia+halloween+costume\" target=\"_blank\">Amazon.com</a></slide_body>\n  <slide_credit>Courtesy Image</slide_credit>\n  <slide_links_type>Magnus</slide_links_type>\n  <slide_title>Princess Leia</slide_title>\n  <slide_type>Image</slide_type>\n  <sponsorship>Nothing</sponsorship>\n</opt>\n<!--  PAGE_BREAK:11 --><opt>\n  <slide_body>You'd be hard-pressed to find a man who <i>didn't</i> love playing with soldiers when he was little. And, really, that urge never goes away… . \n\nRetro Army dress costume, $35.99, <a href=\"http://www.amazon.com/Smiffys-Retro-Army-Adult-Costume/dp/B003CIYW3I/ref=sr_1_fkmr2_1?s=apparel&ie=UTF8&qid=1348601754&sr=1-1-fkmr2&keywords=pinup+soldier+halloween+costume\" target=\"_blank\">Amazon.com</a></slide_body>\n  <slide_credit>Courtesy Image</slide_credit>\n  <slide_links_type>Magnus</slide_links_type>\n  <slide_title>A Soldier</slide_title>\n  <slide_type>Image</slide_type>\n  <sponsorship>Nothing</sponsorship>\n</opt>\n<!--  PAGE_BREAK:12 --><opt>\n  <slide_body>Let's hear it for old-school cartoons! This little apron will <a href=\"http://www.cosmopolitan.com/advice/health/how-to-get-sexy-toned-legs\" target=\"_blank\">showcase your legs</a> and waist. Throw it on over a blue long-sleeved shirt, and add boots with scrunched down rainbow-colored socks. Hot.\n\nRainbow Brite apron, $55, <a href=\"http://www.etsy.com/listing/92524953/rainbow-brite-costume-apron?ref=exp_listing\" target=\"_blank\">Etsy.com</a></slide_body>\n  <slide_credit>Courtesy Image</slide_credit>\n  <slide_links_type>Magnus</slide_links_type>\n  <slide_title>Rainbow Brite</slide_title>\n  <slide_type>Image</slide_type>\n  <sponsorship>Nothing</sponsorship>\n</opt>\n<!--  PAGE_BREAK:13 --><opt>\n  <slide_body>We couldn't tear our eyes away from Anne Hathaway in <i>The Dark Knight Rises</i>. You can have the same effect on people with this sizzling Catwoman costume.\n\nCatwoman costume, $49.99, <a href=\"http://www.partycity.com/product/adult+catwoman+costume+-+the+dark+knight+rises.do?sortby=ourPicks&pp=60&size=all&navSet=109916\" target=\"_blank\">PartyCity.com</a>\n</slide_body>\n  <slide_credit>Courtesy Image</slide_credit>\n  <slide_links_type>Magnus</slide_links_type>\n  <slide_title>Catwoman</slide_title>\n  <slide_type>Image</slide_type>\n  <sponsorship>Nothing</sponsorship>\n</opt>\n<!--  PAGE_BREAK:14 --><opt>\n  <slide_body>We don't care how long it's been since Lynda Carter rocked this outfit on TV. Wonder Woman will never not be hot.\n\nWonder Woman costume, $21, <a href=\"http://www.amazon.com/Comics-Deluxe-Wonder-Woman-Costume/dp/B000UV3K4W/ref=sr_1_9?ie=UTF8&qid=1348602098&sr=8-9&keywords=wonder+woman+adult+halloween+costume\" target=\"_blank\">Amazon.com</a></slide_body>\n  <slide_credit>Courtesy Image</slide_credit>\n  <slide_links_type>Magnus</slide_links_type>\n  <slide_title>Wonder Woman</slide_title>\n  <slide_type>Image</slide_type>\n  <sponsorship>Nothing</sponsorship>\n</opt>\n<!--  PAGE_BREAK:15 --><opt>\n  <slide_body>Sure, you <i>could</i> throw a sheet over your head and call it a day, but we like this form-fitting option way better.\n\nGhost dress, $89.95, <a href=\"http://www.etsy.com/listing/107724851/sexy-ghost-wiggle-dress-halloween?ref=sr_gallery_35&ga_search_query=sexy+halloween+costume&ga_view_type=gallery&ga_ship_to=ZZ&ga_min=0&ga_max=0&ga_page=3&ga_search_type=all\" target=\"_blank\">Etsy.com</a>\n</slide_body>\n  <slide_credit>Courtesy Image</slide_credit>\n  <slide_links_type>Magnus</slide_links_type>\n  <slide_title>A Ghost</slide_title>\n  <slide_type>Image</slide_type>\n  <sponsorship>Nothing</sponsorship>\n</opt>",
+      "section_id": 4,
+      "visibility": 1,
+      "autopublish": 1,
+      "image_id": 34606,
+      "show_on_feed": 0,
+      "editor_byline": "By",
+      "company_tags": "",
+      "sponsor_id": 0,
+      "collection_id": 15,
+      "slug": "sexy-halloween-costumes-ideas-2013",
+      "layout_option": 0,
+      "print_issue_date": "1970-01-01T00:00:00Z",
+      "syndication_rights": 0,
+      "content_type_id": 2,
+      "autopublishdate": "2014-06-17T07:37:00Z",
+      "url": "http://www.cosmopolitan.com/style-beauty/fashion/advice/g3492/sexy-halloween-costumes-ideas-2013/",
+      "topic_tags": "",
+      "notes": "<p>imported from MAGNUS article 15972269 AT <a target=\"_blank\" href=\"http://www.cosmopolitan.com/sexy-halloween-costumes-ideas-2013/\">this link</a><p>archive_tags = costumes,halloween costume,sexy costume ideas</p></p><p>article_type = 1365</p>",
+      "editor2": 0,
+      "imgarticle_id": 0,
+      "short_title": "Sexy Halloween Costume Ideas",
+      "expirationdate": "1970-01-01T00:00:00Z",
+      "created_date": "2013-09-26T20:43:42Z",
+      "source_id": 12,
+      "group_id": 3492,
+      "section": {
+        "meta_keywords": "beauty tips, celebrity style, fashion trends",
+        "last_updated": "2014-11-13T13:19:08Z",
+        "hdr_url": "",
+        "hdr_image_id": "",
+        "hdr_video_webm": "",
+        "image_child_id": 0,
+        "hdr_tracking_pixel": "",
+        "section_ramsname": "Beauty & Style",
+        "exclude_from_homepage": 0,
+        "meta_description": "If you're a self-proclaimed beauty junkie and a shop-a-holic, Cosmo is your one-stop-shop for all things fashion and beauty. From makeup application tips and hairstyle how-to's, to editor shopping secrets, Cosmo covers it all.",
+        "section_url": "style-beauty",
+        "sub_heading": "",
+        "section_site_id": 1,
+        "hdr_video_fallback": "",
+        "hdr_type": "",
+        "hdr_video_mp4": "",
+        "section_isactive": 1,
+        "meta_title": "Beauty Tips, Celebrity Style, and Fashion Trends - Cosmopolitan",
+        "description": "",
+        "section_id": 4,
+        "image_id": 0,
+        "section_name": null,
+        "section_sitename": "Beauty & Style",
+        "section_sitename_short": "Beauty & Style",
+        "nofollow": 0,
+        "hide_from_external_search_and_sitemap": 0,
+        "resource_type": "section"
+      },
+      "resource_type": "gallery"
+    },
+    {
+      "imgarticle_child_id": 0,
+      "last_updated": "2014-07-10T23:02:43Z",
+      "content_type": {
+        "meta_keywords": "",
+        "last_updated": "2014-06-16T21:14:34Z",
+        "hdr_url": "",
+        "hdr_image_id": "",
+        "image_child_id": null,
+        "hdr_tracking_pixel": "",
+        "content_type_url": "videos",
+        "hdr_type": "",
+        "meta_description": "",
+        "content_type_sitename_short": null,
+        "sub_heading": null,
+        "hdr_video_webm": "",
+        "hdr_video_fallback": "",
+        "include_slug": 1,
+        "hdr_video_mp4": "",
+        "meta_title": "",
+        "description": null,
+        "image_id": null,
+        "content_type_name": null,
+        "content_type_sitename": "Video",
+        "content_type_id": 7,
+        "content_type_isactive": 1,
+        "nofollow": 0,
+        "managing_editor_only": 0,
+        "content_type_ramsname": "Video",
+        "hide_from_external_search_and_sitemap": 0
+      },
+      "yviews": 1,
+      "site_id": 1,
+      "editor3": 0,
+      "date": "2013-09-03T21:43:00Z",
+      "image_child_id": 0,
+      "live_updates": 0,
+      "images": [
+        {
+          "last_updated": "2014-07-10T23:02:42Z",
+          "file_name": "53a0adf767bb4_-_cos-01-gwen-stefani-gavin-rossdale-xl.jpg",
+          "cdn": 1,
+          "site_id": 1,
+          "height": 405,
+          "date": 1405033335,
+          "keywords": "gavin rossdale,gwen stefani,sexy vs skanky",
+          "shape_id": 0,
+          "image_caption": "",
+          "image_provider": 0,
+          "uuid": "201ca2ff|images|54c0e106-f663-11e3-8656-0a3017bc9cac",
+          "copyright": "FameFlynet ",
+          "shape_largest": 0,
+          "section_url": "sex-love",
+          "section": {
+            "meta_keywords": "sex, love, positions, dating advice, guys, relationship advice",
+            "last_updated": "2014-11-13T13:19:08Z",
+            "hdr_url": "",
+            "hdr_image_id": "",
+            "hdr_video_webm": "",
+            "image_child_id": 0,
+            "hdr_tracking_pixel": "",
+            "section_ramsname": "Sex & Relationships",
+            "exclude_from_homepage": 0,
+            "meta_description": "Get advice from the experts at Cosmo about sex, relationships, dating, how to meet men, and what guys want.",
+            "section_url": "sex-love",
+            "sub_heading": "",
+            "section_site_id": 1,
+            "hdr_video_fallback": "",
+            "hdr_type": "",
+            "hdr_video_mp4": "",
+            "section_isactive": 1,
+            "meta_title": "Love and Sex Advice - Sex Moves, Love Life, Relationships, and Dating - Cosmopolitan",
+            "description": "",
+            "section_id": 2,
+            "image_id": 0,
+            "section_name": null,
+            "section_sitename": "Sex & Relationships",
+            "section_sitename_short": "Sex & Relationships",
+            "nofollow": 0,
+            "hide_from_external_search_and_sitemap": 0,
+            "resource_type": "section"
+          },
+          "date_expiry": 0,
+          "file_domain": "http://cos.h-cdn.co",
+          "id": 79694,
+          "width": 720,
+          "start_date": 1403039220,
+          "tags_text": "",
+          "file_path": "/cm/14/25/",
+          "content_tags": null,
+          "description": "",
+          "section_id": 2,
+          "nouse": 0,
+          "ed_id": 1,
+          "image_title": null,
+          "placeholder": null,
+          "limited_rights": 0,
+          "product_tags": "",
+          "syndication_rights": 0,
+          "url": "http://cos.h-cdn.co/assets/cm/14/25/53a0adf767bb4_-_cos-01-gwen-stefani-gavin-rossdale-xl.jpg",
+          "bytes": 69882,
+          "brand_tags": null,
+          "image_rights": 0,
+          "animated": 0,
+          "resource_type": "image"
+        }
+      ],
+      "subsection_id": 0,
+      "content_type_url": "videos",
+      "id": 15459,
+      "issue_date": "",
+      "live_updates_timezone": 0,
+      "featured_promotion_toggle": 0,
+      "title": "Sexy Vs. Skanky: How Your Style Is Keeping You Single",
+      "section_url": "sex-love",
+      "sub_heading": "If your blue makeup's a dealbreaker, forget him?",
+      "hdw_data": "[]",
+      "priority": 0,
+      "abs": "If your blue makeup's a dealbreaker, forget him?",
+      "featured_promotion_url": null,
+      "editor": {
+        "ed_nickname": "",
+        "ed_lastname": "Adeeyo",
+        "ed_middlename": "",
+        "ed_email": "unknown@hearst.com",
+        "ed_firstname": "Dara",
+        "ed_email_public": "",
+        "ed_jobtitle": "",
+        "ed_username": "dara.adeeyo",
+        "ed_fullname": "Dara Adeeyo",
+        "ed_default_locale": 1,
+        "ed_id": 1011,
+        "last_updated": "2014-06-17T01:33:25Z",
+        "ed_role_id": 0,
+        "ed_suffix": "",
+        "ed_bio": "",
+        "resource_type": "editor",
+        "ed_title": ""
+      },
+      "content_type_data": "",
+      "ad_category": {
+        "ad_category_name": "Sex",
+        "ad_category_id": 5,
+        "resource_type": "ad_category",
+        "ad_category_parent_id": 0,
+        "ad_category_prefix": "sex"
+      },
+      "tags_text": "",
+      "autopublish": 0,
+      "ad_category_id": 5,
+      "metadata": [
+        {
+          "meta_value": "sexy vs skanky,hello style youtube",
+          "meta_key": "archive_tag"
+        },
+        {
+          "meta_value": "a:2:{s:5:\"count\";i:0;s:7:\"updated\";s:25:\"2015-04-13T15:05:39-04:00\";}",
+          "meta_key": "comments.facebook.count"
+        },
+        {
+          "meta_value": "a:3:{s:5:\"count\";i:0;s:8:\"featured\";i:0;s:7:\"updated\";i:1413033197;}",
+          "meta_key": "comments.livefyre.count"
+        },
+        {
+          "meta_value": "",
+          "meta_key": "custom_canonical"
+        },
+        {
+          "meta_value": "",
+          "meta_key": "google_news_keywords"
+        },
+        {
+          "meta_value": "0",
+          "meta_key": "hide_from_external_search_and_sitemap"
+        },
+        {
+          "meta_value": "0",
+          "meta_key": "hide_from_internal_search"
+        },
+        {
+          "meta_value": "15882094",
+          "meta_key": "magnus_id"
+        },
+        {
+          "meta_value": "296",
+          "meta_key": "magnus_type_id"
+        },
+        {
+          "meta_value": "/celebrity/news/sexy-vs-skanky-style-relationship-dealbreaker",
+          "meta_key": "magnus_url"
+        },
+        {
+          "meta_value": "On this week's episode of our hot YouTube series, Sexy vs. Skanky, find out how your style might be keeping you single.",
+          "meta_key": "meta_description"
+        },
+        {
+          "meta_value": "sexy vs skanky, hello style youtube",
+          "meta_key": "meta_keywords"
+        },
+        {
+          "meta_value": "How Your Style Is Keeping You Single - Sexy Vs Skanky",
+          "meta_key": "meta_title"
+        },
+        {
+          "meta_value": "",
+          "meta_key": "more_editors"
+        },
+        {
+          "meta_value": "0",
+          "meta_key": "nofollow"
+        },
+        {
+          "meta_value": "0",
+          "meta_key": "nofollow_related_links"
+        },
+        {
+          "meta_value": "1",
+          "meta_key": "paragraph_count"
+        },
+        {
+          "meta_value": "a:6:{i:0;a:3:{s:4:\"uuid\";s:54:\"201ca2ff|articles|82f0f9e6-f64d-11e3-8458-0a3017bc9cac\";s:14:\"seo_link_title\";s:65:\"Sexy vs . Skanky - Sexy Vs . Skanky on Hello Style - Cosmopolitan\";s:12:\"seo_link_url\";s:52:\"/health-fitness/news/a10283/makeover-sexy-vs-skanky/\";}i:1;a:3:{s:4:\"uuid\";s:54:\"201ca2ff|articles|d19e40ea-f67e-11e3-a234-0a3017bc9cac\";s:14:\"seo_link_title\";s:55:\"[Update] Woman Confronts Her Alleged Rapist on YouTube \";s:12:\"seo_link_url\";s:66:\"/lifestyle/news/a19857/jamie-carrillo-andrea-cardosa-sexual-abuse/\";}i:2;a:3:{s:4:\"uuid\";s:54:\"201ca2ff|articles|4bdd674a-f653-11e3-b349-0a3017bc9cac\";s:14:\"seo_link_title\";s:59:\"The Funniest Moments From Our YouTube Show: Sexy vs Skanky \";s:12:\"seo_link_url\";s:47:\"/lifestyle/news/a12477/sexy-vs-skanky-bloopers/\";}i:3;a:3:{s:4:\"uuid\";s:59:\"201ca2ff|images_groups|a770d2dc-f5fd-11e3-9315-0a3017bc9cac\";s:14:\"seo_link_title\";s:44:\"The Best New York Fashion Week Street Style \";s:12:\"seo_link_url\";s:66:\"/style-beauty/fashion/advice/g3821/best-nyfw-fw-2014-street-style/\";}i:4;a:3:{s:4:\"uuid\";s:54:\"201ca2ff|articles|288b6716-f634-11e3-b3ac-0a3017bc9cac\";s:14:\"seo_link_title\";s:53:\"13 Sexy Eye Makeup Looks You Can Do in 5 Minutes Flat\";s:12:\"seo_link_url\";s:56:\"/style-beauty/beauty/how-to/a6345/sexy-eye-makeup-looks/\";}i:5;a:3:{s:4:\"uuid\";s:54:\"201ca2ff|articles|c457277a-f68e-11e3-aed6-0a3017bc9cac\";s:14:\"seo_link_title\";s:34:\"Makeup How-To: Sexy Cobalt Cat Eye\";s:12:\"seo_link_url\";s:62:\"/style-beauty/beauty/how-to/a23395/sexy-cobalt-cat-eye-how-to/\";}}",
+          "meta_key": "seo_related_link"
+        },
+        {
+          "meta_value": "0",
+          "meta_key": "shares_facebook"
+        },
+        {
+          "meta_value": "0",
+          "meta_key": "shares_googleplus"
+        },
+        {
+          "meta_value": "0",
+          "meta_key": "shares_pinterest"
+        },
+        {
+          "meta_value": "2",
+          "meta_key": "shares_twitter"
+        },
+        {
+          "meta_value": "0",
+          "meta_key": "_comments_count"
+        },
+        {
+          "meta_value": "0",
+          "meta_key": "_comments_featured"
+        },
+        {
+          "meta_value": "1409818713",
+          "meta_key": "_comments_updated"
+        },
+        {
+          "meta_value": "a:3:{s:5:\"count\";i:0;s:8:\"featured\";i:0;s:7:\"updated\";i:1409818713;}",
+          "meta_key": "_comment_data"
+        }
+      ],
+      "updated_date": "2014-07-10T23:02:18Z",
+      "content_topics": [
+        {
+          "topic": "hello style",
+          "type": 2
+        },
+        {
+          "topic": "sexy vs. skanky",
+          "type": 2
+        }
+      ],
+      "body": "<!--  PAGE_BREAK:1 -->\n\n[youtube]http://www.youtube.com/watch?v=Ow3fqSKOrYE[/youtube]\n\nThis week, <i>SVS</i> hosts Mike Cannon and Lyndsey Rodrigues get a little help from Cosmo senior editor Jessica Knoll to discuss how your style might be keeping you single.\n\nCheck out the show above and <a href=\"http://www.youtube.com/user/HelloStyleChannel\">click here</a> to subscribe to <i>Hello Style</i> (it's free!), so you can get your Sexy vs. Skanky fix every week.",
+      "section_id": 2,
+      "visibility": 1,
+      "image_id": 79694,
+      "show_on_feed": null,
+      "related_articles": "",
+      "editor_byline": "",
+      "company_tags": "",
+      "sponsor_id": 0,
+      "collection_id": 0,
+      "related_videos": "",
+      "slug": "sexy-vs-skanky-style-relationship-dealbreaker",
+      "product_tags": "",
+      "print_issue_date": "2009-09-01T16:00:00Z",
+      "autopublishdate": "1970-01-01T00:00:00Z",
+      "syndication_rights": 0,
+      "content_type_id": 7,
+      "related_articles_state": 0,
+      "url": "http://www.cosmopolitan.com/sex-love/videos/a15459/sexy-vs-skanky-style-relationship-dealbreaker/",
+      "topic_tags": "sexy vs. skanky,hello style",
+      "notes": "<p>imported from MAGNUS article 15882094 AT <a target=\"_blank\" href=\"http://www.cosmopolitan.com/sexy-vs-skanky-style-relationship-dealbreaker/\">this link</a><p>archive_tags = sexy vs skanky,hello style youtube</p></p><p>article_type = 296</p>",
+      "image_group_id": 0,
+      "editor2": 0,
+      "imgarticle_id": 0,
+      "short_title": "Sexy Vs. Skanky: How Your Style Is Keeping You Single",
+      "expirationdate": null,
+      "created_date": "2014-06-17T20:46:53Z",
+      "source_id": 12,
+      "related_videos_state": 0,
+      "content_id": 19508,
+      "section": {
+        "meta_keywords": "sex, love, positions, dating advice, guys, relationship advice",
+        "last_updated": "2014-11-13T13:19:08Z",
+        "hdr_url": "",
+        "hdr_image_id": "",
+        "hdr_video_webm": "",
+        "image_child_id": 0,
+        "hdr_tracking_pixel": "",
+        "section_ramsname": "Sex & Relationships",
+        "exclude_from_homepage": 0,
+        "meta_description": "Get advice from the experts at Cosmo about sex, relationships, dating, how to meet men, and what guys want.",
+        "section_url": "sex-love",
+        "sub_heading": "",
+        "section_site_id": 1,
+        "hdr_video_fallback": "",
+        "hdr_type": "",
+        "hdr_video_mp4": "",
+        "section_isactive": 1,
+        "meta_title": "Love and Sex Advice - Sex Moves, Love Life, Relationships, and Dating - Cosmopolitan",
+        "description": "",
+        "section_id": 2,
+        "image_id": 0,
+        "section_name": null,
+        "section_sitename": "Sex & Relationships",
+        "section_sitename_short": "Sex & Relationships",
+        "nofollow": 0,
+        "hide_from_external_search_and_sitemap": 0,
+        "resource_type": "section"
+      },
+      "resource_type": "article",
+      "imgarticle_align": 0
+    },
+    {
+      "imgarticle_child_id": 0,
+      "last_updated": "2014-07-10T22:56:33Z",
+      "content_type": {
+        "meta_keywords": "",
+        "last_updated": "2014-06-16T21:14:34Z",
+        "hdr_url": "",
+        "hdr_image_id": "",
+        "image_child_id": null,
+        "hdr_tracking_pixel": "",
+        "content_type_url": "videos",
+        "hdr_type": "",
+        "meta_description": "",
+        "content_type_sitename_short": null,
+        "sub_heading": null,
+        "hdr_video_webm": "",
+        "hdr_video_fallback": "",
+        "include_slug": 1,
+        "hdr_video_mp4": "",
+        "meta_title": "",
+        "description": null,
+        "image_id": null,
+        "content_type_name": null,
+        "content_type_sitename": "Video",
+        "content_type_id": 7,
+        "content_type_isactive": 1,
+        "nofollow": 0,
+        "managing_editor_only": 0,
+        "content_type_ramsname": "Video",
+        "hide_from_external_search_and_sitemap": 0
+      },
+      "yviews": 1,
+      "site_id": 1,
+      "editor3": 0,
+      "date": "2013-08-27T20:55:00Z",
+      "image_child_id": 0,
+      "live_updates": 0,
+      "images": [
+        {
+          "last_updated": "2014-07-10T22:56:32Z",
+          "file_name": "53a0ac7acf00f_-_cos-01-dakota-fanning-xl.jpg",
+          "cdn": 2,
+          "site_id": 1,
+          "height": 405,
+          "date": 1405032962,
+          "keywords": "dakota fanning",
+          "shape_id": 0,
+          "image_caption": "",
+          "image_provider": 0,
+          "uuid": "201ca2ff|images|71e510a0-f662-11e3-b7e8-0a3017bc9cac",
+          "copyright": "",
+          "shape_largest": 0,
+          "section_url": "sex-love",
+          "section": {
+            "meta_keywords": "sex, love, positions, dating advice, guys, relationship advice",
+            "last_updated": "2014-11-13T13:19:08Z",
+            "hdr_url": "",
+            "hdr_image_id": "",
+            "hdr_video_webm": "",
+            "image_child_id": 0,
+            "hdr_tracking_pixel": "",
+            "section_ramsname": "Sex & Relationships",
+            "exclude_from_homepage": 0,
+            "meta_description": "Get advice from the experts at Cosmo about sex, relationships, dating, how to meet men, and what guys want.",
+            "section_url": "sex-love",
+            "sub_heading": "",
+            "section_site_id": 1,
+            "hdr_video_fallback": "",
+            "hdr_type": "",
+            "hdr_video_mp4": "",
+            "section_isactive": 1,
+            "meta_title": "Love and Sex Advice - Sex Moves, Love Life, Relationships, and Dating - Cosmopolitan",
+            "description": "",
+            "section_id": 2,
+            "image_id": 0,
+            "section_name": null,
+            "section_sitename": "Sex & Relationships",
+            "section_sitename_short": "Sex & Relationships",
+            "nofollow": 0,
+            "hide_from_external_search_and_sitemap": 0,
+            "resource_type": "section"
+          },
+          "date_expiry": 0,
+          "file_domain": "http://cos.h-cdn.co",
+          "id": 79071,
+          "width": 720,
+          "start_date": 1403038800,
+          "tags_text": "",
+          "file_path": "/cm/14/25/",
+          "content_tags": null,
+          "description": "",
+          "section_id": 2,
+          "nouse": 0,
+          "ed_id": 1,
+          "image_title": null,
+          "placeholder": null,
+          "limited_rights": 0,
+          "product_tags": "",
+          "syndication_rights": 0,
+          "url": "http://cos.h-cdn.co/assets/cm/14/25/53a0ac7acf00f_-_cos-01-dakota-fanning-xl.jpg",
+          "bytes": 44964,
+          "brand_tags": null,
+          "image_rights": 0,
+          "animated": 0,
+          "resource_type": "image"
+        }
+      ],
+      "subsection_id": 0,
+      "content_type_url": "videos",
+      "id": 15379,
+      "issue_date": "",
+      "live_updates_timezone": 0,
+      "featured_promotion_toggle": 0,
+      "title": "Sexy Vs. Skanky: The Best and Worst Celeb Style Transformations",
+      "section_url": "sex-love",
+      "sub_heading": "On this week's episode of our hot YouTube series, Sexy vs. Skanky, find out the best celeb style transformations.",
+      "hdw_data": "[]",
+      "priority": 0,
+      "abs": "On this week's episode of our hot YouTube series, Sexy vs. Skanky, find out the best celeb style transformations.",
+      "featured_promotion_url": null,
+      "editor": {
+        "ed_nickname": "",
+        "ed_lastname": "Adeeyo",
+        "ed_middlename": "",
+        "ed_email": "unknown@hearst.com",
+        "ed_firstname": "Dara",
+        "ed_email_public": "",
+        "ed_jobtitle": "",
+        "ed_username": "dara.adeeyo",
+        "ed_fullname": "Dara Adeeyo",
+        "ed_default_locale": 1,
+        "ed_id": 1011,
+        "last_updated": "2014-06-17T01:33:25Z",
+        "ed_role_id": 0,
+        "ed_suffix": "",
+        "ed_bio": "",
+        "resource_type": "editor",
+        "ed_title": ""
+      },
+      "content_type_data": "",
+      "ad_category": {
+        "ad_category_name": "Sex",
+        "ad_category_id": 5,
+        "resource_type": "ad_category",
+        "ad_category_parent_id": 0,
+        "ad_category_prefix": "sex"
+      },
+      "tags_text": "",
+      "autopublish": 0,
+      "ad_category_id": 5,
+      "metadata": [
+        {
+          "meta_value": "sexy vs skanky,hello style youtube",
+          "meta_key": "archive_tag"
+        },
+        {
+          "meta_value": "a:2:{s:5:\"count\";i:1;s:7:\"updated\";s:25:\"2015-05-03T14:28:05-04:00\";}",
+          "meta_key": "comments.facebook.count"
+        },
+        {
+          "meta_value": "a:3:{s:5:\"count\";i:0;s:8:\"featured\";i:0;s:7:\"updated\";i:1413033208;}",
+          "meta_key": "comments.livefyre.count"
+        },
+        {
+          "meta_value": "",
+          "meta_key": "custom_canonical"
+        },
+        {
+          "meta_value": "",
+          "meta_key": "google_news_keywords"
+        },
+        {
+          "meta_value": "0",
+          "meta_key": "hide_from_external_search_and_sitemap"
+        },
+        {
+          "meta_value": "0",
+          "meta_key": "hide_from_internal_search"
+        },
+        {
+          "meta_value": "15855400",
+          "meta_key": "magnus_id"
+        },
+        {
+          "meta_value": "296",
+          "meta_key": "magnus_type_id"
+        },
+        {
+          "meta_value": "/celebrity/news/sexy-vs-skanky-celeb-style-transformation",
+          "meta_key": "magnus_url"
+        },
+        {
+          "meta_value": "On this week's episode of our hot YouTube series, Sexy vs. Skanky, find out the best celeb style transformations.",
+          "meta_key": "meta_description"
+        },
+        {
+          "meta_value": "sexy vs skanky, hello style youtube",
+          "meta_key": "meta_keywords"
+        },
+        {
+          "meta_value": "The Best and Worst Celeb Style Transformations - Sexy Vs Skanky",
+          "meta_key": "meta_title"
+        },
+        {
+          "meta_value": "",
+          "meta_key": "more_editors"
+        },
+        {
+          "meta_value": "0",
+          "meta_key": "nofollow"
+        },
+        {
+          "meta_value": "0",
+          "meta_key": "nofollow_related_links"
+        },
+        {
+          "meta_value": "1",
+          "meta_key": "paragraph_count"
+        },
+        {
+          "meta_value": "a:6:{i:0;a:3:{s:4:\"uuid\";s:54:\"201ca2ff|articles|82f0f9e6-f64d-11e3-8458-0a3017bc9cac\";s:14:\"seo_link_title\";s:65:\"Sexy vs . Skanky - Sexy Vs . Skanky on Hello Style - Cosmopolitan\";s:12:\"seo_link_url\";s:52:\"/health-fitness/news/a10283/makeover-sexy-vs-skanky/\";}i:1;a:3:{s:4:\"uuid\";s:54:\"201ca2ff|articles|d19e40ea-f67e-11e3-a234-0a3017bc9cac\";s:14:\"seo_link_title\";s:55:\"[Update] Woman Confronts Her Alleged Rapist on YouTube \";s:12:\"seo_link_url\";s:66:\"/lifestyle/news/a19857/jamie-carrillo-andrea-cardosa-sexual-abuse/\";}i:2;a:3:{s:4:\"uuid\";s:54:\"201ca2ff|articles|4bdd674a-f653-11e3-b349-0a3017bc9cac\";s:14:\"seo_link_title\";s:59:\"The Funniest Moments From Our YouTube Show: Sexy vs Skanky \";s:12:\"seo_link_url\";s:47:\"/lifestyle/news/a12477/sexy-vs-skanky-bloopers/\";}i:3;a:3:{s:4:\"uuid\";s:54:\"201ca2ff|articles|837ad1d0-f660-11e3-8861-0a3017bc9cac\";s:14:\"seo_link_title\";s:55:\"Sexy Vs . Skanky : How Your Style Is Keeping You Single\";s:12:\"seo_link_url\";s:70:\"/sex-love/videos/a15459/sexy-vs-skanky-style-relationship-dealbreaker/\";}i:4;a:3:{s:4:\"uuid\";s:59:\"201ca2ff|images_groups|a770d2dc-f5fd-11e3-9315-0a3017bc9cac\";s:14:\"seo_link_title\";s:44:\"The Best New York Fashion Week Street Style \";s:12:\"seo_link_url\";s:66:\"/style-beauty/fashion/advice/g3821/best-nyfw-fw-2014-street-style/\";}i:5;a:3:{s:4:\"uuid\";s:54:\"201ca2ff|articles|288b6716-f634-11e3-b3ac-0a3017bc9cac\";s:14:\"seo_link_title\";s:53:\"13 Sexy Eye Makeup Looks You Can Do in 5 Minutes Flat\";s:12:\"seo_link_url\";s:56:\"/style-beauty/beauty/how-to/a6345/sexy-eye-makeup-looks/\";}}",
+          "meta_key": "seo_related_link"
+        },
+        {
+          "meta_value": "0",
+          "meta_key": "shares_facebook"
+        },
+        {
+          "meta_value": "1",
+          "meta_key": "shares_googleplus"
+        },
+        {
+          "meta_value": "0",
+          "meta_key": "shares_pinterest"
+        },
+        {
+          "meta_value": "3",
+          "meta_key": "shares_twitter"
+        },
+        {
+          "meta_value": "0",
+          "meta_key": "_comments_count"
+        },
+        {
+          "meta_value": "0",
+          "meta_key": "_comments_featured"
+        },
+        {
+          "meta_value": "1409800617",
+          "meta_key": "_comments_updated"
+        },
+        {
+          "meta_value": "a:3:{s:5:\"count\";i:0;s:8:\"featured\";i:0;s:7:\"updated\";i:1409800617;}",
+          "meta_key": "_comment_data"
+        }
+      ],
+      "updated_date": "2014-07-10T22:56:06Z",
+      "content_topics": [
+        {
+          "topic": "hello style",
+          "type": 2
+        },
+        {
+          "topic": "sexy vs. skanky",
+          "type": 2
+        }
+      ],
+      "body": "<!--  PAGE_BREAK:1 -->\n\n[youtube]http://www.youtube.com/watch?v=V3D5s88qr2w[/youtube]\n\nThis week, <i>SVS</i> hosts Mike Cannon and Lyndsey Rodrigues get a little help from Cosmo Radio host Taylor Strecker to discuss the best celeb style transformations.\n\nCheck out the show above and <a href=\"http://www.youtube.com/user/HelloStyleChannel\">click here</a> to subscribe to <i>Hello Style</i> (it's free!), so you can get your Sexy vs. Skanky fix every week.",
+      "section_id": 2,
+      "visibility": 1,
+      "image_id": 79071,
+      "show_on_feed": null,
+      "related_articles": "",
+      "editor_byline": "",
+      "company_tags": "",
+      "sponsor_id": 0,
+      "collection_id": 0,
+      "related_videos": "",
+      "slug": "sexy-vs-skanky-celeb-style-transformation",
+      "product_tags": "",
+      "print_issue_date": "2009-09-01T16:00:00Z",
+      "autopublishdate": "1970-01-01T00:00:00Z",
+      "syndication_rights": 0,
+      "content_type_id": 7,
+      "related_articles_state": 0,
+      "url": "http://www.cosmopolitan.com/sex-love/videos/a15379/sexy-vs-skanky-celeb-style-transformation/",
+      "topic_tags": "sexy vs. skanky,hello style",
+      "notes": "<p>imported from MAGNUS article 15855400 AT <a target=\"_blank\" href=\"http://www.cosmopolitan.com/sexy-vs-skanky-celeb-style-transformation/\">this link</a><p>archive_tags = sexy vs skanky,hello style youtube</p></p><p>article_type = 296</p>",
+      "image_group_id": 0,
+      "editor2": 0,
+      "imgarticle_id": 0,
+      "short_title": "Sexy Vs. Skanky: The Best and Worst Celeb Style Transformations",
+      "expirationdate": null,
+      "created_date": "2014-06-17T20:46:32Z",
+      "source_id": 12,
+      "related_videos_state": 0,
+      "content_id": 19428,
+      "section": {
+        "meta_keywords": "sex, love, positions, dating advice, guys, relationship advice",
+        "last_updated": "2014-11-13T13:19:08Z",
+        "hdr_url": "",
+        "hdr_image_id": "",
+        "hdr_video_webm": "",
+        "image_child_id": 0,
+        "hdr_tracking_pixel": "",
+        "section_ramsname": "Sex & Relationships",
+        "exclude_from_homepage": 0,
+        "meta_description": "Get advice from the experts at Cosmo about sex, relationships, dating, how to meet men, and what guys want.",
+        "section_url": "sex-love",
+        "sub_heading": "",
+        "section_site_id": 1,
+        "hdr_video_fallback": "",
+        "hdr_type": "",
+        "hdr_video_mp4": "",
+        "section_isactive": 1,
+        "meta_title": "Love and Sex Advice - Sex Moves, Love Life, Relationships, and Dating - Cosmopolitan",
+        "description": "",
+        "section_id": 2,
+        "image_id": 0,
+        "section_name": null,
+        "section_sitename": "Sex & Relationships",
+        "section_sitename_short": "Sex & Relationships",
+        "nofollow": 0,
+        "hide_from_external_search_and_sitemap": 0,
+        "resource_type": "section"
+      },
+      "resource_type": "article",
+      "imgarticle_align": 0
+    },
+    {
+      "imgarticle_child_id": 0,
+      "last_updated": "2014-08-01T16:35:53Z",
+      "content_type": {
+        "meta_keywords": "",
+        "last_updated": "2014-06-16T21:14:34Z",
+        "hdr_url": "",
+        "hdr_image_id": "",
+        "image_child_id": null,
+        "hdr_tracking_pixel": "",
+        "content_type_url": "videos",
+        "hdr_type": "",
+        "meta_description": "",
+        "content_type_sitename_short": null,
+        "sub_heading": null,
+        "hdr_video_webm": "",
+        "hdr_video_fallback": "",
+        "include_slug": 1,
+        "hdr_video_mp4": "",
+        "meta_title": "",
+        "description": null,
+        "image_id": null,
+        "content_type_name": null,
+        "content_type_sitename": "Video",
+        "content_type_id": 7,
+        "content_type_isactive": 1,
+        "nofollow": 0,
+        "managing_editor_only": 0,
+        "content_type_ramsname": "Video",
+        "hide_from_external_search_and_sitemap": 0
+      },
+      "yviews": 1,
+      "site_id": 1,
+      "editor3": 0,
+      "date": "2013-08-20T21:26:00Z",
+      "image_child_id": 0,
+      "live_updates": 0,
+      "images": [
+        {
+          "last_updated": "2014-06-17T21:03:26Z",
+          "file_name": "53a0ad1e32abc_-_cos-01-runway-nyfw-xl.jpg",
+          "cdn": 1,
+          "site_id": 1,
+          "height": 405,
+          "date": 1403039006,
+          "keywords": "fashion",
+          "shape_id": 0,
+          "image_caption": "",
+          "image_provider": 0,
+          "uuid": "201ca2ff|images|d3459f7c-f662-11e3-bb55-0a3017bc9cac",
+          "copyright": "",
+          "shape_largest": 0,
+          "section_url": "sex-love",
+          "section": {
+            "meta_keywords": "sex, love, positions, dating advice, guys, relationship advice",
+            "last_updated": "2014-11-13T13:19:08Z",
+            "hdr_url": "",
+            "hdr_image_id": "",
+            "hdr_video_webm": "",
+            "image_child_id": 0,
+            "hdr_tracking_pixel": "",
+            "section_ramsname": "Sex & Relationships",
+            "exclude_from_homepage": 0,
+            "meta_description": "Get advice from the experts at Cosmo about sex, relationships, dating, how to meet men, and what guys want.",
+            "section_url": "sex-love",
+            "sub_heading": "",
+            "section_site_id": 1,
+            "hdr_video_fallback": "",
+            "hdr_type": "",
+            "hdr_video_mp4": "",
+            "section_isactive": 1,
+            "meta_title": "Love and Sex Advice - Sex Moves, Love Life, Relationships, and Dating - Cosmopolitan",
+            "description": "",
+            "section_id": 2,
+            "image_id": 0,
+            "section_name": null,
+            "section_sitename": "Sex & Relationships",
+            "section_sitename_short": "Sex & Relationships",
+            "nofollow": 0,
+            "hide_from_external_search_and_sitemap": 0,
+            "resource_type": "section"
+          },
+          "date_expiry": 0,
+          "file_domain": "http://s3.amazonaws.com/hdm-prod-cosmo",
+          "id": 79351,
+          "width": 720,
+          "start_date": 1403038980,
+          "tags_text": "",
+          "file_path": "/cm/14/25/",
+          "content_tags": null,
+          "description": "",
+          "section_id": 2,
+          "nouse": 0,
+          "ed_id": 1,
+          "image_title": null,
+          "placeholder": null,
+          "limited_rights": 0,
+          "product_tags": "",
+          "syndication_rights": 0,
+          "url": "http://cos.h-cdn.co/assets/cm/14/25/53a0ad1e32abc_-_cos-01-runway-nyfw-xl.jpg",
+          "bytes": 40140,
+          "brand_tags": null,
+          "image_rights": 0,
+          "animated": 0,
+          "resource_type": "image"
+        }
+      ],
+      "subsection_id": 0,
+      "content_type_url": "videos",
+      "id": 15287,
+      "issue_date": "",
+      "live_updates_timezone": 0,
+      "featured_promotion_toggle": 0,
+      "title": "Sexy Vs. Skanky: The Best and Worst Fall Fashion Looks",
+      "section_url": "sex-love",
+      "sub_heading": "On this week's episode of our hot YouTube series, Sexy vs. Skanky, find out the best and worst fall fashion looks.",
+      "hdw_data": "[]",
+      "priority": 0,
+      "abs": "On this week's episode of our hot YouTube series, Sexy vs. Skanky, find out the best fall fashion looks.",
+      "featured_promotion_url": null,
+      "editor": {
+        "ed_nickname": "",
+        "ed_lastname": "Adeeyo",
+        "ed_middlename": "",
+        "ed_email": "unknown@hearst.com",
+        "ed_firstname": "Dara",
+        "ed_email_public": "",
+        "ed_jobtitle": "",
+        "ed_username": "dara.adeeyo",
+        "ed_fullname": "Dara Adeeyo",
+        "ed_default_locale": 1,
+        "ed_id": 1011,
+        "last_updated": "2014-06-17T01:33:25Z",
+        "ed_role_id": 0,
+        "ed_suffix": "",
+        "ed_bio": "",
+        "resource_type": "editor",
+        "ed_title": ""
+      },
+      "content_type_data": "",
+      "ad_category": {
+        "ad_category_name": "Relationships",
+        "ad_category_id": 12,
+        "resource_type": "ad_category",
+        "ad_category_parent_id": 0,
+        "ad_category_prefix": "relationships"
+      },
+      "tags_text": "",
+      "autopublish": 0,
+      "ad_category_id": 12,
+      "metadata": [
+        {
+          "meta_value": "sexy vs skanky,hello style youtube",
+          "meta_key": "archive_tag"
+        },
+        {
+          "meta_value": "a:2:{s:5:\"count\";i:0;s:7:\"updated\";s:25:\"2015-05-06T12:58:45-04:00\";}",
+          "meta_key": "comments.facebook.count"
+        },
+        {
+          "meta_value": "a:3:{s:5:\"count\";i:0;s:8:\"featured\";i:0;s:7:\"updated\";i:1413196035;}",
+          "meta_key": "comments.livefyre.count"
+        },
+        {
+          "meta_value": "",
+          "meta_key": "custom_canonical"
+        },
+        {
+          "meta_value": "",
+          "meta_key": "google_news_keywords"
+        },
+        {
+          "meta_value": "15832085",
+          "meta_key": "magnus_id"
+        },
+        {
+          "meta_value": "/celebrity/news/sexy-vs-skanky-fall-fashion-looks",
+          "meta_key": "magnus_url"
+        },
+        {
+          "meta_value": "On this week's episode of our hot YouTube series, Sexy vs. Skanky, find out the best fall fashion looks.",
+          "meta_key": "meta_description"
+        },
+        {
+          "meta_value": "sexy vs skanky, hello style youtube",
+          "meta_key": "meta_keywords"
+        },
+        {
+          "meta_value": "Sexy Vs. Skanky: The Best Fall Fashion Looks - Sexy Vs Skanky",
+          "meta_key": "meta_title"
+        },
+        {
+          "meta_value": "",
+          "meta_key": "more_editors"
+        },
+        {
+          "meta_value": "0",
+          "meta_key": "nofollow_related_links"
+        },
+        {
+          "meta_value": "1",
+          "meta_key": "paragraph_count"
+        },
+        {
+          "meta_value": "",
+          "meta_key": "seo_related_link"
+        },
+        {
+          "meta_value": "0",
+          "meta_key": "shares_facebook"
+        },
+        {
+          "meta_value": "0",
+          "meta_key": "shares_googleplus"
+        },
+        {
+          "meta_value": "0",
+          "meta_key": "shares_pinterest"
+        },
+        {
+          "meta_value": "0",
+          "meta_key": "shares_twitter"
+        },
+        {
+          "meta_value": "0",
+          "meta_key": "_comments_count"
+        },
+        {
+          "meta_value": "0",
+          "meta_key": "_comments_featured"
+        },
+        {
+          "meta_value": "1409826215",
+          "meta_key": "_comments_updated"
+        },
+        {
+          "meta_value": "a:3:{s:5:\"count\";i:0;s:8:\"featured\";i:0;s:7:\"updated\";i:1409826215;}",
+          "meta_key": "_comment_data"
+        }
+      ],
+      "updated_date": "2014-07-07T15:32:48Z",
+      "content_topics": [],
+      "body": "<!--  PAGE_BREAK:1 -->\n<!--  PAGE_BREAK:1 -->\n\n[youtube]http://www.youtube.com/watch?v=cScJHIsK4gg[/youtube]\n\nThis week, <em>SVS</em> hosts Mike Cannon and Lyndsey Rodrigues get a little help from style expert &amp; YouTube guru Carly Cristman to discuss fall fashion.\n\nCheck out the show above and <a href=\"http://www.youtube.com/user/HelloStyleChannel\" target=\"_blank\">click here</a> to subscribe to <em>Hello Style</em> (it's free!), so you can get your Sexy vs. Skanky fix every week.",
+      "section_id": 2,
+      "visibility": 1,
+      "image_id": 79351,
+      "show_on_feed": 0,
+      "related_articles": "",
+      "editor_byline": "By",
+      "company_tags": "",
+      "sponsor_id": 0,
+      "collection_id": 63,
+      "related_videos": "",
+      "slug": "sexy-vs-skanky-fall-fashion-looks",
+      "product_tags": "",
+      "print_issue_date": "2009-09-01T18:00:00Z",
+      "autopublishdate": "1970-01-01T00:00:00Z",
+      "syndication_rights": 0,
+      "content_type_id": 7,
+      "related_articles_state": 0,
+      "url": "http://www.cosmopolitan.com/sex-love/videos/a15287/sexy-vs-skanky-fall-fashion-looks/",
+      "topic_tags": "",
+      "notes": "<p>imported from MAGNUS article 15832085 AT <a target=\"_blank\" href=\"http://www.cosmopolitan.com/sexy-vs-skanky-fall-fashion-looks/\">this link</a><p>archive_tags = sexy vs skanky,hello style youtube</p></p><p>article_type = 296</p>",
+      "image_group_id": 0,
+      "editor2": 0,
+      "imgarticle_id": 0,
+      "short_title": "Sexy Vs. Skanky: The Best and Worst Fall Fashion Looks",
+      "expirationdate": "1970-01-01T00:00:00Z",
+      "created_date": "2014-06-17T20:46:06Z",
+      "source_id": 12,
+      "related_videos_state": 0,
+      "content_id": 19336,
+      "section": {
+        "meta_keywords": "sex, love, positions, dating advice, guys, relationship advice",
+        "last_updated": "2014-11-13T13:19:08Z",
+        "hdr_url": "",
+        "hdr_image_id": "",
+        "hdr_video_webm": "",
+        "image_child_id": 0,
+        "hdr_tracking_pixel": "",
+        "section_ramsname": "Sex & Relationships",
+        "exclude_from_homepage": 0,
+        "meta_description": "Get advice from the experts at Cosmo about sex, relationships, dating, how to meet men, and what guys want.",
+        "section_url": "sex-love",
+        "sub_heading": "",
+        "section_site_id": 1,
+        "hdr_video_fallback": "",
+        "hdr_type": "",
+        "hdr_video_mp4": "",
+        "section_isactive": 1,
+        "meta_title": "Love and Sex Advice - Sex Moves, Love Life, Relationships, and Dating - Cosmopolitan",
+        "description": "",
+        "section_id": 2,
+        "image_id": 0,
+        "section_name": null,
+        "section_sitename": "Sex & Relationships",
+        "section_sitename_short": "Sex & Relationships",
+        "nofollow": 0,
+        "hide_from_external_search_and_sitemap": 0,
+        "resource_type": "section"
+      },
+      "resource_type": "article",
+      "imgarticle_align": 0
+    }
+  ],
+  "_version": "v1"
+}
