@@ -1,0 +1,131 @@
+Article:
+
+"imgarticle_child_id": 0
+"subsection_url": "music"
+"last_updated": "2014-12-18T15:43:51Z"
+"content_type": {}
+"yviews": 1,
+"site_id": 1,
+"editor3": 0,
+"date": "2014-12-18T15:11:00Z",
+"image_child_id": 0,
+"live_updates": 0,
+"images": []
+"subsection_id": 15,
+"content_type_url": "articles",
+"id": 34385,
+"issue_date": "",
+"live_updates_timezone": 0,
+"featured_promotion_toggle": 0,
+"title": "Sexy Pop Star Amputee Releases Empowering New Video",
+"section_url": "entertainment",
+"sub_heading": "Viktoria Modesta's new video, \"Prototype,\" is like nothing you've seen before.",
+"hdw_data": "[]",
+"priority": 1,
+"metadata": []
+"abs": "Viktoria Modesta's new video, \"Prototype,\" is like nothing you've seen before.",
+"featured_promotion_url": null,
+"editor": 0,
+"content_type_data": "",
+"ad_category": {}
+"tags_text": "viktoria modesta",
+"autopublish": 0,
+"ad_category_id": 17,
+"subsection": {}
+"updated_date": "2014-12-18T15:43:51Z",
+"content_topics": []
+"body": "... snip ...",
+"section_id": 3,
+"visibility": 1,
+"image_id": 159169,
+"show_on_feed": 0,
+"related_articles": "",
+"editor_byline": "By",
+"company_tags": "",
+"sponsor_id": 0,
+"collection_id": 0,
+"related_videos": "",
+"slug": "viktoria-modesta-bionic-pop-star",
+"product_tags": "",
+"print_issue_date": "2014-12-01T00:00:00Z",
+"autopublishdate": "2014-12-18T15:11:00Z",
+"syndication_rights": 0,
+"content_type_id": 5,
+"related_articles_state": 0,
+"url": "http://www.cosmopolitan.com/entertainment/music/a34385/viktoria-modesta-bionic-pop-star/",
+"topic_tags": "",
+"notes": "Content syndicated via MAGNUS (url: http://www.elle.com/news/culture/viktoria-modesta-bionic-pop-star) to RAMS automagically.",
+"image_group_id": 0,
+"editor2": 0,
+"imgarticle_id": 0,
+"short_title": "Sexy Pop Star Amputee Releases Empowering New Video",
+"expirationdate": "1970-01-01T00:00:00Z",
+"created_date": "2014-12-18T14:57:04Z",
+"source_id": 7,
+"related_videos_state": 0,
+"content_id": 38901,
+"section": {}
+"resource_type": "article",
+"imgarticle_align": 0
+
+
+Gallery:
+"imgarticle_child_id": 0,
+"subsection_url": "beauty",
+"subsection_id": 6,
+"content_type": {}
+"yviews": 0,
+"site_id": 1,
+"content_id": 36265,
+"editor3": 0,
+"date": "2014-10-08T21:55:00Z",
+"image_child_id": 0,
+"images": [] // size == 1
+"last_updated": "2014-10-23T13:19:18Z",
+"content_type_url": "advice",
+"issue_date": "",
+"featured_promotion_toggle": 0,
+"title": "Sexy Yet Spooky Halloween Makeup Looks",
+"section_url": "style-beauty",
+"sub_heading": "They're boo-tiful!",
+"hdw_data": "[]",
+"priority": 1,
+"metadata": []
+"abs": "They're boo-tiful!",
+"featured_promotion_url": null,
+"editor": {}
+"ad_category": {}
+"tags_text": "",
+"product_tags": "",
+"ad_category_id": 19,
+"subsection": {}
+"updated_date": "2014-10-23T13:19:18Z",
+"content_topics": []
+"body": "",
+"section_id": 4,
+"visibility": 1,
+"autopublish": 0,
+"image_id": 147156,
+"show_on_feed": 0,
+"editor_byline": "By",
+"company_tags": "",
+"sponsor_id": 0,
+"collection_id": 15,
+"slug": "sexy-yet-spooky-halloween-makeup-looks",
+"layout_option": 1,
+"print_issue_date": "1970-01-01T00:00:00Z",
+"syndication_rights": 3,
+"content_type_id": 2,
+"autopublishdate": "2014-10-08T21:55:00Z",
+"url": "http://www.cosmopolitan.com/style-beauty/beauty/advice/g4362/sexy-yet-spooky-halloween-makeup-looks/",
+"topic_tags": "makeup,halloween,costume makeup",
+"notes": "",
+"editor2": 0,
+"imgarticle_id": 0,
+"short_title": "Sexy Yet Spooky Halloween Makeup Looks",
+"expirationdate": "1970-01-01T00:00:00Z",
+"created_date": "2014-10-08T16:01:29Z",
+"source_id": 12,
+"group_id": 4362,
+"section": {}
+"resource_type": "gallery"

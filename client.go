@@ -14,7 +14,7 @@ type client struct {
 
 func (c *client) GetContent(req Request) (Response, error) {
 	c.addRequestContext(&req)
-	return doAPICall(Content, req)
+	return doAPICall(ContentAPI, req)
 }
 
 func (c *client) addRequestContext(req *Request) {

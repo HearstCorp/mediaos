@@ -11,14 +11,14 @@ const (
 type Endpoint string
 
 const (
-	Content      Endpoint = "content"
-	Articles     Endpoint = "articles"
-	Galleries    Endpoint = "galleries"
-	Images       Endpoint = "images"
-	Editors      Endpoint = "editors"
-	Sections     Endpoint = "sections"
-	Subsections  Endpoint = "subsections"
-	AdCategories Endpoint = "ad_categories"
+	ContentAPI      Endpoint = "content"
+	ArticlesAPI     Endpoint = "articles"
+	GalleriesAPI    Endpoint = "galleries"
+	ImagesAPI       Endpoint = "images"
+	EditorsAPI      Endpoint = "editors"
+	SectionsAPI     Endpoint = "sections"
+	SubsectionsAPI  Endpoint = "subsections"
+	AdCategoriesAPI Endpoint = "ad_categories"
 )
 
 // Visibility flags what content states to return: published, draft, or both
