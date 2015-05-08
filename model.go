@@ -25,6 +25,8 @@ const (
 // Request is a convenient container for API request params. It is a superset of
 // all valid request params across all API endpoints.
 type Request struct {
+	ID            int // articles
+	GroupID       int // galleries, for some reason
 	Title         string
 	Slug          string
 	ContentTypeID []int
@@ -59,11 +61,13 @@ type Response struct {
 
 // Content represents an article or gallery (or listicle, etc.)
 type Content struct {
-	ID     int     `json:"content_id"`
-	Type   ResType `json:"resource_type"`
-	Title  string  `json:"title"`
-	Images []Image `json:"images"`
-	URL    string  `json:"url"`
+	ID        int     `json:"id"`
+	ContentID int     `json:"content_id"`
+	GroupID   int     `json:"group_id"`
+	Type      ResType `json:"resource_type"`
+	Title     string  `json:"title"`
+	Images    []Image `json:"images"`
+	URL       string  `json:"url"`
 }
 
 // Image represents an image object

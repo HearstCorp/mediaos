@@ -12,6 +12,8 @@ func prepareParams(apiKey string, req Request) (params url.Values) {
 
 	params.Set("_key", apiKey)
 
+	setIntParam("id", req.ID, &params)
+	setIntParam("group_id", req.GroupID, &params)
 	setStringParam("title", req.Title, &params)
 	setStringParam("slug", req.Slug, &params)
 	setIntListParam("content_type_id", req.ContentTypeID, &params)
@@ -40,6 +42,14 @@ func setStringParam(key, value string, params *url.Values) {
 		params.Del(key)
 	} else {
 		params.Set(key, value)
+	}
+}
+
+func setIntParam(key string, value int, params *url.Values) {
+	if value == 0 {
+		params.Del(key)
+	} else {
+		params.Set(key, strconv.Itoa(value))
 	}
 }
 
