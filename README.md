@@ -10,7 +10,7 @@ mediaos is a simple Go library for interacting with the MediaOS API.
 
 ```go
 
-var api = mediaos.New(mediaos.Cosmo, "qu9jcw5ndadqcgna8wtw8wdc")
+var api = mediaos.New(mediaos.Cosmo, "YOUR_API_KEY")
 
 content, err := api.GetContent(mediaos.Request{
 	Title: "sex tips",
