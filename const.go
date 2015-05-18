@@ -8,6 +8,8 @@ const (
 	Cosmo Publication = "cosmopolitan"
 	// Elle publication
 	Elle Publication = "elle"
+	// Seventeen publication
+	Seventeen Publication = "seventeen"
 )
 
 // Endpoint represent a distinct REST endpoint in the API
