@@ -10,27 +10,21 @@ import (
 
 var urlTemplate = "https://{publication}.hearst.io/api/v1/{endpoint}"
 
-func doAPICall(endpoint Endpoint, req Request) (res Response, err error) {
+func doAPICall(endpoint Endpoint, req Request) (result []byte, err error) {
+	uri := prepareAPIUri(endpoint, req)
+	log.Printf("URL: %s\n", uri)
 
-	uri := strings.Replace(urlTemplate, "{publication}", string(req.publication), 1)
+	return doGet(uri)
+}
+
+func prepareAPIUri(endpoint Endpoint, req Request) (uri string){
+	uri = strings.Replace(urlTemplate, "{publication}", string(req.publication), 1)
 	uri = strings.Replace(uri, "{endpoint}", string(endpoint), 1)
 
 	params := prepareParams(req.key, req)
 	uri += "?" + params.Encode()
 
-	log.Printf("URL: %s\n", uri)
-
-	bytes, err := doGet(uri)
-	if err != nil {
-		return res, err
-	}
-
-	err = json.Unmarshal(bytes, &res)
-	if err != nil {
-		return res, err
-	}
-
-	return res, nil
+	return
 }
 
 func doGet(url string) (result []byte, err error) {
@@ -50,4 +44,9 @@ func doGet(url string) (result []byte, err error) {
 	}
 
 	return result, nil
+}
+
+func unmarshalImageResponse(bytes []byte, res *ArticleResponse) (err error) {
+	err = json.Unmarshal(bytes, &res)
+	return
 }

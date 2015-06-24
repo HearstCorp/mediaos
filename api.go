@@ -1,8 +1,12 @@
 package mediaos
 
-// Client is the API client interface
+import (
+	"encoding/json"
+)
+
 type Client interface {
-	Get(Endpoint, Request) (Response, error)
+	GetArticles(Endpoint, Request) (ArticleResponse, error)
+	GetImages(Endpoint, Request) (ImageResponse, error)
 }
 
 // New creates a new API client object for the given publication
@@ -18,9 +22,36 @@ type client struct {
 	key         string
 }
 
-func (c *client) Get(endpoint Endpoint, req Request) (Response, error) {
+func (c *client) get(endpoint Endpoint, req Request) (result []byte, err error) {
 	c.addRequestContext(&req)
 	return doAPICall(endpoint, req)
+}
+
+func (c *client) GetArticles(endpoint Endpoint, req Request) (res ArticleResponse, err error) {
+	bytes, err := c.get(endpoint, req)
+	if err != nil {
+		return res, err
+	}
+
+	err = json.Unmarshal(bytes, &res)
+	if err != nil {
+		return res, err
+	}
+
+	return res, nil
+}
+
+func (c *client) GetImages(endpoint Endpoint, req Request) (res ImageResponse, err error) {
+	bytes, err := c.get(endpoint, req)
+	if err != nil {
+		return res, err
+	}
+
+	err = json.Unmarshal(bytes, &res)
+	if err != nil {
+		return res, err
+	}
+	return res, nil
 }
 
 func (c *client) addRequestContext(req *Request) {

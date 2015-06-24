@@ -54,9 +54,14 @@ type Request struct {
 }
 
 // Response encapsulates an API response
-type Response struct {
+type ArticleResponse struct {
 	Count int       `json:"count"`
 	Items []Content `json:"items"`
+}
+
+type ImageResponse struct {
+	Count int       `json:"count"`
+	Items []Image `json:"items"`
 }
 
 // Content represents an article or gallery (or listicle, etc.)
