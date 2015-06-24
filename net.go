@@ -1,7 +1,6 @@
 package mediaos
 
 import (
-	"encoding/json"
 	"io/ioutil"
 	"log"
 	"net/http"
@@ -44,9 +43,4 @@ func doGet(url string) (result []byte, err error) {
 	}
 
 	return result, nil
-}
-
-func unmarshalImageResponse(bytes []byte, res *ArticleResponse) (err error) {
-	err = json.Unmarshal(bytes, &res)
-	return
 }
