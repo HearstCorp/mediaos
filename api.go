@@ -5,8 +5,8 @@ import (
 )
 
 type Client interface {
-	GetArticles(Endpoint, Request) (ArticleResponse, error)
-	GetImages(Endpoint, Request) (ImageResponse, error)
+	GetContent(Endpoint, Request) (ContentResponse, error)
+	GetImages(Request) (ImageResponse, error)
 }
 
 // New creates a new API client object for the given publication
@@ -27,7 +27,7 @@ func (c *client) get(endpoint Endpoint, req Request) (result []byte, err error) 
 	return doAPICall(endpoint, req)
 }
 
-func (c *client) GetArticles(endpoint Endpoint, req Request) (res ArticleResponse, err error) {
+func (c *client) GetContent(endpoint Endpoint, req Request) (res ContentResponse, err error) {
 	bytes, err := c.get(endpoint, req)
 	if err != nil {
 		return res, err
@@ -41,8 +41,8 @@ func (c *client) GetArticles(endpoint Endpoint, req Request) (res ArticleRespons
 	return res, nil
 }
 
-func (c *client) GetImages(endpoint Endpoint, req Request) (res ImageResponse, err error) {
-	bytes, err := c.get(endpoint, req)
+func (c *client) GetImages(req Request) (res ImageResponse, err error) {
+	bytes, err := c.get(ImagesAPI, req)
 	if err != nil {
 		return res, err
 	}

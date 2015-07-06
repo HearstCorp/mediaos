@@ -24,7 +24,7 @@ func Test_GetContent(t *testing.T) {
 	assert.Equal(t, DefaultLimit, len(response.Items))
 }
 
-func Test_GetArticles(t *testing.T) {
+func Test_GetContent(t *testing.T) {
 	client := New(Cosmo, *key)
 
 	time.Sleep(time.Second)

@@ -54,7 +54,7 @@ type Request struct {
 }
 
 // Response encapsulates an API response
-type ArticleResponse struct {
+type ContentResponse struct {
 	Count int       `json:"count"`
 	Items []Content `json:"items"`
 }
