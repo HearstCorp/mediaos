@@ -60,7 +60,7 @@ type ContentResponse struct {
 }
 
 type ImageResponse struct {
-	Count int       `json:"count"`
+	Count int     `json:"count"`
 	Items []Image `json:"items"`
 }
 

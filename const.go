@@ -4,6 +4,8 @@ package mediaos
 type Publication string
 
 const (
+	// MediaOS publication
+	MediaOs = "mediaos-api"
 	// Cosmo cosmopolitan publication
 	Cosmo Publication = "cosmopolitan"
 	// Elle publication

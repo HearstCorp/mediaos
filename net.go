@@ -16,7 +16,7 @@ func doAPICall(endpoint Endpoint, req Request) (result []byte, err error) {
 	return doGet(uri)
 }
 
-func prepareAPIUri(endpoint Endpoint, req Request) (uri string){
+func prepareAPIUri(endpoint Endpoint, req Request) (uri string) {
 	uri = strings.Replace(urlTemplate, "{publication}", string(req.publication), 1)
 	uri = strings.Replace(uri, "{endpoint}", string(endpoint), 1)
 
