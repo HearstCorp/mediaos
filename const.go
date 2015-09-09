@@ -5,7 +5,7 @@ type Publication string
 
 const (
 	// MediaOS publication
-	MediaOs = "mediaos-api"
+	MediaOs Publication = "mediaos-api"
 	// Cosmo cosmopolitan publication
 	Cosmo Publication = "cosmopolitan"
 	// Elle publication
