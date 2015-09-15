@@ -12,6 +12,10 @@ const (
 	Elle Publication = "elle"
 	// Seventeen publication
 	Seventeen Publication = "seventeen"
+	// Good House Keeping publication
+	GoodHouseKeeping Publication = "goodhousekeeping"
+	// Esquire publication
+	Esquire Publication = "esquire"
 )
 
 // Endpoint represent a distinct REST endpoint in the API
