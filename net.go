@@ -38,7 +38,7 @@ var domains map[string]string
 
 func init() {
 	secure := os.Getenv(MEDIAOS_HTTP_SECURE)
-	if "" == secure || "true" == secure {
+	if "" == secure || "true" == secure || "True" == secure {
 		protocol = HTTPS
 	} else {
 		protocol = HTTP
