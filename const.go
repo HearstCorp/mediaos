@@ -1,9 +1,40 @@
 package mediaos
 
+import (
+	"fmt"
+	"log"
+	"os"
+	"strings"
+)
+
 // Publication represents a publication endpoint (e.g. Cosmopolitan)
 type Publication string
 
+type PubData interface{
+	Domain() string
+	Port() string
+}
+
+type _pubData struct {
+	domain string
+	port string
+}
+
+func (p _pubData) Domain() string {
+	return p.domain
+}
+
+func (p _pubData) Port() string {
+	return p.port
+}
+
+var Publications map[string]PubData
+
 const (
+	MEDIAOS = "MEDIAOS"
+	PORT = "PORT"
+	DOMAIN = "DOMAIN"
+
 	// MediaOS publication
 	MediaOs Publication = "mediaos-api"
 	// Cosmo cosmopolitan publication
@@ -17,6 +48,55 @@ const (
 	// Esquire publication
 	Esquire Publication = "esquire"
 )
+
+func init() {
+	/*
+	Add new publications here.
+
+	Each new publication MUST be accompanied by corresponding environment
+	variables to provide domain and port information.
+
+	Variables:
+	 - MEDIAOS_<publication>_DOMAIN
+	 - MEDIAOS_<publication>_PORT
+
+	 Example:
+	 - MEDIAOS_MYMAGAZINE_DOMAIN
+	 - MEDIAOS_MYMAGAZINE_PORT
+
+	 Note the variables must be ALL CAPS but the publication names defined here
+	 may be lower case.
+	*/
+
+	publicationsList := []string {
+		"cosmopolitan",
+		"seventeen",
+		"elle",
+		"esquire",
+		"goodhousekeeping",
+		"mediaosapi",
+	}
+
+	Publications = make(map[string]PubData)
+	for _, publication := range publicationsList {
+		upper := strings.ToUpper(publication)
+		domainVarName := fmt.Sprintf("%s_%s_%s", MEDIAOS, upper, DOMAIN)
+		domain := os.Getenv(domainVarName)
+		if "" == domain {
+			log.Printf("Missing environment variable: %s; omitting publication: %s", domainVarName, publication)
+			continue
+		}
+
+		portVarName := fmt.Sprintf("%s_%s_%s", MEDIAOS, upper, PORT)
+		port := os.Getenv(portVarName)
+		if "" == port {
+			log.Printf("Missing environment variable: %s; omitting publication", portVarName, publication)
+			continue
+		}
+
+		Publications[publication] = _pubData{domain, port}
+	}
+}
 
 // Endpoint represent a distinct REST endpoint in the API
 type Endpoint string
