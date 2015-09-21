@@ -7,17 +7,21 @@ import (
 	"strings"
 )
 
-// Publication represents a publication endpoint (e.g. Cosmopolitan)
-type Publication string
-
 type PubData interface{
+	Name() string
 	Domain() string
 	Port() string
+	DomainAndPort() string
 }
 
 type _pubData struct {
+	name string
 	domain string
 	port string
+}
+
+func (p _pubData) Name() string {
+	return p.name
 }
 
 func (p _pubData) Domain() string {
@@ -28,13 +32,21 @@ func (p _pubData) Port() string {
 	return p.port
 }
 
+func (p _pubData) DomainAndPort() string {
+	return fmt.Sprintf("%s:%s", p.domain, p.port)
+}
+
 var Publications map[string]PubData
+
+// Publication represents a publication endpoint (e.g. Cosmopolitan)
+//type Publication string
 
 const (
 	MEDIAOS = "MEDIAOS"
 	PORT = "PORT"
 	DOMAIN = "DOMAIN"
 
+/*
 	// MediaOS publication
 	MediaOs Publication = "mediaos-api"
 	// Cosmo cosmopolitan publication
@@ -47,6 +59,7 @@ const (
 	GoodHouseKeeping Publication = "goodhousekeeping"
 	// Esquire publication
 	Esquire Publication = "esquire"
+*/
 )
 
 func init() {
@@ -94,7 +107,7 @@ func init() {
 			continue
 		}
 
-		Publications[publication] = _pubData{domain, port}
+		Publications[publication] = _pubData{publication, domain, port}
 	}
 }
 

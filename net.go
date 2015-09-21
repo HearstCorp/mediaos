@@ -1,7 +1,6 @@
 package mediaos
 
 import (
-	"fmt"
 	"io/ioutil"
 	"log"
 	"net/http"
@@ -16,6 +15,7 @@ const (
 
 	MEDIAOS_HTTP_SECURE = "MEDIAOS_HTTP_SECURE"
 
+	/*
 	MEDIAOS_COSMO_DOMAIN            = "MEDIAOS_COSMO_DOMAIN"
 	MEDIAOS_ELLE_DOMAIN             = "MEDIAOS_ELLE_DOMAIN"
 	MEDIAOS_SEVENTEEN_DOMAIN        = "MEDIAOS_SEVENTEEN_DOMAIN"
@@ -29,12 +29,13 @@ const (
 	MEDIAOS_GOODHOUSEKEEPING_PORT = "MEDIAOS_GOODHOUSEKEEPING_PORT"
 	MEDIAOS_ESQUIRE_PORT          = "MEDIAOS_ESQUIRE_PORT"
 	MEDIAOS_MEDIAOS_PORT          = "MEDIAOS_MEDIAOS_PORT"
+	*/
 )
 
 var urlTemplate = "{protocol}://{domainPort}/api/v1/{endpoint}"
 var protocol = ""
 
-var domains map[string]string
+//var domains map[string]string
 
 func init() {
 	secure := os.Getenv(MEDIAOS_HTTP_SECURE)
@@ -44,6 +45,7 @@ func init() {
 		protocol = HTTP
 	}
 
+	/*
 	domains = make(map[string]string)
 
 	populateDomains(Cosmo, MEDIAOS_COSMO_DOMAIN, MEDIAOS_COSMO_PORT)
@@ -52,8 +54,10 @@ func init() {
 	populateDomains(GoodHouseKeeping, MEDIAOS_GOODHOUSEKEEPING_DOMAIN, MEDIAOS_GOODHOUSEKEEPING_PORT)
 	populateDomains(Esquire, MEDIAOS_ESQUIRE_DOMAIN, MEDIAOS_ESQUIRE_PORT)
 	populateDomains(MediaOs, MEDIAOS_MEDIAOS_DOMAIN, MEDIAOS_MEDIAOS_PORT)
+	*/
 }
 
+/*
 func populateDomains(pub Publication, domainVar, portVar string) {
 	d := os.Getenv(domainVar)
 	p := os.Getenv(portVar)
@@ -62,6 +66,7 @@ func populateDomains(pub Publication, domainVar, portVar string) {
 		domains[string(pub)] = fmt.Sprintf("%s:%s", d, p)
 	}
 }
+*/
 
 func doAPICall(endpoint Endpoint, req Request) (result []byte, err error) {
 	uri := prepareAPIUri(endpoint, req)
@@ -70,15 +75,13 @@ func doAPICall(endpoint Endpoint, req Request) (result []byte, err error) {
 	return doGet(uri)
 }
 
-func GetApiPath(publication string, endpoint Endpoint, params map[string]string) (uri string) {
-	dp := domains[publication]
-	if "" == dp {
-		log.Printf("Pub requested: %s", publication)
+func GetApiPath(publication PubData, endpoint Endpoint, params map[string]string) (uri string) {
+	if nil == publication {
 		return
 	}
 
 	uri = strings.Replace(urlTemplate, "{protocol}", protocol, 1)
-	uri = strings.Replace(uri, "{domainPort}", dp, 1)
+	uri = strings.Replace(uri, "{domainPort}", publication.DomainAndPort(), 1)
 	uri = strings.Replace(uri, "{endpoint}", string(endpoint), 1)
 
 	p := url.Values{}
@@ -92,13 +95,12 @@ func GetApiPath(publication string, endpoint Endpoint, params map[string]string)
 }
 
 func prepareAPIUri(endpoint Endpoint, req Request) (uri string) {
-	dp := domains[string(req.publication)]
-	if "" == dp {
+	if nil == req.publication {
 		return
 	}
 
 	uri = strings.Replace(urlTemplate, "{protocol}", protocol, 1)
-	uri = strings.Replace(uri, "{domainPort}", dp, 1)
+	uri = strings.Replace(uri, "{domainPort}", req.publication.DomainAndPort(), 1)
 	uri = strings.Replace(uri, "{endpoint}", string(endpoint), 1)
 
 	params := prepareParams(req.key, req)

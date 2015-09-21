@@ -52,7 +52,7 @@ type Request struct {
 	JsonpCallback   string
 
 	key         string
-	publication Publication
+	publication PubData
 }
 
 // Response encapsulates an API response
