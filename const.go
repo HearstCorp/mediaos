@@ -7,7 +7,7 @@ import (
 	"strings"
 )
 
-type PubData interface{
+type PubData interface {
 	Name() string
 	Domain() string
 	Port() string
@@ -15,9 +15,9 @@ type PubData interface{
 }
 
 type _pubData struct {
-	name string
+	name   string
 	domain string
-	port string
+	port   string
 }
 
 func (p _pubData) Name() string {
@@ -38,50 +38,32 @@ func (p _pubData) DomainAndPort() string {
 
 var Publications map[string]PubData
 
-// Publication represents a publication endpoint (e.g. Cosmopolitan)
-//type Publication string
-
 const (
 	MEDIAOS = "MEDIAOS"
-	PORT = "PORT"
-	DOMAIN = "DOMAIN"
-
-/*
-	// MediaOS publication
-	MediaOs Publication = "mediaos-api"
-	// Cosmo cosmopolitan publication
-	Cosmo Publication = "cosmopolitan"
-	// Elle publication
-	Elle Publication = "elle"
-	// Seventeen publication
-	Seventeen Publication = "seventeen"
-	// Good House Keeping publication
-	GoodHouseKeeping Publication = "goodhousekeeping"
-	// Esquire publication
-	Esquire Publication = "esquire"
-*/
+	PORT    = "PORT"
+	DOMAIN  = "DOMAIN"
 )
 
 func init() {
 	/*
-	Add new publications here.
+		Add new publications here.
 
-	Each new publication MUST be accompanied by corresponding environment
-	variables to provide domain and port information.
+		Each new publication MUST be accompanied by corresponding environment
+		variables to provide domain and port information.
 
-	Variables:
-	 - MEDIAOS_<publication>_DOMAIN
-	 - MEDIAOS_<publication>_PORT
+		Variables:
+		 - MEDIAOS_<publication>_DOMAIN
+		 - MEDIAOS_<publication>_PORT
 
-	 Example:
-	 - MEDIAOS_MYMAGAZINE_DOMAIN
-	 - MEDIAOS_MYMAGAZINE_PORT
+		 Example:
+		 - MEDIAOS_MYMAGAZINE_DOMAIN
+		 - MEDIAOS_MYMAGAZINE_PORT
 
-	 Note the variables must be ALL CAPS but the publication names defined here
-	 may be lower case.
+		 Note the variables must be ALL CAPS but the publication names defined here
+		 may be lower case.
 	*/
 
-	publicationsList := []string {
+	publicationsList := []string{
 		"cosmopolitan",
 		"seventeen",
 		"elle",
