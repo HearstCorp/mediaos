@@ -25,30 +25,30 @@ const (
 // Request is a convenient container for API request params. It is a superset of
 // all valid request params across all API endpoints.
 type Request struct {
-	ID            int // articles
-	GroupID       int // galleries, for some reason
-	Title         string
-	Slug          string
-	ContentTypeID []int
-	SectionID     []int
-	SubsectionID  []int
-	CollectionID  []int
-	AdCategoryID  []int
+	ID             int // articles
+	GroupID        int // galleries, for some reason
+	Title          string
+	Slug           string
+	ContentTypeID  []int
+	SectionID      []int
+	SubsectionID   []int
+	CollectionID   []int
+	AdCategoryID   []int
 	AdCategoryName string
-	Editor1       []int
-	Editor2       []int
-	Editor3       []int
-	PublishedFrom time.Time
-	PublishedTo   time.Time
-	Visibility    Visibility
-	IgnoreCache   bool
-	AllImages     bool
-	GetImageCuts  bool
-	HDWActive     bool
-	OrderBy       string
-	Start         int
-	Limit         int
-	JsonpCallback string
+	Editor1        []int
+	Editor2        []int
+	Editor3        []int
+	PublishedFrom  time.Time
+	PublishedTo    time.Time
+	Visibility     Visibility
+	IgnoreCache    bool
+	AllImages      bool
+	GetImageCuts   bool
+	HDWActive      bool
+	OrderBy        string
+	Start          int
+	Limit          int
+	JsonpCallback  string
 
 	key         string
 	publication Publication
@@ -67,13 +67,13 @@ type ImageResponse struct {
 
 // Content represents an article or gallery (or listicle, etc.)
 type Content struct {
-	ID        int     `json:"id"`
-	ContentID int     `json:"content_id"`
-	GroupID   int     `json:"group_id"`
-	Type      ResType `json:"resource_type"`
-	Title     string  `json:"title"`
-	Images    []Image `json:"images"`
-	URL       string  `json:"url"`
+	ID         int        `json:"id"`
+	ContentID  int        `json:"content_id"`
+	GroupID    int        `json:"group_id"`
+	Type       ResType    `json:"resource_type"`
+	Title      string     `json:"title"`
+	Images     []Image    `json:"images"`
+	URL        string     `json:"url"`
 	AdCategory AdCategory `json:"ad_category"`
 }
 
@@ -95,5 +95,5 @@ type ImageCut struct {
 }
 
 type AdCategory struct {
-  AdCategoryName string `json:"ad_category_name"`
+	AdCategoryName string `json:"ad_category_name"`
 }

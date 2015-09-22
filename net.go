@@ -110,7 +110,6 @@ func prepareAPIUri(endpoint Endpoint, req Request) (uri string) {
 func doGet(url string) (result []byte, err error) {
 	resp, err := http.Get(url)
 	if err != nil {
-		log.Printf("error :%s", err.Error())
 		return nil, err
 	}
 	defer resp.Body.Close()
