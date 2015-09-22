@@ -70,7 +70,7 @@ func doAPICall(endpoint Endpoint, req Request) (result []byte, err error) {
 	return doGet(uri)
 }
 
-func GetApiPath(publication, endpoint string, params map[string]string) (uri string) {
+func GetApiPath(publication string, endpoint Endpoint, params map[string]string) (uri string) {
 	dp := domains[publication]
 	if "" == dp {
 		log.Printf("Pub requested: %s", publication)
