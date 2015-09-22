@@ -65,7 +65,6 @@ func populateDomains(pub Publication, domainVar, portVar string) {
 
 func doAPICall(endpoint Endpoint, req Request) (result []byte, err error) {
 	uri := prepareAPIUri(endpoint, req)
-	log.Printf("here URL: %s\n", uri)
 	log.Printf("URL: %s\n", uri)
 
 	return doGet(uri)

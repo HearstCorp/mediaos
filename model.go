@@ -74,7 +74,7 @@ type Content struct {
 	Title     string  `json:"title"`
 	Images    []Image `json:"images"`
 	URL       string  `json:"url"`
-	AdCategoryName string `json:"ad_category_name"`
+	AdCategory AdCategory `json:"ad_category"`
 }
 
 // Image represents an image object
@@ -92,4 +92,8 @@ type ImageCut struct {
 	Width  int    `json:"width"`
 	Height int    `json:"height"`
 	URL    string `json:"url"`
+}
+
+type AdCategory struct {
+  AdCategoryName string `json:"ad_category_name"`
 }
