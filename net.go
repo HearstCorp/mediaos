@@ -5,6 +5,7 @@ import (
 	"io/ioutil"
 	"log"
 	"net/http"
+	"net/url"
 	"os"
 	"strings"
 )
@@ -30,21 +31,20 @@ const (
 	MEDIAOS_MEDIAOS_PORT          = "MEDIAOS_MEDIAOS_PORT"
 )
 
-var defaultDomain = "hearst.io"
 var urlTemplate = "{protocol}://{domainPort}/api/v1/{endpoint}"
 var protocol = ""
 
-var domains map[Publication]string
+var domains map[string]string
 
 func init() {
 	secure := os.Getenv(MEDIAOS_HTTP_SECURE)
-	if "" == secure || "true" == secure {
+	if "" == secure || "true" == secure || "True" == secure {
 		protocol = HTTPS
 	} else {
 		protocol = HTTP
 	}
 
-	domains = make(map[Publication]string)
+	domains = make(map[string]string)
 
 	populateDomains(Cosmo, MEDIAOS_COSMO_DOMAIN, MEDIAOS_COSMO_PORT)
 	populateDomains(Elle, MEDIAOS_ELLE_DOMAIN, MEDIAOS_ELLE_PORT)
@@ -59,7 +59,7 @@ func populateDomains(pub Publication, domainVar, portVar string) {
 	p := os.Getenv(portVar)
 
 	if "" != d && "" != p {
-		domains[pub] = fmt.Sprintf("%s:%s", d, p)
+		domains[string(pub)] = fmt.Sprintf("%s:%s", d, p)
 	}
 }
 
@@ -70,10 +70,31 @@ func doAPICall(endpoint Endpoint, req Request) (result []byte, err error) {
 	return doGet(uri)
 }
 
-func prepareAPIUri(endpoint Endpoint, req Request) (uri string) {
-	dp := domains[req.publication]
+func GetApiPath(publication, endpoint string, params map[string]string) (uri string) {
+	dp := domains[publication]
 	if "" == dp {
-		dp = fmt.Sprintf("%s.%s", req.publication, defaultDomain)
+		log.Printf("Pub requested: %s", publication)
+		return
+	}
+
+	uri = strings.Replace(urlTemplate, "{protocol}", protocol, 1)
+	uri = strings.Replace(uri, "{domainPort}", dp, 1)
+	uri = strings.Replace(uri, "{endpoint}", string(endpoint), 1)
+
+	p := url.Values{}
+	for key, value := range params {
+		p.Set(key, value)
+	}
+
+	uri += "?" + p.Encode()
+
+	return
+}
+
+func prepareAPIUri(endpoint Endpoint, req Request) (uri string) {
+	dp := domains[string(req.publication)]
+	if "" == dp {
+		return
 	}
 
 	uri = strings.Replace(urlTemplate, "{protocol}", protocol, 1)
