@@ -34,6 +34,7 @@ type Request struct {
 	SubsectionID  []int
 	CollectionID  []int
 	AdCategoryID  []int
+	AdCategoryName string
 	Editor1       []int
 	Editor2       []int
 	Editor3       []int
@@ -73,6 +74,7 @@ type Content struct {
 	Title     string  `json:"title"`
 	Images    []Image `json:"images"`
 	URL       string  `json:"url"`
+	AdCategoryName string `json:"ad_category_name"`
 }
 
 // Image represents an image object
