@@ -59,8 +59,8 @@ func init() {
 		 - MEDIAOS_MYMAGAZINE_DOMAIN
 		 - MEDIAOS_MYMAGAZINE_PORT
 
-		 Note the variables must be ALL CAPS but the publication names defined here
-		 may be lower case.
+		 Note: the publication names defined here must be in lower case and the
+		 variables must be ALL CAPS.
 	*/
 
 	publicationsList := []string{
