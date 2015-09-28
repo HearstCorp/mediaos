@@ -65,10 +65,10 @@ func setIntListParam(key string, value []int, params *url.Values, in bool) {
 		params.Del(key + operator)
 	case len(value) == 1:
 		params.Del(key + operator)
-		params.Set(key+operator, strconv.Itoa(value[0]))
+		params.Set(key + operator, strconv.Itoa(value[0]))
 	default:
 		params.Del(key + operator)
-		params.Set(key+operator, commaSeparateInts(value))
+		params.Set(key + operator, commaSeparateInts(value))
 	}
 }
 
