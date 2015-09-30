@@ -16,14 +16,15 @@ func prepareParams(apiKey string, req Request) (params url.Values) {
 	setIntParam("group_id", req.GroupID, &params)
 	setStringParam("title", req.Title, &params)
 	setStringParam("slug", req.Slug, &params)
-	setIntListParam("content_type_id", req.ContentTypeID, &params)
-	setIntListParam("section_id", req.SectionID, &params)
-	setIntListParam("subsection_id", req.SubsectionID, &params)
-	setIntListParam("collection_id", req.CollectionID, &params)
-	setIntListParam("ad_category_id", req.AdCategoryID, &params)
-	setIntListParam("editor", req.Editor1, &params)
-	setIntListParam("editor2", req.Editor2, &params)
-	setIntListParam("editor3", req.Editor3, &params)
+	setIntListParam("content_type_id", req.ContentTypeID, &params, true)
+	setIntListParam("section_id", req.SectionID, &params, true)
+	setIntListParam("subsection_id", req.SubsectionID, &params, true)
+	setIntListParam("collection_id", req.CollectionID, &params, true)
+	setIntListParam("ad_category_id", req.AdCategoryID, &params, true)
+	setIntListParam("ad_category_id", req.AdCategoryIDNot, &params, false)
+	setIntListParam("editor", req.Editor1, &params, true)
+	setIntListParam("editor2", req.Editor2, &params, true)
+	setIntListParam("editor3", req.Editor3, &params, true)
 	setDateParam("publishedFrom", req.PublishedFrom, &params)
 	setDateParam("publishedTo", req.PublishedTo, &params)
 	setVisibilityParam(req.Visibility, &params)
@@ -53,17 +54,21 @@ func setIntParam(key string, value int, params *url.Values) {
 	}
 }
 
-func setIntListParam(key string, value []int, params *url.Values) {
+func setIntListParam(key string, value []int, params *url.Values, in bool) {
+	operator := ":in"
+	if !in {
+		operator = ":not"
+	}
 	switch {
 	case len(value) < 1:
 		params.Del(key)
-		params.Del(key + ":in")
+		params.Del(key + operator)
 	case len(value) == 1:
-		params.Del(key + ":in")
-		params.Set(key, strconv.Itoa(value[0]))
+		params.Del(key + operator)
+		params.Set(key + operator, strconv.Itoa(value[0]))
 	default:
-		params.Del(key)
-		params.Set(key+":in", commaSeparateInts(value))
+		params.Del(key + operator)
+		params.Set(key + operator, commaSeparateInts(value))
 	}
 }
 
