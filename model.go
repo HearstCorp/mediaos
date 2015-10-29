@@ -22,6 +22,27 @@ const (
 	AdCategoryType ResType = "ad_category"
 )
 
+func GetCodeForResType(r ResType) (code string, ok bool) {
+	switch r {
+	case ArticleType:
+		return "a", true
+	case GalleryType:
+		return "g", true
+	}
+	return
+}
+
+func GetResTypeFromCode(code string) (restype ResType) {
+	switch code {
+	case "a":
+		return ArticleType
+	case "g":
+		return GalleryType
+	}
+
+	return
+}
+
 // Request is a convenient container for API request params. It is a superset of
 // all valid request params across all API endpoints.
 type Request struct {

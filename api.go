@@ -11,7 +11,7 @@ type Client interface {
 	GetImages(publication PubData, key string, req Request) (res ImageResponse, err error)
 }
 
-type mediaOsAPI struct {}
+type mediaOsAPI struct{}
 
 func (m *mediaOsAPI) GetContent(publication PubData, key string, endpoint Endpoint, req Request) (res ContentResponse, err error) {
 	addRequestContext(publication, key, &req)
