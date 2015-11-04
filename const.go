@@ -48,48 +48,56 @@ func init() {
 	/*
 		Add new publications here.
 
+		For publications with multiple representations, the canonical form should be
+		first in the list.
+
 		Each new publication MUST be accompanied by corresponding environment
 		variables to provide domain and port information.
 
 		Variables:
-		 - MEDIAOS_<publication>_DOMAIN
-		 - MEDIAOS_<publication>_PORT
+		 - MEDIAOS_<canonical form>_DOMAIN
+		 - MEDIAOS_<canonical form>_PORT
 
 		 Example:
-		 - MEDIAOS_MYMAGAZINE_DOMAIN
-		 - MEDIAOS_MYMAGAZINE_PORT
+		 - MEDIAOS_COSMO_DOMAIN
+		 - MEDIAOS_COSMO_PORT
 
 		 Note: the publication names defined here must be in lower case and the
 		 variables must be ALL CAPS.
 	*/
 
-	publicationsList := []string{
-		"cosmopolitan",
-		"seventeen",
-		"elle",
-		"esquire",
-		"goodhousekeeping",
-		"mediaosapi",
+	publicationsList := [][]string{
+		[]string{"cosmo", "cosmopolitan"},
+		[]string{"seventeen"},
+		[]string{"elle"},
+		[]string{"esquire"},
+		[]string{"goodhousekeeping"},
+		[]string{"mediaos", "mediaosapi", "mediaos-api"},
 	}
 
 	Publications = make(map[string]PubData)
-	for _, publication := range publicationsList {
-		upper := strings.ToUpper(publication)
+	for _, names := range publicationsList {
+		name := names[0]
+
+		upper := strings.ToUpper(name)
 		domainVarName := fmt.Sprintf("%s_%s_%s", MEDIAOS, upper, DOMAIN)
 		domain := os.Getenv(domainVarName)
 		if "" == domain {
-			log.Printf("Missing environment variable: %s; omitting publication: %s", domainVarName, publication)
+			log.Printf("Missing environment variable: %s; omitting publication: %s", domainVarName, name)
 			continue
 		}
 
 		portVarName := fmt.Sprintf("%s_%s_%s", MEDIAOS, upper, PORT)
 		port := os.Getenv(portVarName)
 		if "" == port {
-			log.Printf("Missing environment variable: %s; omitting publication", portVarName, publication)
+			log.Printf("Missing environment variable: %s; omitting publication", portVarName, name)
 			continue
 		}
 
-		Publications[publication] = _pubData{publication, domain, port}
+		pubData := &_pubData{name, domain, port}
+		for _, publication := range names {
+			Publications[publication] = pubData
+		}
 	}
 }
 
