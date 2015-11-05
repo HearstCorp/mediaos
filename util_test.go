@@ -30,33 +30,33 @@ func Test_setIntListParam(t *testing.T) {
 	params := url.Values{}
 
 	// nil test
-	setIntListParam("foo", nil, &params)
+	setIntListParam("foo", nil, &params, true)
 	_, ok := params["foo"]
 	assert.False(t, ok)
 	_, ok = params["foo:in"]
 	assert.False(t, ok)
 
 	// empty test
-	setIntListParam("foo", []int{}, &params)
+	setIntListParam("foo", []int{}, &params, true)
 	_, ok = params["foo"]
 	assert.False(t, ok)
 	_, ok = params["foo:in"]
 	assert.False(t, ok)
 
 	// single value
-	setIntListParam("foo", []int{42}, &params)
-	assert.Equal(t, "42", params.Get("foo"))
-	_, ok = params["foo:in"]
+	setIntListParam("foo", []int{42}, &params, true)
+	assert.Equal(t, "42", params.Get("foo:in"))
+	_, ok = params["foo"]
 	assert.False(t, ok)
 
 	// multiple values
-	setIntListParam("foo", []int{42, 86, 108, 666}, &params)
+	setIntListParam("foo", []int{42, 86, 108, 666}, &params, true)
 	assert.Equal(t, "42,86,108,666", params.Get("foo:in"))
 	_, ok = params["foo"]
 	assert.False(t, ok)
 
 	// and clear it
-	setIntListParam("foo", nil, &params)
+	setIntListParam("foo", nil, &params, true)
 	_, ok = params["foo"]
 	assert.False(t, ok)
 	_, ok = params["foo:in"]

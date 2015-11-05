@@ -59,17 +59,26 @@ func setIntListParam(key string, value []int, params *url.Values, in bool) {
 	if !in {
 		operator = ":not"
 	}
-	switch {
-	case len(value) < 1:
+
+	if len(value) < 1 {
 		params.Del(key)
 		params.Del(key + operator)
-	case len(value) == 1:
+	} else {
 		params.Del(key + operator)
-		params.Set(key + operator, strconv.Itoa(value[0]))
-	default:
-		params.Del(key + operator)
-		params.Set(key + operator, commaSeparateInts(value))
+		params.Set(key+operator, commaSeparateInts(value))
 	}
+}
+
+func commaSeparateInts(input []int) string {
+	var out bytes.Buffer
+	for i, val := range input {
+		if i > 0 {
+			out.WriteRune(',')
+		}
+		out.WriteString(strconv.Itoa(val))
+	}
+
+	return out.String()
 }
 
 func setDateParam(key string, date time.Time, params *url.Values) {
@@ -111,16 +120,4 @@ func setPaginationParams(start, limit int, params *url.Values) {
 	default:
 		params.Set("limit", strconv.Itoa(limit))
 	}
-}
-
-func commaSeparateInts(input []int) string {
-	var out bytes.Buffer
-	for i, val := range input {
-		if i > 0 {
-			out.WriteRune(',')
-		}
-		out.WriteString(strconv.Itoa(val))
-	}
-
-	return out.String()
 }

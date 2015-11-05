@@ -1,22 +1,105 @@
 package mediaos
 
-// Publication represents a publication endpoint (e.g. Cosmopolitan)
-type Publication string
+import (
+	"fmt"
+	"log"
+	"os"
+	"strings"
+)
+
+type PubData interface {
+	Name() string
+	Domain() string
+	Port() string
+	DomainAndPort() string
+}
+
+type _pubData struct {
+	name   string
+	domain string
+	port   string
+}
+
+func (p _pubData) Name() string {
+	return p.name
+}
+
+func (p _pubData) Domain() string {
+	return p.domain
+}
+
+func (p _pubData) Port() string {
+	return p.port
+}
+
+func (p _pubData) DomainAndPort() string {
+	return fmt.Sprintf("%s:%s", p.domain, p.port)
+}
+
+var Publications map[string]PubData
 
 const (
-	// MediaOS publication
-	MediaOs Publication = "mediaos-api"
-	// Cosmo cosmopolitan publication
-	Cosmo Publication = "cosmopolitan"
-	// Elle publication
-	Elle Publication = "elle"
-	// Seventeen publication
-	Seventeen Publication = "seventeen"
-	// Good House Keeping publication
-	GoodHouseKeeping Publication = "goodhousekeeping"
-	// Esquire publication
-	Esquire Publication = "esquire"
+	MEDIAOS = "MEDIAOS"
+	PORT    = "PORT"
+	DOMAIN  = "DOMAIN"
 )
+
+func init() {
+	/*
+		Add new publications here.
+
+		For publications with multiple representations, the canonical form should be
+		first in the list.
+
+		Each new publication MUST be accompanied by corresponding environment
+		variables to provide domain and port information.
+
+		Variables:
+		 - MEDIAOS_<canonical form>_DOMAIN
+		 - MEDIAOS_<canonical form>_PORT
+
+		 Example:
+		 - MEDIAOS_COSMO_DOMAIN
+		 - MEDIAOS_COSMO_PORT
+
+		 Note: the publication names defined here must be in lower case and the
+		 variables must be ALL CAPS.
+	*/
+
+	publicationsList := [][]string{
+		[]string{"cosmo", "cosmopolitan"},
+		[]string{"seventeen"},
+		[]string{"elle"},
+		[]string{"esquire"},
+		[]string{"goodhousekeeping"},
+		[]string{"mediaos", "mediaosapi", "mediaos-api"},
+	}
+
+	Publications = make(map[string]PubData)
+	for _, names := range publicationsList {
+		name := names[0]
+
+		upper := strings.ToUpper(name)
+		domainVarName := fmt.Sprintf("%s_%s_%s", MEDIAOS, upper, DOMAIN)
+		domain := os.Getenv(domainVarName)
+		if "" == domain {
+			log.Printf("Missing environment variable: %s; omitting publication: %s", domainVarName, name)
+			continue
+		}
+
+		portVarName := fmt.Sprintf("%s_%s_%s", MEDIAOS, upper, PORT)
+		port := os.Getenv(portVarName)
+		if "" == port {
+			log.Printf("Missing environment variable: %s; omitting publication", portVarName, name)
+			continue
+		}
+
+		pubData := &_pubData{name, domain, port}
+		for _, publication := range names {
+			Publications[publication] = pubData
+		}
+	}
+}
 
 // Endpoint represent a distinct REST endpoint in the API
 type Endpoint string

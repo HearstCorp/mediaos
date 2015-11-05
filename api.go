@@ -4,31 +4,19 @@ import (
 	"encoding/json"
 )
 
+var MediaOs = &mediaOsAPI{}
+
 type Client interface {
-	GetContent(Endpoint, Request) (ContentResponse, error)
-	GetImages(Request) (ImageResponse, error)
+	GetContent(publication PubData, key string, endpoint Endpoint, req Request) (res ContentResponse, err error)
+	GetImages(publication PubData, key string, req Request) (res ImageResponse, err error)
 }
 
-// New creates a new API client object for the given publication
-func New(pub Publication, key string) Client {
-	return &client{
-		publication: pub,
-		key:         key,
-	}
-}
+type mediaOsAPI struct{}
 
-type client struct {
-	publication Publication
-	key         string
-}
+func (m *mediaOsAPI) GetContent(publication PubData, key string, endpoint Endpoint, req Request) (res ContentResponse, err error) {
+	addRequestContext(publication, key, &req)
 
-func (c *client) get(endpoint Endpoint, req Request) (result []byte, err error) {
-	c.addRequestContext(&req)
-	return doAPICall(endpoint, req)
-}
-
-func (c *client) GetContent(endpoint Endpoint, req Request) (res ContentResponse, err error) {
-	bytes, err := c.get(endpoint, req)
+	bytes, err := doAPICall(endpoint, req)
 	if err != nil {
 		return res, err
 	}
@@ -41,8 +29,10 @@ func (c *client) GetContent(endpoint Endpoint, req Request) (res ContentResponse
 	return res, nil
 }
 
-func (c *client) GetImages(req Request) (res ImageResponse, err error) {
-	bytes, err := c.get(ImagesAPI, req)
+func (m *mediaOsAPI) GetImages(publication PubData, key string, req Request) (res ImageResponse, err error) {
+	addRequestContext(publication, key, &req)
+
+	bytes, err := doAPICall(ImagesAPI, req)
 	if err != nil {
 		return res, err
 	}
@@ -54,7 +44,7 @@ func (c *client) GetImages(req Request) (res ImageResponse, err error) {
 	return res, nil
 }
 
-func (c *client) addRequestContext(req *Request) {
-	req.key = c.key
-	req.publication = c.publication
+func addRequestContext(publication PubData, key string, req *Request) {
+	req.key = key
+	req.publication = publication
 }
