@@ -73,6 +73,7 @@ func init() {
 		[]string{"esquire"},
 		[]string{"goodhousekeeping"},
 		[]string{"mediaos", "mediaosapi", "mediaos-api"},
+		[]string{"harpersbazaar"},
 	}
 
 	Publications = make(map[string]PubData)
