@@ -8,32 +8,38 @@ import (
 )
 
 type PubData interface {
-	Name() string
-	Domain() string
-	Port() string
-	DomainAndPort() string
+	Name() 							string
+	MosDomain() 				string
+	MosPort() 					string
+	MosDomainAndPort()	string
+	RamsDomain()				string
 }
 
 type _pubData struct {
-	name   string
-	domain string
-	port   string
+	name   			string
+	mosDomain 	string
+	mosPort   	string
+	ramsDomain 	string
 }
 
 func (p _pubData) Name() string {
 	return p.name
 }
 
-func (p _pubData) Domain() string {
-	return p.domain
+func (p _pubData) MosDomain() string {
+	return p.mosDomain
 }
 
-func (p _pubData) Port() string {
-	return p.port
+func (p _pubData) MosPort() string {
+	return p.mosPort
 }
 
-func (p _pubData) DomainAndPort() string {
-	return fmt.Sprintf("%s:%s", p.domain, p.port)
+func (p _pubData) MosDomainAndPort() string {
+	return fmt.Sprintf("%s:%s", p.mosDomain, p.mosPort)
+}
+
+func (p _pubData) RamsDomain() string {
+	return p.ramsDomain
 }
 
 var Publications map[string]PubData
@@ -48,8 +54,11 @@ func init() {
 	/*
 		Add new publications here.
 
-		For publications with multiple representations, the canonical form should be
-		first in the list.
+		_pubData.name is the publication name provided by RAMS.
+		_pubData.ramsDomain is the consumer facing domain name
+
+		For publications with multiple representations, add an appropriate entry
+		to the publicationsAliases map, using the _pubData.name field as the key
 
 		Each new publication MUST be accompanied by corresponding environment
 		variables to provide domain and port information.
@@ -66,38 +75,45 @@ func init() {
 		 variables must be ALL CAPS.
 	*/
 
-	publicationsList := [][]string{
-		[]string{"cosmo", "cosmopolitan"},
-		[]string{"seventeen"},
-		[]string{"elle"},
-		[]string{"esquire"},
-		[]string{"goodhousekeeping"},
-		[]string{"mediaos", "mediaosapi", "mediaos-api"},
-		[]string{"harpersbazaar"},
+	publicationsList := []_pubData {
+		_pubData{name: "cosmo", ramsDomain: "cosmopolitan"},
+		_pubData{name: "seventeen", ramsDomain: "seventeen"},
+		_pubData{name: "elle", ramsDomain: "elle"},
+		_pubData{name: "esquire", ramsDomain: "esquire"},
+		_pubData{name: "goodhousekeeping", ramsDomain: "goodhousekeeping"},
+		_pubData{name: "mediaos", ramsDomain: "mediaos"},
+		_pubData{name: "harpersbazaar", ramsDomain: "harpersbazaar"},
 	}
 
-	Publications = make(map[string]PubData)
-	for _, names := range publicationsList {
-		name := names[0]
+	publicationsAliases := make(map[string]string)
+	publicationsAliases["cosmopolitan"] = "cosmo"
+	publicationsAliases["mediaosapi"] = "mediaos"
+	publicationsAliases["mediaos-api"] = "mediaos"
 
-		upper := strings.ToUpper(name)
+	Publications = make(map[string]PubData)
+	for _, p := range publicationsList {
+		upper := strings.ToUpper(p.name)
 		domainVarName := fmt.Sprintf("%s_%s_%s", MEDIAOS, upper, DOMAIN)
-		domain := os.Getenv(domainVarName)
-		if "" == domain {
-			log.Printf("Missing environment variable: %s; omitting publication: %s", domainVarName, name)
+		p.mosDomain = os.Getenv(domainVarName)
+		if "" == p.mosDomain {
+			log.Printf("Missing environment variable: %s; omitting publication: %s", domainVarName, p.name)
 			continue
 		}
 
 		portVarName := fmt.Sprintf("%s_%s_%s", MEDIAOS, upper, PORT)
-		port := os.Getenv(portVarName)
-		if "" == port {
-			log.Printf("Missing environment variable: %s; omitting publication", portVarName, name)
+		p.mosPort = os.Getenv(portVarName)
+		if "" == p.mosPort {
+			log.Printf("Missing environment variable: %s; omitting publication", portVarName, p.name)
 			continue
 		}
 
-		pubData := &_pubData{name, domain, port}
-		for _, publication := range names {
-			Publications[publication] = pubData
+		Publications[p.name] = p
+	}
+
+	for alias, name := range publicationsAliases {
+		p, ok := Publications[name]
+		if ok {
+			Publications[alias] = p
 		}
 	}
 }

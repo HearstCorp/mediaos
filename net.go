@@ -41,7 +41,7 @@ func GetApiPath(publication PubData, endpoint Endpoint, params map[string]string
 	}
 
 	uri = strings.Replace(urlTemplate, "{protocol}", protocol, 1)
-	uri = strings.Replace(uri, "{domainPort}", publication.DomainAndPort(), 1)
+	uri = strings.Replace(uri, "{domainPort}", publication.MosDomainAndPort(), 1)
 	uri = strings.Replace(uri, "{endpoint}", string(endpoint), 1)
 
 	p := url.Values{}
@@ -60,7 +60,7 @@ func prepareAPIUri(endpoint Endpoint, req Request) (uri string) {
 	}
 
 	uri = strings.Replace(urlTemplate, "{protocol}", protocol, 1)
-	uri = strings.Replace(uri, "{domainPort}", req.publication.DomainAndPort(), 1)
+	uri = strings.Replace(uri, "{domainPort}", req.publication.MosDomainAndPort(), 1)
 	uri = strings.Replace(uri, "{endpoint}", string(endpoint), 1)
 
 	params := prepareParams(req.key, req)
