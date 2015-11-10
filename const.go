@@ -8,20 +8,20 @@ import (
 )
 
 type PubData interface {
-	Name() 							string
-	MosDomain() 				string
-	MosPort() 					string
-	MosDomainAndPort()	string
-	RamsDomain()				string
-	DisplayName()				string
+	Name() string
+	MosDomain() string
+	MosPort() string
+	MosDomainAndPort() string
+	RamsDomain() string
+	DisplayName() string
 }
 
 type _pubData struct {
-	name   			string
-	mosDomain 	string
-	mosPort   	string
-	ramsDomain 	string
-	displayName	string
+	name        string
+	mosDomain   string
+	mosPort     string
+	ramsDomain  string
+	displayName string
 }
 
 func (p _pubData) Name() string {
@@ -81,7 +81,7 @@ func init() {
 		 variables must be ALL CAPS.
 	*/
 
-	publicationsList := []_pubData {
+	publicationsList := []_pubData{
 		_pubData{name: "cosmo", ramsDomain: "cosmopolitan", displayName: "Cosmopolitan"},
 		_pubData{name: "seventeen", ramsDomain: "seventeen", displayName: "Seventeen"},
 		_pubData{name: "elle", ramsDomain: "elle", displayName: "Elle"},
