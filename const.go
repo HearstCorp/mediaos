@@ -18,12 +18,12 @@ type PubData interface {
 }
 
 type _pubData struct {
-	name        string
-	mosDomain   string
-	mosPort     string
-	ramsDomain  string
-	displayName string
-	notificationAlias	string
+	name              string
+	mosDomain         string
+	mosPort           string
+	ramsDomain        string
+	displayName       string
+	notificationAlias string
 }
 
 func (p _pubData) Name() string {
