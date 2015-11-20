@@ -14,14 +14,16 @@ type PubData interface {
 	MosDomainAndPort() string
 	RamsDomain() string
 	DisplayName() string
+	NotificationAlias() string
 }
 
 type _pubData struct {
-	name        string
-	mosDomain   string
-	mosPort     string
-	ramsDomain  string
-	displayName string
+	name              string
+	mosDomain         string
+	mosPort           string
+	ramsDomain        string
+	displayName       string
+	notificationAlias string
 }
 
 func (p _pubData) Name() string {
@@ -46,6 +48,10 @@ func (p _pubData) RamsDomain() string {
 
 func (p _pubData) DisplayName() string {
 	return p.displayName
+}
+
+func (p _pubData) NotificationAlias() string {
+	return p.notificationAlias
 }
 
 var Publications map[string]PubData
@@ -82,13 +88,13 @@ func init() {
 	*/
 
 	publicationsList := []_pubData{
-		_pubData{name: "cosmo", ramsDomain: "cosmopolitan", displayName: "Cosmopolitan"},
-		_pubData{name: "seventeen", ramsDomain: "seventeen", displayName: "Seventeen"},
-		_pubData{name: "elle", ramsDomain: "elle", displayName: "Elle"},
-		_pubData{name: "esquire", ramsDomain: "esquire", displayName: "Esquire"},
-		_pubData{name: "goodhousekeeping", ramsDomain: "goodhousekeeping", displayName: "Good Housekeeping"},
-		_pubData{name: "mediaos", ramsDomain: "mediaos", displayName: "Media OS"},
-		_pubData{name: "harpersbazaar", ramsDomain: "harpersbazaar", displayName: "HarpersBAZAAR"},
+		_pubData{name: "cosmo", ramsDomain: "cosmopolitan", displayName: "Cosmopolitan", notificationAlias: "cosmo"},
+		_pubData{name: "seventeen", ramsDomain: "seventeen", displayName: "Seventeen", notificationAlias: "seventeen"},
+		_pubData{name: "elle", ramsDomain: "elle", displayName: "Elle", notificationAlias: "elle"},
+		_pubData{name: "esquire", ramsDomain: "esquire", displayName: "Esquire", notificationAlias: "esquire"},
+		_pubData{name: "goodhousekeeping", ramsDomain: "goodhousekeeping", displayName: "Good Housekeeping", notificationAlias: "ghk"},
+		_pubData{name: "mediaos", ramsDomain: "mediaos", displayName: "Media OS", notificationAlias: "mediaos"},
+		_pubData{name: "harpersbazaar", ramsDomain: "harpersbazaar", displayName: "HarpersBAZAAR", notificationAlias: "harpersbazaar"},
 	}
 
 	publicationsAliases := make(map[string]string)
