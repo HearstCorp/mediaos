@@ -49,6 +49,7 @@ type Request struct {
 	ID              int // articles
 	GroupID         int // galleries, for some reason
 	Title           string
+	IndexTitle      string
 	Slug            string
 	ContentTypeID   []int
 	SectionID       []int
@@ -94,6 +95,7 @@ type Content struct {
 	GroupID    int        `json:"group_id"`
 	Type       ResType    `json:"resource_type"`
 	Title      string     `json:"title"`
+	IndexTitle string     `json:"index_title"`
 	Images     []Image    `json:"images"`
 	URL        string     `json:"url"`
 	AdCategory AdCategory `json:"ad_category"`
