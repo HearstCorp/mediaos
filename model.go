@@ -93,7 +93,7 @@ type Content struct {
 	ContentID  int        `json:"content_id"`
 	GroupID    int        `json:"group_id"`
 	Type       ResType    `json:"resource_type"`
-	Title      string     `json:"title"`
+	Title      string     `json:"index_title"`
 	Images     []Image    `json:"images"`
 	URL        string     `json:"url"`
 	AdCategory AdCategory `json:"ad_category"`
