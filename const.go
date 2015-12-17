@@ -63,6 +63,7 @@ const (
 )
 
 func init() {
+
 	/*
 		Add new publications here.
 
@@ -131,26 +132,30 @@ func init() {
 }
 
 // Endpoint represent a distinct REST endpoint in the API
-type Endpoint string
+type Endpoint struct {
+	v1 string
+	v2 string
+}
 
-const (
-	// ContentAPI content endpoint
-	ContentAPI Endpoint = "content"
-	// ArticlesAPI articles endpoint
-	ArticlesAPI Endpoint = "articles"
-	// GalleriesAPI galleries endpoint
-	GalleriesAPI Endpoint = "galleries"
-	// ImagesAPI images endpoint
-	ImagesAPI Endpoint = "images"
-	// EditorsAPI editors endpoint
-	EditorsAPI Endpoint = "editors"
-	// SectionsAPI sections endpoint
-	SectionsAPI Endpoint = "sections"
-	// SubsectionsAPI subsections endpoint
-	SubsectionsAPI Endpoint = "subsections"
-	// AdCategoriesAPI ad_categories endpoint
-	AdCategoriesAPI Endpoint = "ad_categories"
-)
+func (e *Endpoint) String() string {
+	switch Config.GetApiVersion() {
+	case API_V1:
+		return e.v1
+	case API_V2:
+		return e.v2
+	default:
+		panic(fmt.Sprintf("Unknown ApiVersion: %d", int(Config.GetApiVersion())))
+	}
+}
+
+var ContentAPI = Endpoint{"content", "content"}
+var ArticlesAPI = Endpoint{"articles", "content"}
+var GalleriesAPI = Endpoint{"galleries", "content"}
+var ImagesAPI = Endpoint{"images", "images"}
+var EditorsAPI = Endpoint{"editors", ""}
+var SectionsAPI = Endpoint{"sections", ""}
+var SubsectionsAPI = Endpoint{"subsections", ""}
+var AdCategoriesAPI = Endpoint{"ad_categories", ""}
 
 // Visibility flags what content states to return: published or draft
 type Visibility string

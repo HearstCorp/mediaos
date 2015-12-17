@@ -5,44 +5,17 @@ import (
 	"log"
 	"net/http"
 	"net/url"
-	"os"
 	"strings"
 )
-
-const (
-	HTTP  = "http"
-	HTTPS = "https"
-
-	MEDIAOS_HTTP_SECURE = "MEDIAOS_HTTP_SECURE"
-)
-
-var urlTemplate = "{protocol}://{domainPort}/api/v1/{endpoint}"
-var protocol = ""
-
-func init() {
-	secure := os.Getenv(MEDIAOS_HTTP_SECURE)
-	if "" == secure || "true" == secure || "True" == secure {
-		protocol = HTTPS
-	} else {
-		protocol = HTTP
-	}
-}
-
-func doAPICall(endpoint Endpoint, req Request) (result []byte, err error) {
-	uri := prepareAPIUri(endpoint, req)
-	log.Printf("URL: %s\n", uri)
-
-	return doGet(uri)
-}
 
 func GetApiPath(publication PubData, endpoint Endpoint, params map[string]string) (uri string) {
 	if nil == publication {
 		return
 	}
 
-	uri = strings.Replace(urlTemplate, "{protocol}", protocol, 1)
+	uri = strings.Replace(Config.urlTemplate, "{protocol}", Config.protocol, 1)
 	uri = strings.Replace(uri, "{domainPort}", publication.MosDomainAndPort(), 1)
-	uri = strings.Replace(uri, "{endpoint}", string(endpoint), 1)
+	uri = strings.Replace(uri, "{endpoint}", endpoint.String(), 1)
 
 	p := url.Values{}
 	for key, value := range params {
@@ -54,14 +27,21 @@ func GetApiPath(publication PubData, endpoint Endpoint, params map[string]string
 	return
 }
 
+func doAPICall(endpoint Endpoint, req Request) (result []byte, err error) {
+	uri := prepareAPIUri(endpoint, req)
+	log.Printf("URL: %s\n", uri)
+
+	return doGet(uri)
+}
+
 func prepareAPIUri(endpoint Endpoint, req Request) (uri string) {
 	if nil == req.publication {
 		return
 	}
 
-	uri = strings.Replace(urlTemplate, "{protocol}", protocol, 1)
+	uri = strings.Replace(Config.urlTemplate, "{protocol}", Config.protocol, 1)
 	uri = strings.Replace(uri, "{domainPort}", req.publication.MosDomainAndPort(), 1)
-	uri = strings.Replace(uri, "{endpoint}", string(endpoint), 1)
+	uri = strings.Replace(uri, "{endpoint}", endpoint.String(), 1)
 
 	params := prepareParams(req.key, req)
 	uri += "?" + params.Encode()
