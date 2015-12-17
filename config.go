@@ -24,6 +24,8 @@ const (
 	HTTP  = "http"
 	HTTPS = "https"
 
+  url_template = "{protocol}://{domainPort}/api/v%d/{endpoint}"
+
   MEDIAOS_API_VERSION = "MEDIAOS_API_VERSION"
 	MEDIAOS_HTTP_SECURE = "MEDIAOS_HTTP_SECURE"
 )
@@ -41,6 +43,7 @@ func (c *MediaosConfig) LoadMediaosConfig() {
 		return
 	}
 
+  c.apiVersion = API_V1
   rawApiVersion := os.Getenv(MEDIAOS_API_VERSION)
   if "" != rawApiVersion {
     i, err := strconv.Atoi(rawApiVersion)
@@ -48,15 +51,15 @@ func (c *MediaosConfig) LoadMediaosConfig() {
       switch i {
       case 1:
         c.apiVersion = API_V1
-        c.urlTemplate = "{protocol}://{domainPort}/api/v1/{endpoint}"
       case 2:
         c.apiVersion = API_V2
-        c.urlTemplate = "{protocol}://{domainPort}/api/v2/{endpoint}"
       default:
-        panic(fmt.Sprintf("Invalid API version: %d", rawApiVersion))
+        panic(fmt.Sprintf("Invalid API version: %d", i))
       }
     }
   }
+
+  c.urlTemplate = fmt.Sprintf(url_template, int(c.apiVersion))
 
   secure := os.Getenv(MEDIAOS_HTTP_SECURE)
 	if "" == secure || "true" == secure || "True" == secure {
