@@ -2,7 +2,6 @@ package mediaos
 
 import (
 	"io/ioutil"
-	"log"
 	"net/http"
 	"net/url"
 	"strings"
@@ -28,7 +27,7 @@ func GetApiPath(publication PubData, endpoint Endpoint, params map[string]string
 
 func doAPICall(endpoint Endpoint, req Request) (result []byte, err error) {
 	uri := prepareAPIUri(endpoint, req)
-	log.Printf("URL: %s\n", uri)
+	log.Debug("URL: %s\n", uri)
 
 	return doGet(uri)
 }
