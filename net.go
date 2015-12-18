@@ -21,8 +21,7 @@ func GetApiPath(publication PubData, endpoint Endpoint, params map[string]string
 	for key, value := range params {
 		p.Set(key, value)
 	}
-
-	uri += "?" + p.Encode()
+	uri = encodeParams(uri, p)
 
 	return
 }
@@ -44,7 +43,7 @@ func prepareAPIUri(endpoint Endpoint, req Request) (uri string) {
 	uri = strings.Replace(uri, "{endpoint}", endpoint.String(), 1)
 
 	params := prepareParams(req.key, req)
-	uri += "?" + params.Encode()
+	uri = encodeParams(uri, params)
 
 	return
 }

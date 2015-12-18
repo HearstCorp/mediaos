@@ -7,6 +7,33 @@ import (
 	"time"
 )
 
+const (
+	id = "id"
+	groupId = "group_id"
+)
+
+func encodeParams(uri string, params url.Values) string {
+	if API_V2 == Config.GetApiVersion() {
+		key := id
+		idValue := params.Get(key)
+		params.Del(key)
+
+		if "" == idValue {
+			key = groupId
+			idValue = params.Get(key)
+			params.Del(key)
+		}
+
+		if "" != idValue {
+			uri += "/" + idValue
+		}
+	}
+
+	uri += "?" + params.Encode()
+
+	return uri
+}
+
 func prepareParams(apiKey string, req Request) (params url.Values) {
 	params = url.Values{}
 
