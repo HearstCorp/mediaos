@@ -8,7 +8,7 @@ import (
 )
 
 const (
-	id = "id"
+	id      = "id"
 	groupId = "group_id"
 )
 
