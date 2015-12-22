@@ -6,7 +6,7 @@ import (
 )
 
 type MediaosConfig struct {
-	protocol    string
+	protocol string
 }
 
 const (

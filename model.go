@@ -46,27 +46,27 @@ func GetResTypeFromCode(code string) (restype ResType) {
 // API V2 --------------------------------------------------------------------//
 
 type ContentResponses2 struct {
-	Meta			Meta2					`json:"meta"`
-	Data 			[]Content2		`json:"data"`
+	Meta Meta2      `json:"meta"`
+	Data []Content2 `json:"data"`
 }
 
 type Meta2 struct {
-	Count			int					`json:"count"`
+	Count int `json:"count"`
 }
 
 type ContentResponse2 struct {
-	Data 			Content2		`json:"data"`
+	Data Content2 `json:"data"`
 }
 
 type Content2 struct {
-	ID         int        `json:"id"`
-	Title      string     `json:"title"`
+	ID         int         `json:"id"`
+	Title      string      `json:"title"`
 	AdCategory AdCategory2 `json:"ad_category"`
 }
 
 type AdCategory2 struct {
-	ID         int        `json:"id"`
-	Title			 string			`json:"title"`
+	ID    int    `json:"id"`
+	Title string `json:"title"`
 }
 
 // END API V2 ----------------------------------------------------------------//

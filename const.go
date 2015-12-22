@@ -15,14 +15,14 @@ const (
 )
 
 type PubData interface {
-	Name() 							string
-	MosDomain() 				string
-	MosPort() 					string
-	MosDomainAndPort() 	string
-	RamsDomain() 				string
-	DisplayName() 			string
-	NotificationAlias()	string
-	GetApiVersion() 		API_VERSION
+	Name() string
+	MosDomain() string
+	MosPort() string
+	MosDomainAndPort() string
+	RamsDomain() string
+	DisplayName() string
+	NotificationAlias() string
+	GetApiVersion() API_VERSION
 }
 
 type _pubData struct {
@@ -32,7 +32,7 @@ type _pubData struct {
 	ramsDomain        string
 	displayName       string
 	notificationAlias string
-	apiVersion				API_VERSION
+	apiVersion        API_VERSION
 }
 
 func (p _pubData) Name() string {
@@ -70,10 +70,10 @@ func (p _pubData) GetApiVersion() API_VERSION {
 var Publications map[string]PubData
 
 const (
-	MEDIAOS 	= "MEDIAOS"
-	PORT    	= "PORT"
-	DOMAIN  	= "DOMAIN"
-	VERSION		= "API_VERSION"
+	MEDIAOS = "MEDIAOS"
+	PORT    = "PORT"
+	DOMAIN  = "DOMAIN"
+	VERSION = "API_VERSION"
 )
 
 func init() {
@@ -164,7 +164,7 @@ func init() {
 	}
 }
 
-var UrlTemplate = map[API_VERSION]string {
+var UrlTemplate = map[API_VERSION]string{
 	API_V1: "{protocol}://{domainPort}/api/v1/{endpoint}",
 	API_V2: "{protocol}://{domainPort}/v2/{endpoint}",
 }
