@@ -43,6 +43,34 @@ func GetResTypeFromCode(code string) (restype ResType) {
 	return
 }
 
+// API V2 --------------------------------------------------------------------//
+
+type ContentResponses2 struct {
+	Meta			Meta2					`json:"meta"`
+	Data 			[]Content2		`json:"data"`
+}
+
+type Meta2 struct {
+	Count			int					`json:"count"`
+}
+
+type ContentResponse2 struct {
+	Data 			Content2		`json:"data"`
+}
+
+type Content2 struct {
+	ID         int        `json:"id"`
+	Title      string     `json:"title"`
+	AdCategory AdCategory2 `json:"ad_category"`
+}
+
+type AdCategory2 struct {
+	ID         int        `json:"id"`
+	Title			 string			`json:"title"`
+}
+
+// END API V2 ----------------------------------------------------------------//
+
 // Request is a convenient container for API request params. It is a superset of
 // all valid request params across all API endpoints.
 type Request struct {
