@@ -12,15 +12,16 @@ func GetApiPath(publication PubData, endpoint Endpoint, params map[string]string
 		return
 	}
 
-	uri = strings.Replace(Config.urlTemplate, "{protocol}", Config.protocol, 1)
+	urlTemplate := UrlTemplate[publication.GetApiVersion()]
+	uri = strings.Replace(urlTemplate, "{protocol}", Config.protocol, 1)
 	uri = strings.Replace(uri, "{domainPort}", publication.MosDomainAndPort(), 1)
-	uri = strings.Replace(uri, "{endpoint}", endpoint.String(), 1)
+	uri = strings.Replace(uri, "{endpoint}", endpoint.String(publication.GetApiVersion()), 1)
 
 	p := url.Values{}
 	for key, value := range params {
 		p.Set(key, value)
 	}
-	uri = encodeParams(uri, p)
+	uri = encodeParams(uri, p, publication)
 
 	return
 }
@@ -37,12 +38,13 @@ func prepareAPIUri(endpoint Endpoint, req Request) (uri string) {
 		return
 	}
 
-	uri = strings.Replace(Config.urlTemplate, "{protocol}", Config.protocol, 1)
+	urlTemplate := UrlTemplate[req.publication.GetApiVersion()]
+	uri = strings.Replace(urlTemplate, "{protocol}", Config.protocol, 1)
 	uri = strings.Replace(uri, "{domainPort}", req.publication.MosDomainAndPort(), 1)
-	uri = strings.Replace(uri, "{endpoint}", endpoint.String(), 1)
+	uri = strings.Replace(uri, "{endpoint}", endpoint.String(req.publication.GetApiVersion()), 1)
 
 	params := prepareParams(req.key, req)
-	uri = encodeParams(uri, params)
+	uri = encodeParams(uri, params, req.publication)
 
 	return
 }

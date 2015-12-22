@@ -12,8 +12,8 @@ const (
 	groupId = "group_id"
 )
 
-func encodeParams(uri string, params url.Values) string {
-	if API_V2 == Config.GetApiVersion() {
+func encodeParams(uri string, params url.Values, p PubData) string {
+	if API_V2 == p.GetApiVersion() {
 		key := id
 		idValue := params.Get(key)
 		params.Del(key)

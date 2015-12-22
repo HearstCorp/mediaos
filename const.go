@@ -3,17 +3,26 @@ package mediaos
 import (
 	"fmt"
 	"os"
+	"strconv"
 	"strings"
 )
 
+type API_VERSION int
+
+const (
+	API_V1 API_VERSION = iota + 1
+	API_V2
+)
+
 type PubData interface {
-	Name() string
-	MosDomain() string
-	MosPort() string
-	MosDomainAndPort() string
-	RamsDomain() string
-	DisplayName() string
-	NotificationAlias() string
+	Name() 							string
+	MosDomain() 				string
+	MosPort() 					string
+	MosDomainAndPort() 	string
+	RamsDomain() 				string
+	DisplayName() 			string
+	NotificationAlias()	string
+	GetApiVersion() 		API_VERSION
 }
 
 type _pubData struct {
@@ -23,6 +32,7 @@ type _pubData struct {
 	ramsDomain        string
 	displayName       string
 	notificationAlias string
+	apiVersion				API_VERSION
 }
 
 func (p _pubData) Name() string {
@@ -53,12 +63,17 @@ func (p _pubData) NotificationAlias() string {
 	return p.notificationAlias
 }
 
+func (p _pubData) GetApiVersion() API_VERSION {
+	return p.apiVersion
+}
+
 var Publications map[string]PubData
 
 const (
-	MEDIAOS = "MEDIAOS"
-	PORT    = "PORT"
-	DOMAIN  = "DOMAIN"
+	MEDIAOS 	= "MEDIAOS"
+	PORT    	= "PORT"
+	DOMAIN  	= "DOMAIN"
+	VERSION		= "API_VERSION"
 )
 
 func init() {
@@ -119,6 +134,25 @@ func init() {
 			continue
 		}
 
+		p.apiVersion = API_V1
+		apiVersionVarName := fmt.Sprintf("%s_%s_%s", MEDIAOS, upper, VERSION)
+		rawApiVersion := os.Getenv(apiVersionVarName)
+		if "" != rawApiVersion {
+			i, err := strconv.Atoi(rawApiVersion)
+			if nil == err {
+				switch i {
+				case 1:
+					p.apiVersion = API_V1
+				case 2:
+					p.apiVersion = API_V2
+				default:
+					panic(fmt.Sprintf("Invalid API version '%d' for %s", i, apiVersionVarName))
+				}
+			} else {
+				panic(fmt.Sprintf("Invalid API version '%s' for %s", rawApiVersion, apiVersionVarName))
+			}
+		}
+
 		Publications[p.name] = p
 	}
 
@@ -130,20 +164,25 @@ func init() {
 	}
 }
 
+var UrlTemplate = map[API_VERSION]string {
+	API_V1: "{protocol}://{domainPort}/api/v1/{endpoint}",
+	API_V2: "{protocol}://{domainPort}/v2/{endpoint}",
+}
+
 // Endpoint represent a distinct REST endpoint in the API
 type Endpoint struct {
 	v1 string
 	v2 string
 }
 
-func (e *Endpoint) String() string {
-	switch Config.GetApiVersion() {
+func (e *Endpoint) String(apiVersion API_VERSION) string {
+	switch apiVersion {
 	case API_V1:
 		return e.v1
 	case API_V2:
 		return e.v2
 	default:
-		panic(fmt.Sprintf("Unknown ApiVersion: %d", int(Config.GetApiVersion())))
+		panic(fmt.Sprintf("Unknown ApiVersion: %d", int(apiVersion)))
 	}
 }
 
