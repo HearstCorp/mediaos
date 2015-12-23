@@ -20,6 +20,8 @@ const (
 	EditorType ResType = "editor"
 	// AdCategoryType represents an ad_category
 	AdCategoryType ResType = "ad_category"
+	// ContentType is a place holder type to allow v1 content to live next to v2 content
+	ContentType ResType = "content"
 )
 
 func GetCodeForResType(r ResType) (code string, ok bool) {
@@ -28,6 +30,8 @@ func GetCodeForResType(r ResType) (code string, ok bool) {
 		return "a", true
 	case GalleryType:
 		return "g", true
+	case ContentType:
+		return "c", true
 	}
 	return
 }
@@ -38,6 +42,8 @@ func GetResTypeFromCode(code string) (restype ResType) {
 		return ArticleType
 	case "g":
 		return GalleryType
+	case "c":
+		return ContentType
 	}
 
 	return
@@ -48,6 +54,17 @@ func GetResTypeFromCode(code string) (restype ResType) {
 type ContentResponses2 struct {
 	Meta Meta2      `json:"meta"`
 	Data []Content2 `json:"data"`
+}
+
+func (c *ContentResponses2) toContentResponse() ContentResponse {
+	cr := ContentResponse{}
+	cr.Count = c.Meta.Count
+
+	for _, content2 := range c.Data {
+		cr.Items = append(cr.Items, content2.toContent())
+	}
+
+	return cr
 }
 
 type Meta2 struct {
@@ -64,9 +81,25 @@ type Content2 struct {
 	AdCategory AdCategory2 `json:"ad_category"`
 }
 
+func (c *Content2) toContent() Content {
+	content := Content{}
+	content.ID = c.ID
+	content.ContentID = c.ID
+	content.GroupID = c.ID
+	content.Title = c.Title
+	content.Type = ContentType
+	content.AdCategory = c.AdCategory.toAdCategory()
+
+	return content
+}
+
 type AdCategory2 struct {
 	ID    int    `json:"id"`
 	Title string `json:"title"`
+}
+
+func (c *AdCategory2) toAdCategory() AdCategory {
+	return AdCategory{c.Title}
 }
 
 // END API V2 ----------------------------------------------------------------//

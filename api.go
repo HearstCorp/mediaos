@@ -21,9 +21,34 @@ func (m *mediaOsAPI) GetContent(publication PubData, key string, endpoint Endpoi
 		return res, err
 	}
 
-	err = json.Unmarshal(bytes, &res)
-	if err != nil {
-		return res, err
+	switch publication.GetApiVersion() {
+	case API_V1:
+		err = json.Unmarshal(bytes, &res)
+		if err != nil {
+			return res, err
+		}
+	case API_V2:
+		if 0 < req.ID || 0 < req.GroupID {
+			cr := ContentResponse2{}
+
+			err = json.Unmarshal(bytes, &cr)
+			if err != nil {
+				return res, err
+			}
+
+			res = ContentResponse{}
+			res.Count = 1
+			res.Items = append(res.Items, cr.Data.toContent())
+		} else {
+			cr := ContentResponses2{}
+
+			err = json.Unmarshal(bytes, &cr)
+			if err != nil {
+				return res, err
+			}
+			
+			res = cr.toContentResponse()
+		}
 	}
 
 	return res, nil
