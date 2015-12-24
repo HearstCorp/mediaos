@@ -102,6 +102,35 @@ func (c *AdCategory2) toAdCategory() AdCategory {
 	return AdCategory{c.Title}
 }
 
+type Image2 struct {
+	ID     int                 `json:"id"`
+	FileName    string              `json:"filename"`
+	Path    string              `json:"path"`
+	Width  int                 `json:"width"`
+	Height int                 `json:"height"`
+}
+
+func (i *Image2) toImage() Image {
+	image := Image{}
+	image.ID = i.ID
+	image.Width = i.Width
+	image.Height = i.Height
+
+	return image
+}
+
+type ImageResponse2 struct {
+	Data Image2 `json:"data"`
+}
+
+func (i *ImageResponse2) toImageResponse() ImageResponse {
+	ir := ImageResponse{}
+	ir.Count = 1
+	ir.Items = append(ir.Items, i.Data.toImage())
+
+	return ir
+}
+
 // END API V2 ----------------------------------------------------------------//
 
 // Request is a convenient container for API request params. It is a superset of

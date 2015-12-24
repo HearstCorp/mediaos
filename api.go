@@ -46,7 +46,7 @@ func (m *mediaOsAPI) GetContent(publication PubData, key string, endpoint Endpoi
 			if err != nil {
 				return res, err
 			}
-			
+
 			res = cr.toContentResponse()
 		}
 	}
@@ -62,10 +62,22 @@ func (m *mediaOsAPI) GetImages(publication PubData, key string, req Request) (re
 		return res, err
 	}
 
-	err = json.Unmarshal(bytes, &res)
-	if err != nil {
-		return res, err
+	switch publication.GetApiVersion() {
+	case API_V1:
+		err = json.Unmarshal(bytes, &res)
+		if err != nil {
+			return res, err
+		}
+	case API_V2:
+		ir := ImageResponse2{}
+		err = json.Unmarshal(bytes, &ir)
+		if err != nil {
+			return res, err
+		}
+
+		res = ir.toImageResponse()
 	}
+	
 	return res, nil
 }
 
