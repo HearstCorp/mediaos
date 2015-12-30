@@ -2,7 +2,6 @@ package mediaos
 
 import (
 	"fmt"
-	"log"
 	"os"
 	"strings"
 )
@@ -108,14 +107,14 @@ func init() {
 		domainVarName := fmt.Sprintf("%s_%s_%s", MEDIAOS, upper, DOMAIN)
 		p.mosDomain = os.Getenv(domainVarName)
 		if "" == p.mosDomain {
-			log.Printf("Missing environment variable: %s; omitting publication: %s", domainVarName, p.name)
+			log.Warn("Missing environment variable: %s; omitting publication: %s", domainVarName, p.name)
 			continue
 		}
 
 		portVarName := fmt.Sprintf("%s_%s_%s", MEDIAOS, upper, PORT)
 		p.mosPort = os.Getenv(portVarName)
 		if "" == p.mosPort {
-			log.Printf("Missing environment variable: %s; omitting publication", portVarName, p.name)
+			log.Warn("Missing environment variable: %s; omitting publication", portVarName, p.name)
 			continue
 		}
 
