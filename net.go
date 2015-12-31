@@ -2,11 +2,12 @@ package mediaos
 
 import (
 	"io/ioutil"
-	"log"
 	"net/http"
 	"net/url"
 	"os"
 	"strings"
+
+	l5g "github.com/neocortical/log5go"
 )
 
 const (
@@ -15,6 +16,8 @@ const (
 
 	MEDIAOS_HTTP_SECURE = "MEDIAOS_HTTP_SECURE"
 )
+
+var log = l5g.GetLogger("MEDIAOS")
 
 var urlTemplate = "{protocol}://{domainPort}/api/v1/{endpoint}"
 var protocol = ""
@@ -30,7 +33,7 @@ func init() {
 
 func doAPICall(endpoint Endpoint, req Request) (result []byte, err error) {
 	uri := prepareAPIUri(endpoint, req)
-	log.Printf("URL: %s\n", uri)
+	log.Debug("URL: %s\n", uri)
 
 	return doGet(uri)
 }
