@@ -94,6 +94,12 @@ func init() {
 		_pubData{name: "goodhousekeeping", ramsDomain: "goodhousekeeping", displayName: "Good Housekeeping", notificationAlias: "ghk"},
 		_pubData{name: "mediaos", ramsDomain: "mediaos", displayName: "Media OS", notificationAlias: "mediaos"},
 		_pubData{name: "harpersbazaar", ramsDomain: "harpersbazaar", displayName: "HarpersBAZAAR", notificationAlias: "harpersbazaar"},
+		_pubData{name: "housebeautiful", ramsDomain: "housebeautiful", displayName: "House Beautiful", notificationAlias: "housebeautiful"},
+		_pubData{name: "countryliving", ramsDomain: "countryliving", displayName: "Country Living", notificationAlias: "countryliving"},
+		_pubData{name: "popularmechanics", ramsDomain: "popularmechanics", displayName: "Popular Mechanics", notificationAlias: "popularmechanics"},
+		_pubData{name: "delish", ramsDomain: "delish", displayName: "Delish", notificationAlias: "delish"},
+		_pubData{name: "marieclaire", ramsDomain: "marieclaire", displayName: "Marie Claire", notificationAlias: "marieclaire"},
+		_pubData{name: "redbook", ramsDomain: "redbook", displayName: "Redbook", notificationAlias: "redbook"},
 	}
 
 	publicationsAliases := make(map[string]string)
