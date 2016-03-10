@@ -12,7 +12,15 @@ cd `dirname "${BASH_SOURCE[0]}"`
 
 cd ..
 
-mockery -all -inpkg .
+mockery -name '.*' -inpkg .
+
+for dir in $(ls); do
+  if [ -d "${dir}" ] && [ "${dir}" != "vendor" ]; then
+    cd $dir
+    mockery -all -inpkg .
+    cd ..
+  fi
+done
 
 cd $OLDDIR
 

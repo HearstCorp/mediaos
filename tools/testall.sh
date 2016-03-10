@@ -5,9 +5,11 @@ BINDIR=`dirname "${BASH_SOURCE[0]}"`
 $BINDIR/mock.sh
 
 echo ""
-echo "Running go test github.com/Hearst-DD/mediaos/..."
+echo "Running: go test \$(go list ./... | grep -v /vendor/)"
 echo ""
-go test github.com/Hearst-DD/mediaos/...
+
+go test $(go list ./... | grep -v /vendor/)
+
 echo ""
 echo "... done."
 echo ""
