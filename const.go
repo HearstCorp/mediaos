@@ -25,7 +25,7 @@ type _pubData struct {
 	ramsDomain        string
 	displayName       string
 	notificationAlias string
-	iuDomain					string
+	iuDomain          string
 }
 
 func (p _pubData) Name() string {
