@@ -14,6 +14,8 @@ type PubData interface {
 	RamsDomain() string
 	DisplayName() string
 	NotificationAlias() string
+	IUDomain() string
+	IUDomainAndPort() string
 }
 
 type _pubData struct {
@@ -23,6 +25,7 @@ type _pubData struct {
 	ramsDomain        string
 	displayName       string
 	notificationAlias string
+	iuDomain					string
 }
 
 func (p _pubData) Name() string {
@@ -51,6 +54,14 @@ func (p _pubData) DisplayName() string {
 
 func (p _pubData) NotificationAlias() string {
 	return p.notificationAlias
+}
+
+func (p _pubData) IUDomain() string {
+	return p.iuDomain
+}
+
+func (p _pubData) IUDomainAndPort() string {
+	return fmt.Sprintf("%s:%s", p.iuDomain, p.mosPort)
 }
 
 var Publications map[string]PubData
@@ -100,6 +111,9 @@ func init() {
 		_pubData{name: "delish", ramsDomain: "delish", displayName: "Delish", notificationAlias: "delish"},
 		_pubData{name: "marieclaire", ramsDomain: "marieclaire", displayName: "Marie Claire", notificationAlias: "marieclaire"},
 		_pubData{name: "redbook", ramsDomain: "redbook", displayName: "Redbook", notificationAlias: "redbook"},
+
+		//-- V2 --//
+		_pubData{name: "cosmo_us", iuDomain: "cosmopolitan", displayName: "Cosmopolitan US", notificationAlias: "cosmo_us"},
 	}
 
 	publicationsAliases := make(map[string]string)
