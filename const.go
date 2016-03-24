@@ -113,7 +113,7 @@ func init() {
 		_pubData{name: "redbook", ramsDomain: "redbook", displayName: "Redbook", notificationAlias: "redbook"},
 
 		//-- V2 --//
-		_pubData{name: "cosmo_us", iuDomain: "cosmopolitan", displayName: "Cosmopolitan US", notificationAlias: "cosmo_us"},
+		_pubData{name: "cosmopolitan_us", iuDomain: "cosmopolitan", displayName: "Cosmopolitan US", notificationAlias: "cosmo_us"},
 	}
 
 	publicationsAliases := make(map[string]string)
