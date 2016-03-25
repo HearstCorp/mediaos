@@ -15,7 +15,6 @@ type PubData interface {
 	DisplayName() string
 	NotificationAlias() string
 	IUDomain() string
-	IUDomainAndPort() string
 }
 
 type _pubData struct {
@@ -60,10 +59,6 @@ func (p _pubData) IUDomain() string {
 	return p.iuDomain
 }
 
-func (p _pubData) IUDomainAndPort() string {
-	return fmt.Sprintf("%s:%s", p.iuDomain, p.mosPort)
-}
-
 var Publications map[string]PubData
 
 const (
@@ -97,6 +92,16 @@ func init() {
 		 variables must be ALL CAPS.
 	*/
 
+	Publications = make(map[string]PubData)
+
+	v2PublicationsList := []_pubData{
+		_pubData{name: "cosmopolitan_us", iuDomain: "cosmopolitan", displayName: "Cosmopolitan US", notificationAlias: "cosmo_us"},
+	}
+
+	for _, p := range v2PublicationsList {
+		Publications[p.name] = p
+	}
+
 	publicationsList := []_pubData{
 		_pubData{name: "cosmo", ramsDomain: "cosmopolitan", displayName: "Cosmopolitan", notificationAlias: "cosmo"},
 		_pubData{name: "seventeen", ramsDomain: "seventeen", displayName: "Seventeen", notificationAlias: "seventeen"},
@@ -111,9 +116,6 @@ func init() {
 		_pubData{name: "delish", ramsDomain: "delish", displayName: "Delish", notificationAlias: "delish"},
 		_pubData{name: "marieclaire", ramsDomain: "marieclaire", displayName: "Marie Claire", notificationAlias: "marieclaire"},
 		_pubData{name: "redbook", ramsDomain: "redbook", displayName: "Redbook", notificationAlias: "redbook"},
-
-		//-- V2 --//
-		_pubData{name: "cosmopolitan_us", iuDomain: "cosmopolitan", displayName: "Cosmopolitan US", notificationAlias: "cosmo_us"},
 	}
 
 	publicationsAliases := make(map[string]string)
@@ -121,7 +123,6 @@ func init() {
 	publicationsAliases["mediaosapi"] = "mediaos"
 	publicationsAliases["mediaos-api"] = "mediaos"
 
-	Publications = make(map[string]PubData)
 	for _, p := range publicationsList {
 		upper := strings.ToUpper(p.name)
 		domainVarName := fmt.Sprintf("%s_%s_%s", MEDIAOS, upper, DOMAIN)
