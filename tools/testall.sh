@@ -7,7 +7,7 @@ $BINDIR/mock.sh
 echo ""
 echo "Running go test github.com/Hearst-DD/mediaos/..."
 echo ""
-go test github.com/Hearst-DD/mediaos/...
+go test $(go list github.com/Hearst-DD/mediaos/... | grep -v /vendor/)
 echo ""
 echo "... done."
 echo ""
