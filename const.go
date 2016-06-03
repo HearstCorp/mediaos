@@ -96,6 +96,7 @@ func init() {
 
 	v2PublicationsList := []_pubData{
 		_pubData{name: "cosmopolitan_us", iuDomain: "cosmopolitan", displayName: "Cosmopolitan US", notificationAlias: "cosmo_us"},
+		_pubData{name: "cosmopolitan_ng", iuDomain: "cosmopolitan", displayName: "Cosmopolitan NG", notificationAlias: "cosmo_ng"},
 	}
 
 	for _, p := range v2PublicationsList {
