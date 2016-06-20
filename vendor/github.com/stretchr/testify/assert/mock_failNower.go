@@ -2,11 +2,10 @@ package assert
 
 import "github.com/stretchr/testify/mock"
 
-type mockFailNower struct {
+type MockfailNower struct {
 	mock.Mock
 }
 
-// FailNow provides a mock function with given fields:
-func (_m *mockFailNower) FailNow() {
-	_m.Called()
+func (m *MockfailNower) FailNow() {
+	m.Called()
 }
