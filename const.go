@@ -117,6 +117,17 @@ func init() {
 		_pubData{name: "delish", ramsDomain: "delish", displayName: "Delish", notificationAlias: "delish"},
 		_pubData{name: "marieclaire", ramsDomain: "marieclaire", displayName: "Marie Claire", notificationAlias: "marieclaire"},
 		_pubData{name: "redbook", ramsDomain: "redbookmag", displayName: "Redbook", notificationAlias: "redbook"},
+
+		_pubData{name: "townandcountry", ramsDomain: "townandcountrymag", displayName: "Town & Country", notificationAlias: "townandcountrymag"},
+		_pubData{name: "womansday", ramsDomain: "womansday", displayName: "Woman's Day", notificationAlias: "womansday"},
+		_pubData{name: "elledecor", ramsDomain: "elledecor", displayName: "Elle Decor", notificationAlias: "elledecor"},
+		_pubData{name: "roadandtrack", ramsDomain: "roadandtrack", displayName: "Road & Track", notificationAlias: "roadandtrack"},
+		_pubData{name: "drozthegoodlife", ramsDomain: "drozthegoodlife", displayName: "Dr. Oz The Good Life", notificationAlias: "drozthegoodlife"},
+		_pubData{name: "bestproducts", ramsDomain: "bestproducts", displayName: "Best Products", notificationAlias: "bestproducts"},
+		_pubData{name: "veranda", ramsDomain: "veranda", displayName: "Veranda", notificationAlias: "veranda"},
+		_pubData{name: "lennyletter", ramsDomain: "lennyletter", displayName: "Lenny Letter", notificationAlias: "lennyletter"},
+
+		//_pubData{name: "sweet", ramsDomain: "rams.wearesweet.co", displayName: "Sweet", notificationAlias: "sweet"},
 	}
 
 	publicationsAliases := make(map[string]string)
