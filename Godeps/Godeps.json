@@ -8,11 +8,6 @@
 			"Rev": "5215b55f46b2b919f50a1df0eaa5886afe4e3b3d"
 		},
 		{
-			"ImportPath": "github.com/neocortical/log5go",
-			"Comment": "v0.13.2-41-g6e5e3a3",
-			"Rev": "6e5e3a3c70edd7937a1f2b79cefaf68e78234d77"
-		},
-		{
 			"ImportPath": "github.com/pmezard/go-difflib/difflib",
 			"Rev": "792786c7400a136282c1664665ae0a8db921c6c2"
 		},

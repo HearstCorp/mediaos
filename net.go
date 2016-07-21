@@ -7,7 +7,7 @@ import (
 	"os"
 	"strings"
 
-	l5g "github.com/neocortical/log5go"
+	uplog "github.com/Hearst-DD/upcommon/log"
 )
 
 const (
@@ -17,7 +17,7 @@ const (
 	MEDIAOS_HTTP_SECURE = "MEDIAOS_HTTP_SECURE"
 )
 
-var log = l5g.GetLogger("MEDIAOS")
+var log = uplog.GetLogger("MEDIAOS")
 
 var urlTemplate = "{protocol}://{domainPort}/api/v1/{endpoint}"
 var protocol = ""
