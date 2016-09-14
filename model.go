@@ -121,3 +121,10 @@ type ImageCut struct {
 type AdCategory struct {
 	AdCategoryName string `json:"ad_category_name"`
 }
+
+type Sponsor struct {
+	SponsorName  string `json:"sponsor_name"`
+	SponsorImage string `json:"sponsor_image"`
+	SponsorUrl   string `json:"sponsor_url"`
+}
+
